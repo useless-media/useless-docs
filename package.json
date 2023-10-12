@@ -1,0 +1,14 @@
+{
+  "name": "@useless-media/useless-docs",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "src/useless-docs.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/useless-media/useless-docs.git"
+  }
+}

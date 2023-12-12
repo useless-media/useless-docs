@@ -2,8 +2,7 @@
   "name": "@useless-media/useless-docs",
   "version": "0.0.1",
   "license": "MIT",
-  "main": "src/useless-docs.js"
-  },
+  "main": "src/useless-docs.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },

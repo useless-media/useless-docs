@@ -1,0 +1,10 @@
+# PlayStringId
+
+## Enumeration Members
+
+| Member | Value |
+| :------ | :------ |
+| `FREE_TRIAL_ABOUT_TO_EXPIRE` | `"FREE_TRIAL_ABOUT_TO_EXPIRE"` |
+| `PLAYING_ALTERNATE_MIX` | `"PLAYING_ALTERNATE_MIX"` |
+| `STREAM_HIJACKED` | `"STREAM_HIJACKED"` |
+| `SUBSCRIPTION_ABOUT_TO_EXPIRE` | `"SUBSCRIPTION_ABOUT_TO_EXPIRE"` |

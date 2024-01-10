@@ -58,6 +58,7 @@
     * [UserActionContext](reference/enumerations/UserActionContext.md)
   * [Functions](reference/functions.md)
     * [DeCafTrack](reference/functions/DeCafTrack.md)
+    * [domReady](reference/functions/domReady.md)
   * [Interfaces](reference/interfaces.md)
     * [AudiobookChapterMediaMetadata](reference/interfaces/AudiobookChapterMediaMetadata.md)
     * [AudiobookContainerMetadata](reference/interfaces/AudiobookContainerMetadata.md)

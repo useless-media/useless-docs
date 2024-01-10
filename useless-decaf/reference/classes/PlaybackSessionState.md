@@ -26,49 +26,13 @@
 
 `StateKeepingSession<DeCafPlaybackSessionState, PlaybackSessionStateEventPayloads>.constructor`
 
-## Properties
-
-### destroyed
-
-> **`protected`** **destroyed**: `boolean`
-
-#### Inherited from
-
-`StateKeepingSession.destroyed`
-
-***
-
-### notifyChange
-
-> **`readonly`** **notifyChange**: `TThrottledFunction`
-
-#### Implementation of
-
-[`IPlaybackSessionState.notifyChange`](reference/interfaces/IPlaybackSessionState.md#notifychange)
-
-#### Inherited from
-
-`StateKeepingSession.notifyChange`
-
-***
-
-### notifyChangeEvery15Seconds
-
-> **`readonly`** **notifyChangeEvery15Seconds**: `TThrottledFunction`
-
-#### Implementation of
-
-[`IPlaybackSessionState.notifyChangeEvery15Seconds`](reference/interfaces/IPlaybackSessionState.md#notifychangeevery15seconds)
-
-#### Inherited from
-
-`StateKeepingSession.notifyChangeEvery15Seconds`
-
 ## Methods
 
 ### getId()
 
 > **getId**(): `string`
+
+Re-declarations for docs (due to @noInheritDocs)
 
 #### Returns
 
@@ -78,7 +42,7 @@
 
 [`IPlaybackSessionState.getId`](reference/interfaces/IPlaybackSessionState.md#getid)
 
-#### Inherited from
+#### Overrides
 
 `StateKeepingSession.getId`
 
@@ -96,7 +60,7 @@
 
 [`IPlaybackSessionState.getState`](reference/interfaces/IPlaybackSessionState.md#getstate)
 
-#### Inherited from
+#### Overrides
 
 `StateKeepingSession.getState`
 
@@ -104,13 +68,7 @@
 
 ### reset()
 
-> **reset**(`resetState`?, `eventKeys`?): `void`
-
-#### Parameters
-
-• **resetState?**: [`DeCafPlaybackSessionState`](reference/interfaces/DeCafPlaybackSessionState.md)
-
-• **eventKeys?**: `string`[]
+> **reset**(): `void`
 
 #### Returns
 
@@ -120,7 +78,7 @@
 
 [`IPlaybackSessionState.reset`](reference/interfaces/IPlaybackSessionState.md#reset)
 
-#### Inherited from
+#### Overrides
 
 `StateKeepingSession.reset`
 

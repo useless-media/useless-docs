@@ -1,29 +1,5 @@
 # IPlaybackSessionState
 
-## Extends
-
-- `Omit`<[`PlaybackSessionState`](reference/classes/PlaybackSessionState.md), `"destroy"` | `"setDebug"`>
-
-## Properties
-
-### notifyChange
-
-> **`readonly`** **notifyChange**: `TThrottledFunction`
-
-#### Inherited from
-
-`Omit.notifyChange`
-
-***
-
-### notifyChangeEvery15Seconds
-
-> **`readonly`** **notifyChangeEvery15Seconds**: `TThrottledFunction`
-
-#### Inherited from
-
-`Omit.notifyChangeEvery15Seconds`
-
 ## Methods
 
 ### getId()
@@ -33,10 +9,6 @@
 #### Returns
 
 `string`
-
-#### Inherited from
-
-`Omit.getId`
 
 ***
 
@@ -48,29 +20,15 @@
 
 [`DeCafPlaybackSessionState`](reference/interfaces/DeCafPlaybackSessionState.md)
 
-#### Inherited from
-
-`Omit.getState`
-
 ***
 
 ### reset()
 
-> **reset**(`resetState`?, `eventKeys`?): `void`
-
-#### Parameters
-
-• **resetState?**: [`DeCafPlaybackSessionState`](reference/interfaces/DeCafPlaybackSessionState.md)
-
-• **eventKeys?**: `string`[]
+> **reset**(): `void`
 
 #### Returns
 
 `void`
-
-#### Inherited from
-
-`Omit.reset`
 
 ***
 
@@ -86,10 +44,6 @@
 
 `void`
 
-#### Inherited from
-
-`Omit.setActiveTracks`
-
 ***
 
 ### setDuration()
@@ -103,10 +57,6 @@
 #### Returns
 
 `void`
-
-#### Inherited from
-
-`Omit.setDuration`
 
 ***
 
@@ -122,10 +72,6 @@
 
 `void`
 
-#### Inherited from
-
-`Omit.setPlaybackState`
-
 ***
 
 ### setTime()
@@ -140,10 +86,6 @@
 
 `void`
 
-#### Inherited from
-
-`Omit.setTime`
-
 ***
 
 ### setTracks()
@@ -157,10 +99,6 @@
 #### Returns
 
 `void`
-
-#### Inherited from
-
-`Omit.setTracks`
 
 ***
 
@@ -177,7 +115,3 @@
 #### Returns
 
 `void`
-
-#### Inherited from
-
-`Omit.setVolume`

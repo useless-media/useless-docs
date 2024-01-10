@@ -1,0 +1,41 @@
+# Reference Documentation <!-- {docsify-ignore-all} -->
+
+## Classes
+
+* [DeCafClient](reference/classes/DeCafClient.md)
+* [DeCafProxy](reference/classes/DeCafProxy.md)
+
+## Enumerations
+
+* [Command](reference/enumerations/Command.md)
+* [PlaybackStates](reference/enumerations/PlaybackStates.md)
+* [Roles](reference/enumerations/Roles.md)
+* [TrackTypes](reference/enumerations/TrackTypes.md)
+
+## Functions
+
+* [DeCafTrack](reference/functions/DeCafTrack.md)
+
+## Interfaces
+
+* [Break](reference/interfaces/Break.md)
+* [BreakClip](reference/interfaces/BreakClip.md)
+* [BreakStatus](reference/interfaces/BreakStatus.md)
+* [DeCafTrack](reference/interfaces/DeCafTrack.md)
+* [EditAudioTracksMessage](reference/interfaces/EditAudioTracksMessage.md)
+* [EditTracksInfoMessage](reference/interfaces/EditTracksInfoMessage.md)
+* [FocusStateMessage](reference/interfaces/FocusStateMessage.md)
+* [GetStatusMessage](reference/interfaces/GetStatusMessage.md)
+* [IPlaybackSessionState](reference/interfaces/IPlaybackSessionState.md)
+* [LoadMessage](reference/interfaces/LoadMessage.md)
+* [RawFirmwareMessage](reference/interfaces/RawFirmwareMessage.md)
+* [SeekMessage](reference/interfaces/SeekMessage.md)
+* [SenderConnectedMessage](reference/interfaces/SenderConnectedMessage.md)
+* [SenderDisconnectedMessage](reference/interfaces/SenderDisconnectedMessage.md)
+* [SetVolumeMessage](reference/interfaces/SetVolumeMessage.md)
+* [ShowMediaControlsMessage](reference/interfaces/ShowMediaControlsMessage.md)
+* [StandbyChangedMessage](reference/interfaces/StandbyChangedMessage.md)
+* [StopMessage](reference/interfaces/StopMessage.md)
+* [TerminateMessage](reference/interfaces/TerminateMessage.md)
+* [VisibilityChangedMessage](reference/interfaces/VisibilityChangedMessage.md)
+* [VolumeChangedMessage](reference/interfaces/VolumeChangedMessage.md)

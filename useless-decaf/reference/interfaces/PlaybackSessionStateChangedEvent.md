@@ -14,7 +14,15 @@
 
 ##### absoluteTime?
 
-> **absoluteTime**?: { duration?: number | undefined; position?: number | undefined; }
+> **absoluteTime**?: `Object`
+
+##### absoluteTime.duration?
+
+> **absoluteTime.duration**?: `number`
+
+##### absoluteTime.position?
+
+> **absoluteTime.position**?: `number`
 
 ##### id?
 
@@ -26,11 +34,19 @@
 
 ##### tracks?
 
-> **tracks**?: { id?: number | undefined; type?: TrackTypes | undefined; active?: boolean | undefined; language?: ISOLanguage | undefined; name?: string | undefined; roles?: Roles[] | undefined; }[]
+> **tracks**?: `Object`[]
 
 ##### volume?
 
-> **volume**?: { level?: number | undefined; muted?: boolean | undefined; }
+> **volume**?: `Object`
+
+##### volume.level?
+
+> **volume.level**?: `number`
+
+##### volume.muted?
+
+> **volume.muted**?: `boolean`
 
 ***
 

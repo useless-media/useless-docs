@@ -26,92 +26,6 @@
 
 ## Methods
 
-### addEventListener()
-
-> **addEventListener**<`K`>(`type`, `subscriber`): `Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Type parameters
-
-• **K** extends keyof [`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)
-
-#### Parameters
-
-• **type**: `K`
-
-• **subscriber**: (`e`) => `void`
-
-#### Returns
-
-`Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Inherited from
-
-`Omit.addEventListener`
-
-***
-
-### emit()
-
-> **emit**<`K`>(`type`, `event`?): `Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Type parameters
-
-• **K** extends keyof [`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)
-
-#### Parameters
-
-• **type**: `K`
-
-• **event?**: `Optional`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)[`K`], `"type"`>
-
-#### Returns
-
-`Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Inherited from
-
-`Omit.emit`
-
-***
-
-### emitAsync()
-
-> **emitAsync**<`K`>(`type`, `event`?): `Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Type parameters
-
-• **K** extends keyof [`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)
-
-#### Parameters
-
-• **type**: `K`
-
-• **event?**: `Optional`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)[`K`], `"type"`>
-
-#### Returns
-
-`Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Inherited from
-
-`Omit.emitAsync`
-
-***
-
-### getCleanState()
-
-> **getCleanState**(): [`DeCafPlaybackSessionState`](reference/interfaces/DeCafPlaybackSessionState.md)
-
-#### Returns
-
-[`DeCafPlaybackSessionState`](reference/interfaces/DeCafPlaybackSessionState.md)
-
-#### Inherited from
-
-`Omit.getCleanState`
-
-***
-
 ### getId()
 
 > **getId**(): `string`
@@ -137,102 +51,6 @@
 #### Inherited from
 
 `Omit.getState`
-
-***
-
-### off()
-
-> **off**<`K`>(`type`?, `subscriber`?): `Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Type parameters
-
-• **K** extends keyof [`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)
-
-#### Parameters
-
-• **type?**: `K`
-
-• **subscriber?**: (`e`) => `void`
-
-#### Returns
-
-`Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Inherited from
-
-`Omit.off`
-
-***
-
-### on()
-
-> **on**<`K`>(`type`, `subscriber`): `Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Type parameters
-
-• **K** extends keyof [`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)
-
-#### Parameters
-
-• **type**: `K`
-
-• **subscriber**: (`e`) => `void`
-
-#### Returns
-
-`Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Inherited from
-
-`Omit.on`
-
-***
-
-### once()
-
-> **once**<`K`>(`type`, `subscriber`): `Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Type parameters
-
-• **K** extends keyof [`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)
-
-#### Parameters
-
-• **type**: `K`
-
-• **subscriber**: (`e`) => `void`
-
-#### Returns
-
-`Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Inherited from
-
-`Omit.once`
-
-***
-
-### removeEventListener()
-
-> **removeEventListener**<`K`>(`type`?, `subscriber`?): `Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Type parameters
-
-• **K** extends keyof [`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)
-
-#### Parameters
-
-• **type?**: `K`
-
-• **subscriber?**: (`e`) => `void`
-
-#### Returns
-
-`Emitter`<[`PlaybackSessionStateEventPayloads`](reference/interfaces/PlaybackSessionStateEventPayloads.md)>
-
-#### Inherited from
-
-`Omit.removeEventListener`
 
 ***
 
@@ -262,7 +80,7 @@
 
 #### Parameters
 
-• **activeTracks**: [`DeCafTrack`](reference/functions/DeCafTrack.md)[]
+• **activeTracks**: [`DeCafTrack`](reference/interfaces/DeCafTrack.md)[]
 
 #### Returns
 
@@ -334,7 +152,7 @@
 
 #### Parameters
 
-• **tracks**: [`DeCafTrack`](reference/functions/DeCafTrack.md)[]
+• **tracks**: [`DeCafTrack`](reference/interfaces/DeCafTrack.md)[]
 
 #### Returns
 

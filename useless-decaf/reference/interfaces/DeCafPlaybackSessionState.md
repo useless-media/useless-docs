@@ -40,7 +40,7 @@
 
 ### tracks
 
-> **tracks**: [`DeCafTrack`](reference/functions/DeCafTrack.md)[]
+> **tracks**: [`DeCafTrack`](reference/interfaces/DeCafTrack.md)[]
 
 ***
 

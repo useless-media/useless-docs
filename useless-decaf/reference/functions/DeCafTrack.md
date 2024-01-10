@@ -1,6 +1,6 @@
 # DeCafTrack
 
-> **DeCafTrack**(`args`): [`DeCafTrack`](reference/functions/DeCafTrack.md)
+> **DeCafTrack**(`args`): [`DeCafTrack`](reference/interfaces/DeCafTrack.md)
 
 ## Parameters
 
@@ -8,4 +8,4 @@
 
 ## Returns
 
-[`DeCafTrack`](reference/functions/DeCafTrack.md)
+[`DeCafTrack`](reference/interfaces/DeCafTrack.md)

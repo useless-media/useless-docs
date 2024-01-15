@@ -1,4 +1,6 @@
 * [Useless DeCaf Client Sdk](/)
+* [Guides](guides/index.md)
+  * [DeCaf Client - Part 1](guides/DeCafClient.Part1.md)
 * [Reference Documentation](reference/index.md)
   * [Classes](reference/classes.md)
     * [DeCafClient](reference/classes/DeCafClient.md)

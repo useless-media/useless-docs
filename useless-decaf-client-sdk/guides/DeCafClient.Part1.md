@@ -99,7 +99,7 @@ private registerListeners(): void {
 }
 ```
 
-And call if at the end of the constructor.
+And call it at the end of the constructor.
 ```
 ...
     container.appendChild(this.video);
@@ -112,9 +112,11 @@ And call if at the end of the constructor.
 And finally, we're going to implement the `handleLoad` function which will be called by the DeCaf framework whenever
 a Chromecast sender wants to play something.
 ```
-if (message.media?.contentUrl) {
-  this.state.setPlaybackState(PlaybackStates.Loading);
-  this.video.src = message.media.contentUrl;
+public async handleLoad(message: LoadMessage): Promise<void> {
+  if (message.media?.contentUrl) {
+    this.state.setPlaybackState(PlaybackStates.Loading);
+    this.video.src = message.media.contentUrl;
+  }
 }
 ```
 
@@ -127,6 +129,7 @@ emulator is launched.
 4. "Device ip" and "ApplicationId" are only needed to run this on a real Chromecast device, so we will skip these for now. 
 
 It should look something like this:
+
 ![DeCafClient.Part1.UselessEmu-Later.Configuration](./images/DeCafClient.Part1.UselessEmu-Later.Configuration.png)
 
 After configuring you should be able to launch the emulator, cast an asset from the `Asset View` and see it playing in
@@ -138,7 +141,8 @@ the available [Asset bundles](ToDo:LinkHere).
 And that's how easy it is to build and test a DeCaf Chromecast receiver application where you are in full control of
 the visual experience, without ever leaving the comfort of your own computer.
 
-The full code for this tutorial can also be found [here](ToDo:LinkHere).
+The full code for this tutorial can also be found
+[here](https://github.com/useless-media/useless-decaf-client-guide-part-1).
 
 ## Next up
 Next we see how we can build something a little more capable, using the popular

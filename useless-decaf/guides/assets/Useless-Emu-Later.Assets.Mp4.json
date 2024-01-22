@@ -1,0 +1,81 @@
+{
+  "index": {
+    "ids": [
+      "asset-57b9384b-2956-4e00-a43f-07a08b9a9e55",
+      "asset-3a16b35e-cb79-46af-94d9-1bb692246449"
+    ],
+    "active": null
+  },
+  "assets": {
+    "asset-57b9384b-2956-4e00-a43f-07a08b9a9e55": {
+      "request": {
+        "media": {
+          "metadata": {
+            "metadataType": 1,
+            "title": "BBB Mp4",
+            "description": "Fusce id nisi turpis. Praesent viverra bibendum semper. Donec tristique, orci sed semper lacinia, quam erat rhoncus massa, non congue tellus est quis tellus. Sed mollis orci venenatis quam scelerisque accumsan. Curabitur a massa sit amet mi accumsan mollis sed et magna. Vivamus sed aliquam risus. Nulla eget dolor in elit facilisis mattis. Ut aliquet luctus lacus. Phasellus nec commodo erat. Praesent tempus id lectus ac scelerisque. Maecenas pretium cursus lectus id volutpat.",
+            "images": [
+              {
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/images/480x270/BigBuckBunny.jpg",
+                "width": 480,
+                "height": 720
+              },
+              {
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/images/780x1200/BigBuckBunny-780x1200.jpg",
+                "width": 780,
+                "height": 1200
+              }
+            ],
+            "studio": "Blender Foundation"
+          },
+          "streamType": "BUFFERED",
+          "contentType": "video/mp4",
+          "contentUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/mp4/BigBuckBunny.mp4",
+          "duration": 596
+        },
+        "playbackRate": 1,
+        "requestId": 42,
+        "type": "LOAD",
+        "autoplay": true
+      },
+      "name": "Big Buck Bunny",
+      "id": "asset-57b9384b-2956-4e00-a43f-07a08b9a9e55",
+      "image": "https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/images/480x270/BigBuckBunny.jpg"
+    },
+    "asset-3a16b35e-cb79-46af-94d9-1bb692246449": {
+      "request": {
+        "media": {
+          "metadata": {
+            "metadataType": 1,
+            "title": "Emo Mp4",
+            "description": "Fusce id nisi turpis. Praesent viverra bibendum semper. Donec tristique, orci sed semper lacinia, quam erat rhoncus massa, non congue tellus est quis tellus. Sed mollis orci venenatis quam scelerisque accumsan. Curabitur a massa sit amet mi accumsan mollis sed et magna. Vivamus sed aliquam risus. Nulla eget dolor in elit facilisis mattis. Ut aliquet luctus lacus. Phasellus nec commodo erat. Praesent tempus id lectus ac scelerisque. Maecenas pretium cursus lectus id volutpat.",
+            "images": [
+              {
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/images/480x270/ElephantsDream.jpg",
+                "width": 480,
+                "height": 720
+              },
+              {
+                "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/images/780x1200/ElephantsDream-780x1200.jpg",
+                "width": 780,
+                "height": 1200
+              }
+            ],
+            "studio": "Blender Foundation"
+          },
+          "streamType": "BUFFERED",
+          "contentType": "video/mp4",
+          "contentUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/mp4/ElephantsDream.mp4",
+          "duration": 653
+        },
+        "playbackRate": 1,
+        "requestId": 42,
+        "type": "LOAD",
+        "autoplay": true
+      },
+      "name": "Elephants Dream",
+      "id": "asset-3a16b35e-cb79-46af-94d9-1bb692246449",
+      "image": "https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/images/480x270/ElephantsDream.jpg"
+    }
+  }
+}

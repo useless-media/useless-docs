@@ -60,9 +60,10 @@ npm run start:dev
 ```
 
 Now our (empty) client is available at `http://localhost:9040/dist/esm/index.js`. This is enough to actually run the
-client locally using the [Useless Emu-Later](ToDo:LinkHere) but in order to also be able to run in on a real Chromecast
-device we recommend to **always** use your local network IP instead of localhost, for example:
-`http://192.168.1.100:9040/dist/esm/index.js`.
+client locally using the
+[Useless Emu-Later](https://useless-media.github.io/useless-docs/useless-decaf/#/guides/UselessEmuLater) but in order to
+also be able to run in on a real Chromecast device we recommend to **always** use your local network IP instead of
+localhost, for example: `http://192.168.1.100:9040/dist/esm/index.js`.
 
 Of  course, if we were to run this now nothing would really happen as the client is empty so lets get on to interesting
 parts.
@@ -121,7 +122,9 @@ public async handleLoad(message: LoadMessage): Promise<void> {
 ```
 
 ## Running the decaf client
-Now are going to run this client using the [Useless Emu-Later](ToDo:LinkHere). We'll start by configuring the Emu-Later:
+Now are going to run this client using the
+[Useless Emu-Later](https://useless-media.github.io/useless-docs/useless-decaf/#/guides/UselessEmuLater). We'll start by
+configuring the Emu-Later:
 1. Ensure that DeCaf is enabled.
 2. As "Decaf client path", put: `http://[YourLocalNetworkIp]:9040/dist/esm/index.js`.
 3. Enable "Auto configure". If this is disabled you will need to manually issue a configure command every time the
@@ -135,7 +138,8 @@ It should look something like this:
 After configuring you should be able to launch the emulator, cast an asset from the `Asset View` and see it playing in
 the emulator. Be sure to cast an MP4 asset as that is all we have implemented support for at the moment. If you are
 unsure of how to construct the asset or don't have any good content lying around you can always import one or more of
-the available [Asset bundles](ToDo:LinkHere).
+the available
+[Asset bundles](https://useless-media.github.io/useless-docs/useless-decaf/#/guides/UselessEmuLater.AssetBundles).
 
 ## Conclusion
 And that's how easy it is to build and test a DeCaf Chromecast receiver application where you are in full control of

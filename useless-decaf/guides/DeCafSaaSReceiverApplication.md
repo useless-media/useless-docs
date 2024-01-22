@@ -4,13 +4,13 @@ The DeCaf SaaS Receiver Application is a Chromecast receiver application maintai
 [Useless Media](https://useless.media). Using it you can run your DeCaf client(s) in both a test and production setup.
 
 ## Development/test application id
-`DEADBEEF`
+`DEADBEEF` <!-- ToDo: Get real id -->
 
 The development application is only meant for development and testing purposes and imposes runtime limitations making it
 not usable in a production scenario.
 
 ## Production application id
-`DEADBEEF`
+`DEADBEEF` <!-- ToDo: Get real id -->
 
 The production application will not run if you do not provide a valid DeCaf license.
 

@@ -13,5 +13,5 @@ For more detailed explanations of how a client works and how to build your own, 
 5. Make changes in that one, or, make your own and update the export in the index to use your client
 
 You can now use `http://localhost:9040/dist/esm/index.js` as `DeCafClientUrl` and run your client in the
-`Useless Emu-Later`. Alternatively, you can use `http://[YourLocalIp]:9040/dist/esm/index.js` which
-will also work to test your client on a real Chromecast device using the `DeCaf SaaS Receiver Application`. 
+[Useless Emu-Later](guides/UselessEmuLater.md). Alternatively, you can use `http://[YourLocalIp]:9040/dist/esm/index.js`
+which will also work to test your client on a real Chromecast device using the `DeCaf SaaS Receiver Application`. 

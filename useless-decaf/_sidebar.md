@@ -1,6 +1,8 @@
 * [Useless DeCaf](/)
 * [Guides](guides/index.md)
   * [Quick Start](guides/QuickStart.md)
+  * [Useless Emu-Later](guides/UselessEmuLater.md)
+  * [DeCaf SaaS Receiver Application](guides/DeCafSaaSReceiverApplication.md)
 * [Reference Documentation](reference/index.md)
   * [Classes](reference/classes.md)
     * [CustomMessage](reference/classes/CustomMessage.md)

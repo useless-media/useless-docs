@@ -1,0 +1,1 @@
+# Useless Sender Library (Web)

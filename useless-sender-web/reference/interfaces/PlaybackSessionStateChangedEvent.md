@@ -8,7 +8,7 @@
 
 ### events
 
-> **events**: `Object`[]
+> **events**: `PlaybackSessionEventKeys`[]
 
 ***
 

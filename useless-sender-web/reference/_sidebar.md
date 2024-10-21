@@ -99,6 +99,7 @@
     * [CustomData](reference/interfaces/CustomData.md)
     * [DestroyedEvent](reference/interfaces/DestroyedEvent.md)
     * [DeviceInfo](reference/interfaces/DeviceInfo.md)
+    * [DevicesChangedEvent](reference/interfaces/DevicesChangedEvent.md)
     * [Drm](reference/interfaces/Drm.md)
     * [Encryption](reference/interfaces/Encryption.md)
     * [ISession](reference/interfaces/ISession.md)

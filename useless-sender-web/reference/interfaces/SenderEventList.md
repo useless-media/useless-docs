@@ -12,6 +12,12 @@
 
 ***
 
+### SenderEvents.DevicesChanged
+
+> **SenderEvents.DevicesChanged**: [`DevicesChangedEvent`](reference/interfaces/DevicesChangedEvent.md)
+
+***
+
 ### SenderEvents.Ready
 
 > **SenderEvents.Ready**: [`ReadyEvent`](reference/interfaces/ReadyEvent.md)

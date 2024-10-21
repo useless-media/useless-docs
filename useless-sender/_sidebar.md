@@ -1,6 +1,7 @@
 * [Useless Sender Library](/)
 * [UselessSender](UselessSender.md)
 * [UselessSession](UselessSession.md)
+* [UselessSession Commands](UselessSessionCommands.md)
 * [PlaybackSessionState](PlaybackSessionState.md)
 * [Dtos](Dtos.md)
 * [Constants](Constants.md)

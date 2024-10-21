@@ -1,7 +1,7 @@
 # Quick Start
 
 ```ts
-import { UselessSender, Load, UselessSenderEvents, UselessSessionEvents } from '@useless-media/useless-sender-web';
+import { UselessSender, Load, UselessSenderEvents, UselessSessionEvents } from '@useless-media-public/useless-sender-web';
 
 const sender = UselessSender.getInstance();
 await sender.initialize({

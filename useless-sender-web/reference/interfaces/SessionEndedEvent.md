@@ -2,13 +2,13 @@
 
 ## Extends
 
-- [`SenderEvent`](reference/interfaces/SenderEvent.md)
+- [`UselessSenderEvent`](reference/interfaces/UselessSenderEvent.md)
 
 ## Properties
 
-### sessionState?
+### playbackSessionState?
 
-> **sessionState**?: `any`
+> **playbackSessionState**?: `any`
 
 ***
 
@@ -18,4 +18,4 @@
 
 #### Inherited from
 
-[`SenderEvent.type`](reference/interfaces/SenderEvent.md#type)
+[`UselessSenderEvent.type`](reference/interfaces/UselessSenderEvent.md#type)

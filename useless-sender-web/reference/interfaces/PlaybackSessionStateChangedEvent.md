@@ -2,7 +2,7 @@
 
 ## Extends
 
-- [`SessionEvent`](reference/interfaces/SessionEvent.md)
+- [`UselessSessionEvent`](reference/interfaces/UselessSessionEvent.md)
 
 ## Properties
 
@@ -18,4 +18,4 @@
 
 #### Inherited from
 
-[`SessionEvent.type`](reference/interfaces/SessionEvent.md#type)
+[`UselessSessionEvent.type`](reference/interfaces/UselessSessionEvent.md#type)

@@ -1,4 +1,4 @@
-# SessionEventList
+# UselessSessionEventList
 
 ## Extends
 

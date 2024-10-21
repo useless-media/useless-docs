@@ -2,7 +2,7 @@
 
 ## Extends
 
-- `ListenableListener`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+- `ListenableListener`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 ## Constructors
 
@@ -20,7 +20,7 @@
 
 #### Overrides
 
-`ListenableListener<SenderEventList>.constructor`
+`ListenableListener<UselessSenderEventList>.constructor`
 
 ## Properties
 
@@ -124,11 +124,11 @@
 
 ### addEventListener()
 
-> **addEventListener**<`K`>(`type`, `subscriber`): `Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+> **addEventListener**<`K`>(`type`, `subscriber`): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SenderEventList`](reference/interfaces/SenderEventList.md)
+• **K** extends keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
@@ -138,7 +138,7 @@
 
 #### Returns
 
-`Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+`Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Inherited from
 
@@ -204,21 +204,21 @@
 
 ### emit()
 
-> **emit**<`K`>(`type`, `event`?): `Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+> **emit**<`K`>(`type`, `event`?): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SenderEventList`](reference/interfaces/SenderEventList.md)
+• **K** extends keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
 • **type**: `K`
 
-• **event?**: `Optional`<[`SenderEventList`](reference/interfaces/SenderEventList.md)[`K`], `"type"`>
+• **event?**: `Optional`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)[`K`], `"type"`>
 
 #### Returns
 
-`Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+`Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Inherited from
 
@@ -228,21 +228,21 @@
 
 ### emitAsync()
 
-> **emitAsync**<`K`>(`type`, `event`?): `Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+> **emitAsync**<`K`>(`type`, `event`?): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SenderEventList`](reference/interfaces/SenderEventList.md)
+• **K** extends keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
 • **type**: `K`
 
-• **event?**: `Optional`<[`SenderEventList`](reference/interfaces/SenderEventList.md)[`K`], `"type"`>
+• **event?**: `Optional`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)[`K`], `"type"`>
 
 #### Returns
 
-`Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+`Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Inherited from
 
@@ -341,11 +341,11 @@
 
 ### off()
 
-> **off**<`K`>(`type`?, `subscriber`?): `Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+> **off**<`K`>(`type`?, `subscriber`?): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SenderEventList`](reference/interfaces/SenderEventList.md)
+• **K** extends keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
@@ -355,7 +355,7 @@
 
 #### Returns
 
-`Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+`Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Inherited from
 
@@ -365,11 +365,11 @@
 
 ### on()
 
-> **on**<`K`>(`type`, `subscriber`): `Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+> **on**<`K`>(`type`, `subscriber`): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SenderEventList`](reference/interfaces/SenderEventList.md)
+• **K** extends keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
@@ -379,7 +379,7 @@
 
 #### Returns
 
-`Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+`Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Inherited from
 
@@ -389,11 +389,11 @@
 
 ### once()
 
-> **once**<`K`>(`type`, `subscriber`): `Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+> **once**<`K`>(`type`, `subscriber`): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SenderEventList`](reference/interfaces/SenderEventList.md)
+• **K** extends keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
@@ -403,7 +403,7 @@
 
 #### Returns
 
-`Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+`Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Inherited from
 
@@ -413,11 +413,11 @@
 
 ### removeEventListener()
 
-> **removeEventListener**<`K`>(`type`?, `subscriber`?): `Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+> **removeEventListener**<`K`>(`type`?, `subscriber`?): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SenderEventList`](reference/interfaces/SenderEventList.md)
+• **K** extends keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
@@ -427,7 +427,7 @@
 
 #### Returns
 
-`Emitter`<[`SenderEventList`](reference/interfaces/SenderEventList.md)>
+`Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Inherited from
 

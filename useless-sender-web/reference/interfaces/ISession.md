@@ -2,7 +2,7 @@
 
 ## Extends
 
-- `IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+- `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 ## Properties
 
@@ -246,11 +246,11 @@ convenience
 
 ### addEventListener()
 
-> **addEventListener**<`K`>(`type`, `subscriber`): `IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+> **addEventListener**<`K`>(`type`, `subscriber`): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SessionEventList`](reference/interfaces/SessionEventList.md)
+• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
@@ -260,7 +260,7 @@ convenience
 
 #### Returns
 
-`IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+`IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Inherited from
 
@@ -270,21 +270,21 @@ convenience
 
 ### emit()
 
-> **emit**<`K`>(`type`, `event`?): `IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+> **emit**<`K`>(`type`, `event`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SessionEventList`](reference/interfaces/SessionEventList.md)
+• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
 • **type**: `K`
 
-• **event?**: `Optional`<[`SessionEventList`](reference/interfaces/SessionEventList.md)[`K`], `"type"`>
+• **event?**: `Optional`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)[`K`], `"type"`>
 
 #### Returns
 
-`IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+`IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Inherited from
 
@@ -294,21 +294,21 @@ convenience
 
 ### emitAsync()
 
-> **emitAsync**<`K`>(`type`, `event`?): `IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+> **emitAsync**<`K`>(`type`, `event`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SessionEventList`](reference/interfaces/SessionEventList.md)
+• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
 • **type**: `K`
 
-• **event?**: `Optional`<[`SessionEventList`](reference/interfaces/SessionEventList.md)[`K`], `"type"`>
+• **event?**: `Optional`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)[`K`], `"type"`>
 
 #### Returns
 
-`IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+`IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Inherited from
 
@@ -318,11 +318,11 @@ convenience
 
 ### off()
 
-> **off**<`K`>(`type`?, `subscriber`?): `IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+> **off**<`K`>(`type`?, `subscriber`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SessionEventList`](reference/interfaces/SessionEventList.md)
+• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
@@ -332,7 +332,7 @@ convenience
 
 #### Returns
 
-`IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+`IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Inherited from
 
@@ -342,11 +342,11 @@ convenience
 
 ### on()
 
-> **on**<`K`>(`type`, `subscriber`): `IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+> **on**<`K`>(`type`, `subscriber`): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SessionEventList`](reference/interfaces/SessionEventList.md)
+• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
@@ -356,7 +356,7 @@ convenience
 
 #### Returns
 
-`IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+`IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Inherited from
 
@@ -366,11 +366,11 @@ convenience
 
 ### once()
 
-> **once**<`K`>(`type`, `subscriber`): `IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+> **once**<`K`>(`type`, `subscriber`): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SessionEventList`](reference/interfaces/SessionEventList.md)
+• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
@@ -380,7 +380,7 @@ convenience
 
 #### Returns
 
-`IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+`IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Inherited from
 
@@ -390,11 +390,11 @@ convenience
 
 ### removeEventListener()
 
-> **removeEventListener**<`K`>(`type`?, `subscriber`?): `IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+> **removeEventListener**<`K`>(`type`?, `subscriber`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Type parameters
 
-• **K** extends keyof [`SessionEventList`](reference/interfaces/SessionEventList.md)
+• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
@@ -404,7 +404,7 @@ convenience
 
 #### Returns
 
-`IEmitter`<[`SessionEventList`](reference/interfaces/SessionEventList.md)>
+`IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Inherited from
 

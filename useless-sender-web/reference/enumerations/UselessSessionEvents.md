@@ -1,4 +1,4 @@
-# SessionEvents
+# UselessSessionEvents
 
 ## Enumeration Members
 

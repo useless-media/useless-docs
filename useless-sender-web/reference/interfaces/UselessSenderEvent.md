@@ -1,4 +1,4 @@
-# SessionEvent
+# UselessSenderEvent
 
 ## Extends
 

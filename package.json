@@ -9,5 +9,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/useless-media/useless-docs.git"
+  },
+  "scripts": {
+    "start:dev": "http-server --cors -c-1"
   }
 }

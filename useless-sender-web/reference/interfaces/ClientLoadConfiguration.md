@@ -6,6 +6,12 @@ ts-auto-guard:type-guard
 
 ## Properties
 
+### emulator?
+
+> **emulator**?: `boolean`
+
+***
+
 ### excludeAccessibilityTracks?
 
 > **excludeAccessibilityTracks**?: `boolean`

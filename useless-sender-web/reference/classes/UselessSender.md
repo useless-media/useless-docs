@@ -148,11 +148,15 @@
 
 ### cast()
 
-> **cast**(`load`): `Promise`<`void`>
+> **cast**<`TLoad`>(`load`): `Promise`<`void`>
+
+#### Type parameters
+
+• **TLoad** extends [`Load`](reference/functions/Load.md) = [`Load`](../functions/Load.md)
 
 #### Parameters
 
-• **load**: [`Load`](reference/functions/Load.md)
+• **load**: `TLoad`
 
 #### Returns
 

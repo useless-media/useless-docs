@@ -6,6 +6,12 @@
 
 ## Properties
 
+### SessionEvents.ApplicationMessage
+
+> **SessionEvents.ApplicationMessage**: [`ApplicationMessageEvent`](reference/interfaces/ApplicationMessageEvent.md)
+
+***
+
 ### SessionEvents.Destroyed
 
 > **SessionEvents.Destroyed**: [`DestroyedEvent`](reference/interfaces/DestroyedEvent.md)

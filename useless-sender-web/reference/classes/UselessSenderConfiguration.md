@@ -30,9 +30,21 @@
 
 ***
 
+### enableConsoleBridge
+
+> **enableConsoleBridge**: `boolean` = `false`
+
+***
+
 ### loadCastFramework
 
 > **loadCastFramework**: `boolean` = `true`
+
+***
+
+### messageNamespace
+
+> **messageNamespace**: `string` = `''`
 
 ***
 

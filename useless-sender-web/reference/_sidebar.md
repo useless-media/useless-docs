@@ -90,6 +90,7 @@
     * [ActiveTracks](reference/interfaces/ActiveTracks.md)
     * [Advertisement](reference/interfaces/Advertisement.md)
     * [AdvertisementBreak](reference/interfaces/AdvertisementBreak.md)
+    * [ApplicationMessageEvent](reference/interfaces/ApplicationMessageEvent.md)
     * [BasicCredentials](reference/interfaces/BasicCredentials.md)
     * [Channel](reference/interfaces/Channel.md)
     * [ClientLoadConfiguration](reference/interfaces/ClientLoadConfiguration.md)

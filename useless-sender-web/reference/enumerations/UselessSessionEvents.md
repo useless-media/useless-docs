@@ -4,6 +4,7 @@
 
 | Member | Value |
 | :------ | :------ |
+| `ApplicationMessage` | `"SessionEvents.ApplicationMessage"` |
 | `Destroyed` | `"SessionEvents.Destroyed"` |
 | `PlaybackSessionStateChanged` | `"SessionEvents.PlaybackSessionStateChanged"` |
 | `TimelineSectionEnter` | `"SessionEvents.TimelineSectionEnter"` |

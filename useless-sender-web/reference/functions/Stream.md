@@ -4,7 +4,7 @@
 
 ## Parameters
 
-• **args**: `Optional`<[`Stream`](reference/functions/Stream.md), `"id"` | `"streamRestrictions"` | `"advertisementType"` | `"containerType"` | `"contentType"` | `"drms"` | `"streamType"`>
+• **args**: `Optional`<[`Stream`](reference/functions/Stream.md), `"id"` | `"streamRestrictions"` | `"drms"` | `"advertisementType"` | `"containerType"` | `"contentType"` | `"streamType"`>
 
 ## Returns
 

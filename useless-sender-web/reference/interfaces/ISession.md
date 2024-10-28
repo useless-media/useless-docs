@@ -34,7 +34,7 @@ convenience
 
 ### destroy
 
-> **destroy**: (`stopCasting`?) => `void`
+> **destroy**: (`stopCasting`?) => `Promise`<`void`>
 
 #### Parameters
 
@@ -42,7 +42,7 @@ convenience
 
 #### Returns
 
-`void`
+`Promise`<`void`>
 
 ***
 

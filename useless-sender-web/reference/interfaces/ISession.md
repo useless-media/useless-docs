@@ -170,6 +170,20 @@ messaging
 
 ***
 
+### setMuted
+
+> **setMuted**: (`command`) => `Promise`<`void`>
+
+#### Parameters
+
+• **command**: `SetMutedCommand`
+
+#### Returns
+
+`Promise`<`void`>
+
+***
+
 ### setTextTrack
 
 > **setTextTrack**: (`command`?) => `Promise`<`void`>

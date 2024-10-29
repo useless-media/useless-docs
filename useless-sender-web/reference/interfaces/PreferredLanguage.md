@@ -14,7 +14,7 @@ ts-auto-guard:type-guard
 
 ### audioRoles
 
-> **audioRoles**: `Roles`[]
+> **audioRoles**: [`Roles`](reference/enumerations/Roles.md)[]
 
 ***
 
@@ -26,4 +26,4 @@ ts-auto-guard:type-guard
 
 ### textRoles
 
-> **textRoles**: `Roles`[]
+> **textRoles**: [`Roles`](reference/enumerations/Roles.md)[]

@@ -58,7 +58,7 @@ ts-auto-guard:type-guard
 
 ### roles
 
-> **roles**: `Roles`[]
+> **roles**: [`Roles`](reference/enumerations/Roles.md)[]
 
 #### Overrides
 

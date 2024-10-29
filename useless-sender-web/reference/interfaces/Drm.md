@@ -20,7 +20,7 @@ ts-auto-guard:type-guard
 
 ### protectionSystem
 
-> **protectionSystem**: `ProtectionSystemTypes`
+> **protectionSystem**: [`ProtectionSystemTypes`](reference/enumerations/ProtectionSystemTypes.md)
 
 ***
 

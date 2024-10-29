@@ -108,7 +108,7 @@ ts-auto-guard:type-guard
 
 ### type
 
-> **type**: `AdvertisementBreakTypes`
+> **type**: [`AdvertisementBreakTypes`](reference/enumerations/AdvertisementBreakTypes.md)
 
 ***
 

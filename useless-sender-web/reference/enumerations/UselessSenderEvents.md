@@ -4,8 +4,9 @@
 
 | Member | Value |
 | :------ | :------ |
-| `ConnectionStateChanged` | `"UselessSenderEvents.ConnectionStateChanged"` |
 | `DevicesChanged` | `"UselessSenderEvents.DevicesChanged"` |
+| `Initialized` | `"UselessSenderEvents.Initialized"` |
 | `Ready` | `"UselessSenderEvents.Ready"` |
 | `SessionEnded` | `"UselessSenderEvents.SessionEnded"` |
 | `SessionStarted` | `"UselessSenderEvents.SessionStarted"` |
+| `SessionStarting` | `"UselessSenderEvents.SessionStarting"` |

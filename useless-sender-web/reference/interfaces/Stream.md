@@ -66,7 +66,7 @@ ts-auto-guard:type-guard
 
 ### streamType
 
-> **streamType**: `StreamTypes`
+> **streamType**: [`StreamTypes`](reference/enumerations/StreamTypes.md)
 
 #### Overrides
 

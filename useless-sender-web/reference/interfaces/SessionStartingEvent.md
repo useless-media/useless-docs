@@ -1,16 +1,10 @@
-# ConnectionStateChangedEvent
+# SessionStartingEvent
 
 ## Extends
 
 - [`UselessSenderEvent`](reference/interfaces/UselessSenderEvent.md)
 
 ## Properties
-
-### connectionState
-
-> **connectionState**: [`ConnectionStates`](reference/enumerations/ConnectionStates.md)
-
-***
 
 ### type
 

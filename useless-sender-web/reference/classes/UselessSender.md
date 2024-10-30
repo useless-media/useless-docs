@@ -120,6 +120,16 @@
 
 `undefined` | [`ISession`](reference/interfaces/ISession.md)
 
+***
+
+### sessionState
+
+> **`get`** **sessionState**(): [`SessionStates`](reference/enumerations/SessionStates.md)
+
+#### Returns
+
+[`SessionStates`](reference/enumerations/SessionStates.md)
+
 ## Methods
 
 ### addEventListener()

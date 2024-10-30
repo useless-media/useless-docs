@@ -18,6 +18,12 @@ ts-auto-guard:type-guard
 
 ***
 
+### mute?
+
+> **mute**?: `boolean`
+
+***
+
 ### playbackConfigurationProfiles
 
 > **playbackConfigurationProfiles**: `string`[]

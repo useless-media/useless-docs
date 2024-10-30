@@ -12,7 +12,7 @@ ts-auto-guard:type-guard
 
 ### reason
 
-> **reason**: [`ShutdownReasons`](reference/enumerations/ShutdownReasons.md)
+> **reason**: `ShutdownReasons`
 
 #### Overrides
 

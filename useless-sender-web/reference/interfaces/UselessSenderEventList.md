@@ -6,15 +6,15 @@
 
 ## Properties
 
-### UselessSenderEvents.ConnectionStateChanged
-
-> **UselessSenderEvents.ConnectionStateChanged**: [`ConnectionStateChangedEvent`](reference/interfaces/ConnectionStateChangedEvent.md)
-
-***
-
 ### UselessSenderEvents.DevicesChanged
 
 > **UselessSenderEvents.DevicesChanged**: [`DevicesChangedEvent`](reference/interfaces/DevicesChangedEvent.md)
+
+***
+
+### UselessSenderEvents.Initialized
+
+> **UselessSenderEvents.Initialized**: [`InitializedEvent`](reference/interfaces/InitializedEvent.md)
 
 ***
 
@@ -33,3 +33,9 @@
 ### UselessSenderEvents.SessionStarted
 
 > **UselessSenderEvents.SessionStarted**: [`SessionStartedEvent`](reference/interfaces/SessionStartedEvent.md)
+
+***
+
+### UselessSenderEvents.SessionStarting
+
+> **UselessSenderEvents.SessionStarting**: [`SessionStartingEvent`](reference/interfaces/SessionStartingEvent.md)

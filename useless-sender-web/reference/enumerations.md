@@ -1,14 +1,14 @@
 # Enumerations
 
 * [AdvertisementBreakTypes](reference/enumerations/AdvertisementBreakTypes.md)
-* [ConnectionStates](reference/enumerations/ConnectionStates.md)
 * [CredentialsTypes](reference/enumerations/CredentialsTypes.md)
 * [MetadataTypes](reference/enumerations/MetadataTypes.md)
 * [PlaybackStates](reference/enumerations/PlaybackStates.md)
 * [Roles](reference/enumerations/Roles.md)
 * [SenderTypes](reference/enumerations/SenderTypes.md)
-* [ShutdownReasons](reference/enumerations/ShutdownReasons.md)
+* [SessionStates](reference/enumerations/SessionStates.md)
 * [StoppedReasons](reference/enumerations/StoppedReasons.md)
+* [StreamTypes](reference/enumerations/StreamTypes.md)
 * [TimeRepresentations](reference/enumerations/TimeRepresentations.md)
 * [TimelineBehaviors](reference/enumerations/TimelineBehaviors.md)
 * [TimelineEventTypes](reference/enumerations/TimelineEventTypes.md)

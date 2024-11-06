@@ -9,3 +9,9 @@ ts-auto-guard:type-guard
 ### preferred
 
 > **preferred**: [`PreferredLanguage`](reference/functions/PreferredLanguage.md)
+
+***
+
+### selected
+
+> **selected**: `SelectedLanguage`

@@ -4,11 +4,12 @@
 
 | Member | Value |
 | :------ | :------ |
-| `AudioBookChapter` | `"MetadataTypes.AudioBookChapter"` |
+| `Audio` | `"MetadataTypes.Audio"` |
+| `Chapter` | `"MetadataTypes.Chapter"` |
 | `Generic` | `"MetadataTypes.Generic"` |
+| `Image` | `"MetadataTypes.Image"` |
 | `Movie` | `"MetadataTypes.Movie"` |
-| `MusicTrack` | `"MetadataTypes.MusicTrack"` |
-| `Photo` | `"MetadataTypes.Photo"` |
-| `TvShow` | `"MetadataTypes.TvShow"` |
+| `Series` | `"MetadataTypes.Series"` |
 | `Unknown` | `"MetadataTypes.Unknown"` |
 | `User` | `"MetadataTypes.User"` |
+| `Video` | `"MetadataTypes.Video"` |

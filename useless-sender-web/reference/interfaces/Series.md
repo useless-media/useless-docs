@@ -4,19 +4,11 @@
 
 ts-auto-guard:type-guard
 
-## Extends
-
-- `ReceiverSeries`
-
 ## Properties
 
 ### episode?
 
 > **episode**?: `number`
-
-#### Overrides
-
-`ReceiverSeries.episode`
 
 ***
 
@@ -24,16 +16,8 @@ ts-auto-guard:type-guard
 
 > **season**?: `number`
 
-#### Overrides
-
-`ReceiverSeries.season`
-
 ***
 
 ### title
 
 > **title**: `string`
-
-#### Overrides
-
-`ReceiverSeries.title`

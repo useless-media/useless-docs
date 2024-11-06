@@ -30,10 +30,6 @@
 >
 > > **poster**: `undefined` | [`Image`](reference/functions/Image.md)
 >
-> ### releaseDate
->
-> > **releaseDate**: `undefined` | `string`
->
 > ### section
 >
 > > **section**: `undefined` | [`Section`](reference/functions/Section.md)

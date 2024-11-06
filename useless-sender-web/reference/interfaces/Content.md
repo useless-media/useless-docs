@@ -4,10 +4,6 @@
 
 ts-auto-guard:type-guard
 
-## Extends
-
-- `ReceiverContent`
-
 ## Properties
 
 ### auxiliaryData?
@@ -20,19 +16,11 @@ ts-auto-guard:type-guard
 
 > **id**: `string`
 
-#### Overrides
-
-`ReceiverContent.id`
-
 ***
 
 ### metadata?
 
 > **metadata**?: [`Metadata`](reference/functions/Metadata.md)
-
-#### Overrides
-
-`ReceiverContent.metadata`
 
 ***
 
@@ -51,7 +39,3 @@ ts-auto-guard:type-guard
 ### type?
 
 > **type**?: `string`
-
-#### Overrides
-
-`ReceiverContent.type`

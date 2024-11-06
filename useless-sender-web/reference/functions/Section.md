@@ -4,7 +4,7 @@
 
 ## Parameters
 
-• **args**: [`Section`](reference/functions/Section.md)
+• **args**: `Optional`<[`Section`](reference/functions/Section.md), `"duration"`>
 
 ## Returns
 

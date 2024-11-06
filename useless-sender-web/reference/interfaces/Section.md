@@ -4,19 +4,11 @@
 
 ts-auto-guard:type-guard
 
-## Extends
-
-- `ReceiverSection`
-
 ## Properties
 
 ### duration
 
 > **duration**: `number`
-
-#### Overrides
-
-`ReceiverSection.duration`
 
 ***
 
@@ -24,16 +16,8 @@ ts-auto-guard:type-guard
 
 > **endTime**: `number`
 
-#### Overrides
-
-`ReceiverSection.endTime`
-
 ***
 
 ### startTime
 
 > **startTime**: `number`
-
-#### Overrides
-
-`ReceiverSection.startTime`

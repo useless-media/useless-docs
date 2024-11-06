@@ -4,7 +4,7 @@
 
 ## Parameters
 
-• **args**: `Optional`<[`Track`](reference/functions/Track.md), `"roles"` | `"accessibility"`>
+• **args**: `Optional`<[`Track`](reference/functions/Track.md), `"roles"`>
 
 ## Returns
 

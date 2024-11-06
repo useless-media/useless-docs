@@ -1,29 +1,19 @@
-# LoadedAdvertisement
+# LoadedAdvertisement<TAdvertisementAuxiliaryData>
 
-## See
+@x-see {isLoadedAdvertisement} ts-auto-guard:type-guard
 
-ts-auto-guard:type-guard
+## Type parameters
 
-## Extends
-
-- `ReceiverLoadedAdvertisement`
+• **TAdvertisementAuxiliaryData** extends `AdvertisementAuxiliaryData` = `AdvertisementAuxiliaryData`
 
 ## Properties
 
 ### advertisementBreaks
 
-> **advertisementBreaks**: [`AdvertisementBreak`](reference/functions/AdvertisementBreak.md)[]
-
-#### Overrides
-
-`ReceiverLoadedAdvertisement.advertisementBreaks`
+> **advertisementBreaks**: ([`AdvertisementBreak`](reference/functions/AdvertisementBreak.md) | `AdvertisementCue`)[]
 
 ***
 
 ### advertisements
 
-> **advertisements**: [`Advertisement`](reference/functions/Advertisement.md)[]
-
-#### Overrides
-
-`ReceiverLoadedAdvertisement.advertisements`
+> **advertisements**: [`Advertisement`](reference/functions/Advertisement.md)<`TAdvertisementAuxiliaryData`>[]

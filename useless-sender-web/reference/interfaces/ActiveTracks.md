@@ -8,10 +8,16 @@ ts-auto-guard:type-guard
 
 ### audio?
 
-> **audio**?: [`Track`](reference/functions/Track.md)
+> **audio**?: `AudioTrack`
 
 ***
 
 ### text?
 
-> **text**?: [`Track`](reference/functions/Track.md)
+> **text**?: `TextTrack$1`
+
+***
+
+### video?
+
+> **video**?: `VideoTrack`

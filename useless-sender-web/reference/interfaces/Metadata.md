@@ -4,10 +4,6 @@
 
 ts-auto-guard:type-guard
 
-## Extends
-
-- `ReceiverMetadata`
-
 ## Properties
 
 ### auxiliaryData?
@@ -26,19 +22,11 @@ ts-auto-guard:type-guard
 
 > **description**?: `string`
 
-#### Overrides
-
-`ReceiverMetadata.description`
-
 ***
 
 ### images
 
 > **images**: [`Image`](reference/functions/Image.md)[]
-
-#### Overrides
-
-`ReceiverMetadata.images`
 
 ***
 
@@ -46,29 +34,11 @@ ts-auto-guard:type-guard
 
 > **poster**?: [`Image`](reference/functions/Image.md)
 
-#### Overrides
-
-`ReceiverMetadata.poster`
-
-***
-
-### releaseDate?
-
-> **releaseDate**?: `string`
-
-#### Overrides
-
-`ReceiverMetadata.releaseDate`
-
 ***
 
 ### section?
 
 > **section**?: [`Section`](reference/functions/Section.md)
-
-#### Overrides
-
-`ReceiverMetadata.section`
 
 ***
 
@@ -76,26 +46,14 @@ ts-auto-guard:type-guard
 
 > **series**?: [`Series`](reference/functions/Series.md)
 
-#### Overrides
-
-`ReceiverMetadata.series`
-
 ***
 
 ### title?
 
 > **title**?: `string`
 
-#### Overrides
-
-`ReceiverMetadata.title`
-
 ***
 
 ### type
 
 > **type**: [`MetadataTypes`](reference/enumerations/MetadataTypes.md)
-
-#### Overrides
-
-`ReceiverMetadata.type`

@@ -6,7 +6,7 @@ ts-auto-guard:type-guard
 
 ## Extends
 
-- `ReceiverBasicCredentials`
+- [`Credentials`](reference/functions/Credentials.md)
 
 ## Properties
 
@@ -16,17 +16,13 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`ReceiverBasicCredentials.auxiliaryData`
+`Credentials.auxiliaryData`
 
 ***
 
 ### password
 
 > **password**: `string`
-
-#### Inherited from
-
-`ReceiverBasicCredentials.password`
 
 ***
 
@@ -36,14 +32,10 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`ReceiverBasicCredentials.type`
+`Credentials.type`
 
 ***
 
 ### username
 
 > **username**: `string`
-
-#### Inherited from
-
-`ReceiverBasicCredentials.username`

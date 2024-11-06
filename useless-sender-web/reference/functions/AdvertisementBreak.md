@@ -4,7 +4,7 @@
 
 ## Parameters
 
-• **args**: `Optional`<[`AdvertisementBreak`](reference/functions/AdvertisementBreak.md), `"active"` | `"completion"` | `"watched"`>
+• **args**: `Optional`<[`AdvertisementBreak`](reference/functions/AdvertisementBreak.md), `"active"` | `"completion"` | `"watched"` | `"resolved"`>
 
 ## Returns
 

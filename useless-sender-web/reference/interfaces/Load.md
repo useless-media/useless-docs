@@ -1,8 +1,6 @@
 # Load
 
-## See
-
-ts-auto-guard:type-guard
+@x-see {isLoad} ts-auto-guard:type-guard
 
 ## Extends
 
@@ -50,7 +48,7 @@ ts-auto-guard:type-guard
 
 ### credentials?
 
-> **credentials**?: [`BasicCredentials`](reference/functions/BasicCredentials.md) | [`TokenCredentials`](../functions/TokenCredentials.md)
+> **credentials**?: [`Credentials`](reference/functions/Credentials.md)
 
 ***
 

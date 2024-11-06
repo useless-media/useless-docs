@@ -4,19 +4,11 @@
 
 ts-auto-guard:type-guard
 
-## Extends
-
-- `ReceiverSeekableRange`
-
 ## Properties
 
 ### epochSeekable
 
 > **epochSeekable**: `EpochSeekable`
-
-#### Overrides
-
-`ReceiverSeekableRange.epochSeekable`
 
 ***
 
@@ -24,19 +16,11 @@ ts-auto-guard:type-guard
 
 > **liveDone**: `boolean`
 
-#### Overrides
-
-`ReceiverSeekableRange.liveDone`
-
 ***
 
 ### movingWindow
 
 > **movingWindow**: `boolean`
-
-#### Overrides
-
-`ReceiverSeekableRange.movingWindow`
 
 ***
 
@@ -49,10 +33,6 @@ ts-auto-guard:type-guard
 ### seekable
 
 > **seekable**: `ContentSeekable`
-
-#### Overrides
-
-`ReceiverSeekableRange.seekable`
 
 ***
 

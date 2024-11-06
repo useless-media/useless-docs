@@ -6,7 +6,7 @@ ts-auto-guard:type-guard
 
 ## Extends
 
-- `ReceiverAdvertisementBreak`
+- `AdvertisementCue`
 
 ## Properties
 
@@ -14,19 +14,11 @@ ts-auto-guard:type-guard
 
 > **active**: `boolean`
 
-#### Overrides
-
-`ReceiverAdvertisementBreak.active`
-
 ***
 
 ### advertisementIds
 
 > **advertisementIds**: `string`[]
-
-#### Overrides
-
-`ReceiverAdvertisementBreak.advertisementIds`
 
 ***
 
@@ -34,15 +26,15 @@ ts-auto-guard:type-guard
 
 > **auxiliaryData**?: `Record`<`string`, `any`>
 
+#### Inherited from
+
+`AdvertisementCue.auxiliaryData`
+
 ***
 
 ### completion
 
 > **completion**: `number`
-
-#### Overrides
-
-`ReceiverAdvertisementBreak.completion`
 
 ***
 
@@ -50,9 +42,9 @@ ts-auto-guard:type-guard
 
 > **contentPosition**?: `number`
 
-#### Overrides
+#### Inherited from
 
-`ReceiverAdvertisementBreak.contentPosition`
+`AdvertisementCue.contentPosition`
 
 ***
 
@@ -62,7 +54,7 @@ ts-auto-guard:type-guard
 
 #### Overrides
 
-`ReceiverAdvertisementBreak.duration`
+`AdvertisementCue.duration`
 
 ***
 
@@ -70,9 +62,9 @@ ts-auto-guard:type-guard
 
 > **embedded**: `boolean`
 
-#### Overrides
+#### Inherited from
 
-`ReceiverAdvertisementBreak.embedded`
+`AdvertisementCue.embedded`
 
 ***
 
@@ -80,9 +72,9 @@ ts-auto-guard:type-guard
 
 > **id**: `string`
 
-#### Overrides
+#### Inherited from
 
-`ReceiverAdvertisementBreak.id`
+`AdvertisementCue.id`
 
 ***
 
@@ -90,19 +82,25 @@ ts-auto-guard:type-guard
 
 > **name**: `string`
 
-#### Overrides
-
-`ReceiverAdvertisementBreak.name`
-
 ***
 
 ### position
 
 > **position**: `number`
 
-#### Overrides
+#### Inherited from
 
-`ReceiverAdvertisementBreak.position`
+`AdvertisementCue.position`
+
+***
+
+### resolved
+
+> **resolved**: `boolean`
+
+#### Inherited from
+
+`AdvertisementCue.resolved`
 
 ***
 
@@ -110,12 +108,12 @@ ts-auto-guard:type-guard
 
 > **type**: [`AdvertisementBreakTypes`](reference/enumerations/AdvertisementBreakTypes.md)
 
+#### Inherited from
+
+`AdvertisementCue.type`
+
 ***
 
 ### watched
 
 > **watched**: `boolean`
-
-#### Overrides
-
-`ReceiverAdvertisementBreak.watched`

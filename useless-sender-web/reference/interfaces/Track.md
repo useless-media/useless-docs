@@ -4,15 +4,11 @@
 
 ts-auto-guard:type-guard
 
-## Extends
-
-- `ReceiverTrack`
-
 ## Properties
 
-### accessibility
+### accessibility?
 
-> **accessibility**: `boolean`
+> **accessibility**?: `boolean`
 
 ***
 
@@ -20,9 +16,17 @@ ts-auto-guard:type-guard
 
 > **active**: `boolean`
 
-#### Overrides
+***
 
-`ReceiverTrack.active`
+### auxiliaryData?
+
+> **auxiliaryData**?: `Record`<`string`, `any`>
+
+***
+
+### codecs?
+
+> **codecs**?: `string`
 
 ***
 
@@ -30,19 +34,23 @@ ts-auto-guard:type-guard
 
 > **id**: `number`
 
-#### Overrides
+***
 
-`ReceiverTrack.id`
+### isoLanguage?
+
+> **isoLanguage**?: `IsoLanguage`
 
 ***
 
-### language
+### language?
 
-> **language**: `ISOLanguage`
+> **language**?: `string`
 
-#### Overrides
+***
 
-`ReceiverTrack.language`
+### mimeType?
+
+> **mimeType**?: `string`
 
 ***
 
@@ -50,9 +58,17 @@ ts-auto-guard:type-guard
 
 > **name**: `string`
 
-#### Overrides
+***
 
-`ReceiverTrack.name`
+### originalLanguage?
+
+> **originalLanguage**?: `string`
+
+***
+
+### referenceId
+
+> **referenceId**: `string`
 
 ***
 
@@ -60,16 +76,8 @@ ts-auto-guard:type-guard
 
 > **roles**: [`Roles`](reference/enumerations/Roles.md)[]
 
-#### Overrides
-
-`ReceiverTrack.roles`
-
 ***
 
 ### type
 
 > **type**: [`TrackTypes`](reference/enumerations/TrackTypes.md)
-
-#### Overrides
-
-`ReceiverTrack.type`

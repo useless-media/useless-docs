@@ -6,7 +6,7 @@ ts-auto-guard:type-guard
 
 ## Extends
 
-- `ReceiverTokenCredentials`
+- [`Credentials`](reference/functions/Credentials.md)
 
 ## Properties
 
@@ -16,7 +16,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`ReceiverTokenCredentials.auxiliaryData`
+`Credentials.auxiliaryData`
 
 ***
 
@@ -24,19 +24,11 @@ ts-auto-guard:type-guard
 
 > **scheme**: `string`
 
-#### Inherited from
-
-`ReceiverTokenCredentials.scheme`
-
 ***
 
 ### token
 
 > **token**: `string`
-
-#### Inherited from
-
-`ReceiverTokenCredentials.token`
 
 ***
 
@@ -46,4 +38,4 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`ReceiverTokenCredentials.type`
+`Credentials.type`

@@ -6,12 +6,6 @@ ts-auto-guard:type-guard
 
 ## Properties
 
-### auxiliaryData?
-
-> **auxiliaryData**?: `Record`<`string`, `any`>
-
-***
-
 ### headers
 
 > **headers**: `Record`<`string`, `string`>

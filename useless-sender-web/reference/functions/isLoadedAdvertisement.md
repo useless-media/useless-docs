@@ -1,6 +1,6 @@
 # isLoadedAdvertisement
 
-> **isLoadedAdvertisement**(`obj`): `obj is LoadedAdvertisement`
+> **isLoadedAdvertisement**(`obj`): `obj is LoadedAdvertisement<AdvertisementAuxiliaryData>`
 
 ## Parameters
 
@@ -8,4 +8,4 @@
 
 ## Returns
 
-`obj is LoadedAdvertisement`
+`obj is LoadedAdvertisement<AdvertisementAuxiliaryData>`

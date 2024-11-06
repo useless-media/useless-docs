@@ -4,7 +4,7 @@
 
 ## Parameters
 
-• **args?**: `Optional`<[`PreferredLanguage`](reference/functions/PreferredLanguage.md), `"audio"` | `"audioRoles"` | `"text"` | `"textRoles"`>
+• **args?**: `Partial`<[`PreferredLanguage`](reference/functions/PreferredLanguage.md)>
 
 ## Returns
 

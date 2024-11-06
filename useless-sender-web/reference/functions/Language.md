@@ -4,7 +4,7 @@
 
 ## Parameters
 
-• **args?**: `Optional`<[`Language`](reference/functions/Language.md), `"preferred"`>
+• **args?**: `Optional`<[`Language`](reference/functions/Language.md), `"preferred"` | `"selected"`>
 
 ## Returns
 

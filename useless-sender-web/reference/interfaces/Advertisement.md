@@ -1,12 +1,10 @@
-# Advertisement
+# Advertisement<TAdvertisementAuxiliaryData>
 
-## See
+@x-see {isAdvertisement} ts-auto-guard:type-guard
 
-ts-auto-guard:type-guard
+## Type parameters
 
-## Extends
-
-- `ReceiverAdvertisement`
+• **TAdvertisementAuxiliaryData** extends `AdvertisementAuxiliaryData` = `AdvertisementAuxiliaryData`
 
 ## Properties
 
@@ -18,7 +16,13 @@ ts-auto-guard:type-guard
 
 ### auxiliaryData?
 
-> **auxiliaryData**?: `Record`<`string`, `any`>
+> **auxiliaryData**?: `TAdvertisementAuxiliaryData`
+
+***
+
+### clickThroughUrl?
+
+> **clickThroughUrl**?: `string`
 
 ***
 
@@ -32,29 +36,17 @@ ts-auto-guard:type-guard
 
 > **duration**: `number`
 
-#### Overrides
-
-`ReceiverAdvertisement.duration`
-
 ***
 
 ### id
 
 > **id**: `string`
 
-#### Overrides
-
-`ReceiverAdvertisement.id`
-
 ***
 
 ### name
 
 > **name**: `string`
-
-#### Overrides
-
-`ReceiverAdvertisement.name`
 
 ***
 
@@ -67,10 +59,6 @@ ts-auto-guard:type-guard
 ### title?
 
 > **title**?: `string`
-
-#### Overrides
-
-`ReceiverAdvertisement.title`
 
 ***
 

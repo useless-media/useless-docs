@@ -4,19 +4,17 @@
 
 ts-auto-guard:type-guard
 
-## Extends
-
-- `ReceiverImage`
-
 ## Properties
 
 ### height?
 
 > **height**?: `number`
 
-#### Overrides
+***
 
-`ReceiverImage.height`
+### type?
+
+> **type**?: `string`
 
 ***
 
@@ -24,16 +22,8 @@ ts-auto-guard:type-guard
 
 > **url**: `string`
 
-#### Overrides
-
-`ReceiverImage.url`
-
 ***
 
 ### width?
 
 > **width**?: `number`
-
-#### Overrides
-
-`ReceiverImage.width`

@@ -18,11 +18,11 @@
 
 ##### active.advertisement?
 
-> **active.advertisement**?: [`Advertisement`](reference/functions/Advertisement.md)
+> **active.advertisement**?: [`Advertisement`](reference/functions/Advertisement.md)<`AdvertisementAuxiliaryData`>
 
 ##### active.advertisementBreak?
 
-> **active.advertisementBreak**?: [`AdvertisementBreak`](reference/functions/AdvertisementBreak.md)
+> **active.advertisementBreak**?: [`AdvertisementBreak`](reference/functions/AdvertisementBreak.md) | `AdvertisementCue`
 
 #### Overrides
 
@@ -37,16 +37,6 @@
 #### Overrides
 
 `ReceiverPlaybackSessionState.autoplay`
-
-***
-
-### bitrate?
-
-> **bitrate**?: `Bitrate`
-
-#### Overrides
-
-`ReceiverPlaybackSessionState.bitrate`
 
 ***
 

@@ -21,3 +21,9 @@ ts-auto-guard:type-guard
 ### text?
 
 > **text**?: [`Track`](reference/functions/Track.md)[]
+
+***
+
+### video?
+
+> **video**?: [`Track`](reference/functions/Track.md)[]

@@ -4,21 +4,23 @@
 
 ts-auto-guard:type-guard
 
-## Extends
-
-- `ReceiverStream`
-
 ## Properties
 
-### advertisementType
+### advertisement
 
-> **advertisementType**: `string`
+> **advertisement**: `StreamAdvertisement`
 
 ***
 
-### auxiliaryData?
+### auxiliaryData
 
-> **auxiliaryData**?: `Record`<`string`, `any`>
+> **auxiliaryData**: `Record`<`string`, `any`>
+
+***
+
+### configuration?
+
+> **configuration**?: `StreamConfiguration`
 
 ***
 
@@ -68,16 +70,8 @@ ts-auto-guard:type-guard
 
 > **streamType**: [`StreamTypes`](reference/enumerations/StreamTypes.md)
 
-#### Overrides
-
-`ReceiverStream.streamType`
-
 ***
 
 ### url
 
 > **url**: `string`
-
-#### Overrides
-
-`ReceiverStream.url`

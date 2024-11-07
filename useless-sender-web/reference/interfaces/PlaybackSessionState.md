@@ -22,7 +22,7 @@
 
 ##### active.advertisementBreak?
 
-> **active.advertisementBreak**?: [`AdvertisementBreak`](reference/functions/AdvertisementBreak.md) | `AdvertisementCue`
+> **active.advertisementBreak**?: [`AdvertisementBreak`](reference/functions/AdvertisementBreak.md) | [`AdvertisementCue`](../functions/AdvertisementCue.md)
 
 #### Overrides
 
@@ -186,7 +186,7 @@
 
 ### timeline
 
-> **timeline**: `Timeline`
+> **timeline**: [`Timeline`](reference/functions/Timeline.md)
 
 ***
 
@@ -202,7 +202,7 @@
 
 ### volume?
 
-> **volume**?: `Volume`
+> **volume**?: [`Volume`](reference/functions/Volume.md)
 
 #### Overrides
 

@@ -6,7 +6,7 @@ ts-auto-guard:type-guard
 
 ## Extends
 
-- `AdvertisementCue`
+- [`AdvertisementCue`](reference/functions/AdvertisementCue.md)
 
 ## Properties
 

@@ -10,7 +10,7 @@
 
 ### advertisementBreaks
 
-> **advertisementBreaks**: ([`AdvertisementBreak`](reference/functions/AdvertisementBreak.md) | `AdvertisementCue`)[]
+> **advertisementBreaks**: ([`AdvertisementBreak`](reference/functions/AdvertisementBreak.md) | [`AdvertisementCue`](../functions/AdvertisementCue.md))[]
 
 ***
 

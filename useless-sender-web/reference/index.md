@@ -96,6 +96,7 @@
 * [isStream](reference/functions/isStream.md)
 * [isStreamRestrictions](reference/functions/isStreamRestrictions.md)
 * [isTimeline](reference/functions/isTimeline.md)
+* [isTimelineBehavior](reference/functions/isTimelineBehavior.md)
 * [isTimelineEvent](reference/functions/isTimelineEvent.md)
 * [isTimelineItem](reference/functions/isTimelineItem.md)
 * [isTimelineMetadata](reference/functions/isTimelineMetadata.md)

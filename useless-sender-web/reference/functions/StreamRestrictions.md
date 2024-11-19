@@ -1,11 +1,11 @@
 # StreamRestrictions
 
-> **StreamRestrictions**(`args`?): [`StreamRestrictions`](reference/functions/StreamRestrictions.md)
+> **StreamRestrictions**(`args`?): [`StreamRestrictions`](reference/interfaces/StreamRestrictions.md)
 
 ## Parameters
 
-• **args?**: `Optional`<[`StreamRestrictions`](reference/functions/StreamRestrictions.md), `"pause"` | `"seek"`>
+• **args?**: `Optional`<[`StreamRestrictions`](reference/interfaces/StreamRestrictions.md), `"pause"` | `"seek"`>
 
 ## Returns
 
-[`StreamRestrictions`](reference/functions/StreamRestrictions.md)
+[`StreamRestrictions`](reference/interfaces/StreamRestrictions.md)

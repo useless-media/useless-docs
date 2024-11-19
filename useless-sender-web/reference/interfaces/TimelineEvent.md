@@ -6,7 +6,7 @@ ts-auto-guard:type-guard
 
 ## Extends
 
-- [`TimelineItem`](reference/functions/TimelineItem.md)
+- [`TimelineItem`](reference/interfaces/TimelineItem.md)
 
 ## Properties
 
@@ -16,7 +16,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`TimelineItem.auxiliaryData`
+[`TimelineItem`](reference/interfaces/TimelineItem.md).[`auxiliaryData`](TimelineItem.md#auxiliarydata)
 
 ***
 
@@ -26,7 +26,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`TimelineItem.duration`
+[`TimelineItem`](reference/interfaces/TimelineItem.md).[`duration`](TimelineItem.md#duration)
 
 ***
 
@@ -36,7 +36,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`TimelineItem.enabled`
+[`TimelineItem`](reference/interfaces/TimelineItem.md).[`enabled`](TimelineItem.md#enabled)
 
 ***
 
@@ -46,15 +46,15 @@ ts-auto-guard:type-guard
 
 ***
 
-### fireWhenSkipped
-
-> **fireWhenSkipped**: `boolean`
-
-***
-
 ### fired
 
 > **fired**: `boolean`
+
+***
+
+### fireWhenSkipped
+
+> **fireWhenSkipped**: `boolean`
 
 ***
 
@@ -64,7 +64,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`TimelineItem.id`
+[`TimelineItem`](reference/interfaces/TimelineItem.md).[`id`](TimelineItem.md#id)
 
 ***
 
@@ -74,7 +74,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`TimelineItem.isDynamic`
+[`TimelineItem`](reference/interfaces/TimelineItem.md).[`isDynamic`](TimelineItem.md#isdynamic)
 
 ***
 
@@ -84,7 +84,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`TimelineItem.offset`
+[`TimelineItem`](reference/interfaces/TimelineItem.md).[`offset`](TimelineItem.md#offset)
 
 ***
 
@@ -94,7 +94,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`TimelineItem.once`
+[`TimelineItem`](reference/interfaces/TimelineItem.md).[`once`](TimelineItem.md#once)
 
 ***
 
@@ -104,4 +104,4 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`TimelineItem.type`
+[`TimelineItem`](reference/interfaces/TimelineItem.md).[`type`](TimelineItem.md#type)

@@ -1,11 +1,11 @@
 # TimelineBehavior
 
-> **TimelineBehavior**(`args`): [`TimelineBehavior`](reference/functions/TimelineBehavior.md)
+> **TimelineBehavior**(`args`): [`TimelineBehavior`](reference/interfaces/TimelineBehavior.md)
 
 ## Parameters
 
-• **args**: [`TimelineBehavior`](reference/functions/TimelineBehavior.md)
+• **args**: [`TimelineBehavior`](reference/interfaces/TimelineBehavior.md)
 
 ## Returns
 
-[`TimelineBehavior`](reference/functions/TimelineBehavior.md)
+[`TimelineBehavior`](reference/interfaces/TimelineBehavior.md)

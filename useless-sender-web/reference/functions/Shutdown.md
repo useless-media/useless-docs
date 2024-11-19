@@ -1,11 +1,11 @@
 # Shutdown
 
-> **Shutdown**(`args`?): [`Shutdown`](reference/functions/Shutdown.md)
+> **Shutdown**(`args`?): [`Shutdown`](reference/interfaces/Shutdown.md)
 
 ## Parameters
 
-• **args?**: `Optional`<[`Shutdown`](reference/functions/Shutdown.md), `"reason"`>
+• **args?**: `Optional`<[`Shutdown`](reference/interfaces/Shutdown.md), `"reason"`>
 
 ## Returns
 
-[`Shutdown`](reference/functions/Shutdown.md)
+[`Shutdown`](reference/interfaces/Shutdown.md)

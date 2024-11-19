@@ -18,4 +18,4 @@
 
 #### Inherited from
 
-[`UselessSessionEvent.type`](reference/interfaces/UselessSessionEvent.md#type)
+[`UselessSessionEvent`](reference/interfaces/UselessSessionEvent.md).[`type`](UselessSessionEvent.md#type)

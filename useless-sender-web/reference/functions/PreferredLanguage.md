@@ -1,11 +1,11 @@
 # PreferredLanguage
 
-> **PreferredLanguage**(`args`?): [`PreferredLanguage`](reference/functions/PreferredLanguage.md)
+> **PreferredLanguage**(`args`?): [`PreferredLanguage`](reference/interfaces/PreferredLanguage.md)
 
 ## Parameters
 
-• **args?**: `Partial`<[`PreferredLanguage`](reference/functions/PreferredLanguage.md)>
+• **args?**: `Partial`<[`PreferredLanguage`](reference/interfaces/PreferredLanguage.md)>
 
 ## Returns
 
-[`PreferredLanguage`](reference/functions/PreferredLanguage.md)
+[`PreferredLanguage`](reference/interfaces/PreferredLanguage.md)

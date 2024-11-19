@@ -8,7 +8,7 @@ ts-auto-guard:type-guard
 
 ### logo?
 
-> **logo**?: [`Image`](reference/functions/Image.md)
+> **logo**?: [`Image`](reference/interfaces/Image.md)
 
 ***
 

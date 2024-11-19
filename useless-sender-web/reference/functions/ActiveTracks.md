@@ -1,11 +1,11 @@
 # ActiveTracks
 
-> **ActiveTracks**(`args`?): [`ActiveTracks`](reference/functions/ActiveTracks.md)
+> **ActiveTracks**(`args`?): [`ActiveTracks`](reference/interfaces/ActiveTracks.md)
 
 ## Parameters
 
-• **args?**: [`ActiveTracks`](reference/functions/ActiveTracks.md)
+• **args?**: [`ActiveTracks`](reference/interfaces/ActiveTracks.md)
 
 ## Returns
 
-[`ActiveTracks`](reference/functions/ActiveTracks.md)
+[`ActiveTracks`](reference/interfaces/ActiveTracks.md)

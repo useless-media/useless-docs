@@ -8,7 +8,7 @@ ts-auto-guard:type-guard
 
 ### preferred
 
-> **preferred**: [`PreferredLanguage`](reference/functions/PreferredLanguage.md)
+> **preferred**: [`PreferredLanguage`](reference/interfaces/PreferredLanguage.md)
 
 ***
 

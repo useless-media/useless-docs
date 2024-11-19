@@ -4,6 +4,10 @@
 
 ts-auto-guard:type-guard
 
+## Extended by
+
+- [`AdvertisementBreak`](reference/interfaces/AdvertisementBreak.md)
+
 ## Properties
 
 ### auxiliaryData?

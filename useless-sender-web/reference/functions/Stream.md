@@ -1,11 +1,11 @@
 # Stream
 
-> **Stream**(`args`): [`Stream`](reference/functions/Stream.md)
+> **Stream**(`args`): [`Stream`](reference/interfaces/Stream.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`Stream`](reference/functions/Stream.md), `"id"` | `"advertisement"` | `"streamRestrictions"` | `"drms"` | `"auxiliaryData"` | `"containerType"` | `"contentType"`>
+• **args**: `Optional`<[`Stream`](reference/interfaces/Stream.md), `"id"` | `"advertisement"` | `"streamRestrictions"` | `"drms"` | `"auxiliaryData"` | `"containerType"` | `"contentType"`>
 
 ## Returns
 
-[`Stream`](reference/functions/Stream.md)
+[`Stream`](reference/interfaces/Stream.md)

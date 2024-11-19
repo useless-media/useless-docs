@@ -1,11 +1,11 @@
 # Image
 
-> **Image**(`args`): [`Image`](reference/functions/Image.md)
+> **Image**(`args`): [`Image`](reference/interfaces/Image.md)
 
 ## Parameters
 
-• **args**: [`Image`](reference/functions/Image.md)
+• **args**: [`Image`](reference/interfaces/Image.md)
 
 ## Returns
 
-[`Image`](reference/functions/Image.md)
+[`Image`](reference/interfaces/Image.md)

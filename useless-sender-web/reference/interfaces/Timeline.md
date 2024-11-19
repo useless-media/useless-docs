@@ -6,31 +6,31 @@ ts-auto-guard:type-guard
 
 ## Extends
 
-- `ArrayLikeState`<[`TimelineItem`](reference/functions/TimelineItem.md)>
+- `ArrayLikeState`<[`TimelineItem`](reference/interfaces/TimelineItem.md)>
 
 ## Properties
 
 ### activeMetadata?
 
-> **activeMetadata**?: [`TimelineMetadata`](reference/functions/TimelineMetadata.md)
+> **activeMetadata**?: [`TimelineMetadata`](reference/interfaces/TimelineMetadata.md)
 
 ***
 
 ### activeSection?
 
-> **activeSection**?: [`TimelineSection`](reference/functions/TimelineSection.md)
+> **activeSection**?: [`TimelineSection`](reference/interfaces/TimelineSection.md)
 
 ***
 
 ### behavior
 
-> **behavior**: [`TimelineBehavior`](reference/functions/TimelineBehavior.md)
+> **behavior**: [`TimelineBehavior`](reference/interfaces/TimelineBehavior.md)
 
 ***
 
 ### items
 
-> **items**: `ArrayLikeStateItem`<[`TimelineItem`](reference/functions/TimelineItem.md)>
+> **items**: `ArrayLikeStateItem`<[`TimelineItem`](reference/interfaces/TimelineItem.md)>
 
 #### Inherited from
 
@@ -62,12 +62,6 @@ ts-auto-guard:type-guard
 
 ***
 
-### timeRepresentation
-
-> **timeRepresentation**: [`TimeRepresentations`](reference/enumerations/TimeRepresentations.md)
-
-***
-
 ### timelineEnd
 
 > **timelineEnd**: `number`
@@ -83,3 +77,9 @@ ts-auto-guard:type-guard
 ### timelineStartOffset
 
 > **timelineStartOffset**: `number`
+
+***
+
+### timeRepresentation
+
+> **timeRepresentation**: [`TimeRepresentations`](reference/enumerations/TimeRepresentations.md)

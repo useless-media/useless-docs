@@ -8,7 +8,7 @@
 
 ### section
 
-> **section**: [`TimelineSection`](reference/functions/TimelineSection.md)
+> **section**: [`TimelineSection`](reference/interfaces/TimelineSection.md)
 
 ***
 
@@ -18,4 +18,4 @@
 
 #### Inherited from
 
-[`UselessSessionEvent.type`](reference/interfaces/UselessSessionEvent.md#type)
+[`UselessSessionEvent`](reference/interfaces/UselessSessionEvent.md).[`type`](UselessSessionEvent.md#type)

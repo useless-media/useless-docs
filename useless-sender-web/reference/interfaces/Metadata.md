@@ -14,7 +14,7 @@ ts-auto-guard:type-guard
 
 ### channel?
 
-> **channel**?: [`Channel`](reference/functions/Channel.md)
+> **channel**?: [`Channel`](reference/interfaces/Channel.md)
 
 ***
 
@@ -26,25 +26,25 @@ ts-auto-guard:type-guard
 
 ### images
 
-> **images**: [`Image`](reference/functions/Image.md)[]
+> **images**: [`Image`](reference/interfaces/Image.md)[]
 
 ***
 
 ### poster?
 
-> **poster**?: [`Image`](reference/functions/Image.md)
+> **poster**?: [`Image`](reference/interfaces/Image.md)
 
 ***
 
 ### section?
 
-> **section**?: [`Section`](reference/functions/Section.md)
+> **section**?: [`Section`](reference/interfaces/Section.md)
 
 ***
 
 ### series?
 
-> **series**?: [`Series`](reference/functions/Series.md)
+> **series**?: [`Series`](reference/interfaces/Series.md)
 
 ***
 

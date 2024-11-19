@@ -1,15 +1,15 @@
 # LoadedAdvertisement
 
-> **LoadedAdvertisement**<`TAdvertisementAuxiliaryData`>(`args`): [`LoadedAdvertisement`](reference/functions/LoadedAdvertisement.md)<`TAdvertisementAuxiliaryData`>
+> **LoadedAdvertisement**<`TAdvertisementAuxiliaryData`>(`args`): [`LoadedAdvertisement`](reference/interfaces/LoadedAdvertisement.md)<`TAdvertisementAuxiliaryData`>
 
-## Type parameters
+## Type Parameters
 
-• **TAdvertisementAuxiliaryData** extends `AdvertisementAuxiliaryData` = `AdvertisementAuxiliaryData`
+• **TAdvertisementAuxiliaryData** *extends* `AdvertisementAuxiliaryData` = `AdvertisementAuxiliaryData`
 
 ## Parameters
 
-• **args**: [`LoadedAdvertisement`](reference/functions/LoadedAdvertisement.md)<`TAdvertisementAuxiliaryData`>
+• **args**: [`LoadedAdvertisement`](reference/interfaces/LoadedAdvertisement.md)<`TAdvertisementAuxiliaryData`>
 
 ## Returns
 
-[`LoadedAdvertisement`](reference/functions/LoadedAdvertisement.md)<`TAdvertisementAuxiliaryData`>
+[`LoadedAdvertisement`](reference/interfaces/LoadedAdvertisement.md)<`TAdvertisementAuxiliaryData`>

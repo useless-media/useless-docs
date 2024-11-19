@@ -1,11 +1,11 @@
 # LoadConfiguration
 
-> **LoadConfiguration**(`args`): [`LoadConfiguration`](reference/functions/LoadConfiguration.md)
+> **LoadConfiguration**(`args`): [`LoadConfiguration`](reference/interfaces/LoadConfiguration.md)
 
 ## Parameters
 
-• **args**: [`LoadConfiguration`](reference/functions/LoadConfiguration.md)
+• **args**: [`LoadConfiguration`](reference/interfaces/LoadConfiguration.md)
 
 ## Returns
 
-[`LoadConfiguration`](reference/functions/LoadConfiguration.md)
+[`LoadConfiguration`](reference/interfaces/LoadConfiguration.md)

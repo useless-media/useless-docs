@@ -10,7 +10,7 @@
 
 ### advertisement?
 
-> **advertisement**?: [`LoadAdvertisement`](reference/functions/LoadAdvertisement.md)
+> **advertisement**?: [`LoadAdvertisement`](reference/interfaces/LoadAdvertisement.md)
 
 ***
 
@@ -28,7 +28,7 @@
 
 ### configuration?
 
-> **configuration**?: [`LoadConfiguration`](reference/functions/LoadConfiguration.md)
+> **configuration**?: [`LoadConfiguration`](reference/interfaces/LoadConfiguration.md)
 
 #### Overrides
 
@@ -38,7 +38,7 @@
 
 ### content
 
-> **content**: [`Content`](reference/functions/Content.md)
+> **content**: [`Content`](reference/interfaces/Content.md)
 
 #### Overrides
 
@@ -48,7 +48,7 @@
 
 ### credentials?
 
-> **credentials**?: [`Credentials`](reference/functions/Credentials.md)
+> **credentials**?: [`Credentials`](reference/interfaces/Credentials.md)
 
 ***
 
@@ -60,7 +60,7 @@
 
 ### language?
 
-> **language**?: [`Language`](reference/functions/Language.md)
+> **language**?: [`Language`](reference/interfaces/Language.md)
 
 ***
 
@@ -86,4 +86,4 @@
 
 ### tracking?
 
-> **tracking**?: [`LoadTracking`](reference/functions/LoadTracking.md)
+> **tracking**?: [`LoadTracking`](reference/interfaces/LoadTracking.md)

@@ -18,4 +18,4 @@
 
 #### Inherited from
 
-[`UselessSenderEvent.type`](reference/interfaces/UselessSenderEvent.md#type)
+[`UselessSenderEvent`](reference/interfaces/UselessSenderEvent.md).[`type`](UselessSenderEvent.md#type)

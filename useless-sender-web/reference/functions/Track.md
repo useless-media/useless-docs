@@ -1,11 +1,11 @@
 # Track
 
-> **Track**(`args`): [`Track`](reference/functions/Track.md)
+> **Track**(`args`): [`Track`](reference/interfaces/Track.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`Track`](reference/functions/Track.md), `"roles"`>
+• **args**: `Optional`<[`Track`](reference/interfaces/Track.md), `"roles"`>
 
 ## Returns
 
-[`Track`](reference/functions/Track.md)
+[`Track`](reference/interfaces/Track.md)

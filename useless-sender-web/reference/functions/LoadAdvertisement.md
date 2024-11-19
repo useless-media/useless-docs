@@ -1,11 +1,11 @@
 # LoadAdvertisement
 
-> **LoadAdvertisement**(`args`?): [`LoadAdvertisement`](reference/functions/LoadAdvertisement.md)
+> **LoadAdvertisement**(`args`?): [`LoadAdvertisement`](reference/interfaces/LoadAdvertisement.md)
 
 ## Parameters
 
-• **args?**: [`LoadAdvertisement`](reference/functions/LoadAdvertisement.md)
+• **args?**: [`LoadAdvertisement`](reference/interfaces/LoadAdvertisement.md)
 
 ## Returns
 
-[`LoadAdvertisement`](reference/functions/LoadAdvertisement.md)
+[`LoadAdvertisement`](reference/interfaces/LoadAdvertisement.md)

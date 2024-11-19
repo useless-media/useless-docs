@@ -1,11 +1,11 @@
 # Tracks
 
-> **Tracks**(`args`?): [`Tracks`](reference/functions/Tracks.md)
+> **Tracks**(`args`?): [`Tracks`](reference/interfaces/Tracks.md)
 
 ## Parameters
 
-• **args?**: [`Tracks`](reference/functions/Tracks.md)
+• **args?**: [`Tracks`](reference/interfaces/Tracks.md)
 
 ## Returns
 
-[`Tracks`](reference/functions/Tracks.md)
+[`Tracks`](reference/interfaces/Tracks.md)

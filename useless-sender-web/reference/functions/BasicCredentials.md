@@ -1,11 +1,11 @@
 # BasicCredentials
 
-> **BasicCredentials**(`args`): [`BasicCredentials`](reference/functions/BasicCredentials.md)
+> **BasicCredentials**(`args`): [`BasicCredentials`](reference/interfaces/BasicCredentials.md)
 
 ## Parameters
 
-• **args**: `Omit`<[`BasicCredentials`](reference/functions/BasicCredentials.md), `"type"`>
+• **args**: `Omit`<[`BasicCredentials`](reference/interfaces/BasicCredentials.md), `"type"`>
 
 ## Returns
 
-[`BasicCredentials`](reference/functions/BasicCredentials.md)
+[`BasicCredentials`](reference/interfaces/BasicCredentials.md)

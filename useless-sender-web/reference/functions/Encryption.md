@@ -1,11 +1,11 @@
 # Encryption
 
-> **Encryption**(`args`): [`Encryption`](reference/functions/Encryption.md)
+> **Encryption**(`args`): [`Encryption`](reference/interfaces/Encryption.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`Encryption`](reference/functions/Encryption.md), `"cipher"` | `"cipherMode"` | `"padding"`>
+• **args**: `Optional`<[`Encryption`](reference/interfaces/Encryption.md), `"cipher"` | `"cipherMode"` | `"padding"`>
 
 ## Returns
 
-[`Encryption`](reference/functions/Encryption.md)
+[`Encryption`](reference/interfaces/Encryption.md)

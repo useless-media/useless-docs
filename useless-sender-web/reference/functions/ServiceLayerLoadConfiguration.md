@@ -1,11 +1,11 @@
 # ServiceLayerLoadConfiguration
 
-> **ServiceLayerLoadConfiguration**(`args`): [`ServiceLayerLoadConfiguration`](reference/functions/ServiceLayerLoadConfiguration.md)
+> **ServiceLayerLoadConfiguration**(`args`): [`ServiceLayerLoadConfiguration`](reference/interfaces/ServiceLayerLoadConfiguration.md)
 
 ## Parameters
 
-• **args**: [`ServiceLayerLoadConfiguration`](reference/functions/ServiceLayerLoadConfiguration.md)
+• **args**: [`ServiceLayerLoadConfiguration`](reference/interfaces/ServiceLayerLoadConfiguration.md)
 
 ## Returns
 
-[`ServiceLayerLoadConfiguration`](reference/functions/ServiceLayerLoadConfiguration.md)
+[`ServiceLayerLoadConfiguration`](reference/interfaces/ServiceLayerLoadConfiguration.md)

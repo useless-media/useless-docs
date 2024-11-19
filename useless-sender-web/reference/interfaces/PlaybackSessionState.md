@@ -8,21 +8,19 @@
 
 ### advertisement
 
-> **advertisement**: `Object`
+> **advertisement**: `object`
 
-#### Type declaration
+#### active
 
-##### active
+> **active**: `object`
 
-> **active**: `Object`
+#### active.advertisement?
 
-##### active.advertisement?
+> **advertisement**?: [`Advertisement`](reference/interfaces/Advertisement.md)<`AdvertisementAuxiliaryData`>
 
-> **active.advertisement**?: [`Advertisement`](reference/functions/Advertisement.md)<`AdvertisementAuxiliaryData`>
+#### active.advertisementBreak?
 
-##### active.advertisementBreak?
-
-> **active.advertisementBreak**?: [`AdvertisementBreak`](reference/functions/AdvertisementBreak.md) | [`AdvertisementCue`](../functions/AdvertisementCue.md)
+> **advertisementBreak**?: [`AdvertisementBreak`](reference/interfaces/AdvertisementBreak.md) | [`AdvertisementCue`](AdvertisementCue.md)
 
 #### Overrides
 
@@ -42,7 +40,7 @@
 
 ### content?
 
-> **content**?: `Omit`<[`Content`](reference/functions/Content.md), `"streams"`>
+> **content**?: `Omit`<[`Content`](reference/interfaces/Content.md), `"streams"`>
 
 #### Overrides
 
@@ -128,7 +126,7 @@
 
 ### nextContent?
 
-> **nextContent**?: `Omit`<[`Content`](reference/functions/Content.md), `"streams"`>
+> **nextContent**?: `Omit`<[`Content`](reference/interfaces/Content.md), `"streams"`>
 
 ***
 
@@ -144,7 +142,7 @@
 
 ### seekableRange?
 
-> **seekableRange**?: [`SeekableRange`](reference/functions/SeekableRange.md)
+> **seekableRange**?: [`SeekableRange`](reference/interfaces/SeekableRange.md)
 
 #### Overrides
 
@@ -154,15 +152,13 @@
 
 ### stillWatching?
 
-> **stillWatching**?: `Object`
+> **stillWatching**?: `object`
 
-#### Type declaration
-
-##### interactionTimeout
+#### interactionTimeout
 
 > **interactionTimeout**: `number`
 
-##### remaining?
+#### remaining?
 
 > **remaining**?: `number`
 
@@ -170,7 +166,7 @@
 
 ### stream?
 
-> **stream**?: `Omit`<[`Stream`](reference/functions/Stream.md), `"drms"`>
+> **stream**?: `Omit`<[`Stream`](reference/interfaces/Stream.md), `"drms"`>
 
 #### Overrides
 
@@ -180,19 +176,19 @@
 
 ### streamRestrictions
 
-> **streamRestrictions**: [`StreamRestrictions`](reference/functions/StreamRestrictions.md)
+> **streamRestrictions**: [`StreamRestrictions`](reference/interfaces/StreamRestrictions.md)
 
 ***
 
 ### timeline
 
-> **timeline**: [`Timeline`](reference/functions/Timeline.md)
+> **timeline**: [`Timeline`](reference/interfaces/Timeline.md)
 
 ***
 
 ### tracks?
 
-> **tracks**?: [`Track`](reference/functions/Track.md)[]
+> **tracks**?: [`Track`](reference/interfaces/Track.md)[]
 
 #### Overrides
 
@@ -202,7 +198,7 @@
 
 ### volume?
 
-> **volume**?: [`Volume`](reference/functions/Volume.md)
+> **volume**?: [`Volume`](reference/interfaces/Volume.md)
 
 #### Overrides
 

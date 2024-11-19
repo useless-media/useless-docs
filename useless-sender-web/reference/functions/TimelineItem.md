@@ -1,11 +1,11 @@
 # TimelineItem
 
-> **TimelineItem**(`args`): [`TimelineItem`](reference/functions/TimelineItem.md)
+> **TimelineItem**(`args`): [`TimelineItem`](reference/interfaces/TimelineItem.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`TimelineItem`](reference/functions/TimelineItem.md), `"id"` | `"enabled"`>
+• **args**: `Optional`<[`TimelineItem`](reference/interfaces/TimelineItem.md), `"id"` | `"enabled"`>
 
 ## Returns
 
-[`TimelineItem`](reference/functions/TimelineItem.md)
+[`TimelineItem`](reference/interfaces/TimelineItem.md)

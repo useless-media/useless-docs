@@ -1,11 +1,11 @@
 # Load
 
-> **Load**(`args`): [`Load`](reference/functions/Load.md)
+> **Load**(`args`): [`Load`](reference/interfaces/Load.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`Load`](reference/functions/Load.md), `"autoplay"`>
+• **args**: `Optional`<[`Load`](reference/interfaces/Load.md), `"autoplay"`>
 
 ## Returns
 
-[`Load`](reference/functions/Load.md)
+[`Load`](reference/interfaces/Load.md)

@@ -8,22 +8,22 @@ ts-auto-guard:type-guard
 
 ### active?
 
-> **active**?: [`ActiveTracks`](reference/functions/ActiveTracks.md)
+> **active**?: [`ActiveTracks`](reference/interfaces/ActiveTracks.md)
 
 ***
 
 ### audio?
 
-> **audio**?: [`Track`](reference/functions/Track.md)[]
+> **audio**?: [`Track`](reference/interfaces/Track.md)[]
 
 ***
 
 ### text?
 
-> **text**?: [`Track`](reference/functions/Track.md)[]
+> **text**?: [`Track`](reference/interfaces/Track.md)[]
 
 ***
 
 ### video?
 
-> **video**?: [`Track`](reference/functions/Track.md)[]
+> **video**?: [`Track`](reference/interfaces/Track.md)[]

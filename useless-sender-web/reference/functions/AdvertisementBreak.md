@@ -1,11 +1,11 @@
 # AdvertisementBreak
 
-> **AdvertisementBreak**(`args`): [`AdvertisementBreak`](reference/functions/AdvertisementBreak.md)
+> **AdvertisementBreak**(`args`): [`AdvertisementBreak`](reference/interfaces/AdvertisementBreak.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`AdvertisementBreak`](reference/functions/AdvertisementBreak.md), `"active"` | `"completion"` | `"watched"` | `"resolved"`>
+• **args**: `Optional`<[`AdvertisementBreak`](reference/interfaces/AdvertisementBreak.md), `"active"` | `"completion"` | `"watched"` | `"resolved"`>
 
 ## Returns
 
-[`AdvertisementBreak`](reference/functions/AdvertisementBreak.md)
+[`AdvertisementBreak`](reference/interfaces/AdvertisementBreak.md)

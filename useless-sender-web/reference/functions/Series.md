@@ -1,11 +1,11 @@
 # Series
 
-> **Series**(`args`): [`Series`](reference/functions/Series.md)
+> **Series**(`args`): [`Series`](reference/interfaces/Series.md)
 
 ## Parameters
 
-• **args**: [`Series`](reference/functions/Series.md)
+• **args**: [`Series`](reference/interfaces/Series.md)
 
 ## Returns
 
-[`Series`](reference/functions/Series.md)
+[`Series`](reference/interfaces/Series.md)

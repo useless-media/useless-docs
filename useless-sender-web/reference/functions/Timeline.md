@@ -1,11 +1,11 @@
 # Timeline
 
-> **Timeline**(`args`?): [`Timeline`](reference/functions/Timeline.md)
+> **Timeline**(`args`?): [`Timeline`](reference/interfaces/Timeline.md)
 
 ## Parameters
 
-• **args?**: `Partial`<[`Timeline`](reference/functions/Timeline.md)>
+• **args?**: `Partial`<[`Timeline`](reference/interfaces/Timeline.md)>
 
 ## Returns
 
-[`Timeline`](reference/functions/Timeline.md)
+[`Timeline`](reference/interfaces/Timeline.md)

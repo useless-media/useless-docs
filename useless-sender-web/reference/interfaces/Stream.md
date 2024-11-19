@@ -38,13 +38,13 @@ ts-auto-guard:type-guard
 
 ### drms
 
-> **drms**: [`Drm`](reference/functions/Drm.md)[]
+> **drms**: [`Drm`](reference/interfaces/Drm.md)[]
 
 ***
 
 ### encryption?
 
-> **encryption**?: [`Encryption`](reference/functions/Encryption.md)
+> **encryption**?: [`Encryption`](reference/interfaces/Encryption.md)
 
 ***
 
@@ -62,7 +62,7 @@ ts-auto-guard:type-guard
 
 ### streamRestrictions
 
-> **streamRestrictions**: [`StreamRestrictions`](reference/functions/StreamRestrictions.md)
+> **streamRestrictions**: [`StreamRestrictions`](reference/interfaces/StreamRestrictions.md)
 
 ***
 

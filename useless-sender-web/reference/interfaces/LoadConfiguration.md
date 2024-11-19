@@ -12,7 +12,7 @@ ts-auto-guard:type-guard
 
 ### client?
 
-> **client**?: [`ClientLoadConfiguration`](reference/functions/ClientLoadConfiguration.md)
+> **client**?: [`ClientLoadConfiguration`](reference/interfaces/ClientLoadConfiguration.md)
 
 ***
 
@@ -28,4 +28,4 @@ ts-auto-guard:type-guard
 
 ### serviceLayer?
 
-> **serviceLayer**?: [`ServiceLayerLoadConfiguration`](reference/functions/ServiceLayerLoadConfiguration.md)
+> **serviceLayer**?: [`ServiceLayerLoadConfiguration`](reference/interfaces/ServiceLayerLoadConfiguration.md)

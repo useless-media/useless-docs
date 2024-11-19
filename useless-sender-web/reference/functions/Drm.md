@@ -1,11 +1,11 @@
 # Drm
 
-> **Drm**(`args`): [`Drm`](reference/functions/Drm.md)
+> **Drm**(`args`): [`Drm`](reference/interfaces/Drm.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`Drm`](reference/functions/Drm.md), `"headers"` | `"protectionSystem"`>
+• **args**: `Optional`<[`Drm`](reference/interfaces/Drm.md), `"headers"` | `"protectionSystem"`>
 
 ## Returns
 
-[`Drm`](reference/functions/Drm.md)
+[`Drm`](reference/interfaces/Drm.md)

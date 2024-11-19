@@ -6,7 +6,7 @@ ts-auto-guard:type-guard
 
 ## Extends
 
-- [`AdvertisementCue`](reference/functions/AdvertisementCue.md)
+- [`AdvertisementCue`](reference/interfaces/AdvertisementCue.md)
 
 ## Properties
 
@@ -28,7 +28,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`AdvertisementCue.auxiliaryData`
+[`AdvertisementCue`](reference/interfaces/AdvertisementCue.md).[`auxiliaryData`](AdvertisementCue.md#auxiliarydata)
 
 ***
 
@@ -44,7 +44,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`AdvertisementCue.contentPosition`
+[`AdvertisementCue`](reference/interfaces/AdvertisementCue.md).[`contentPosition`](AdvertisementCue.md#contentposition)
 
 ***
 
@@ -54,7 +54,7 @@ ts-auto-guard:type-guard
 
 #### Overrides
 
-`AdvertisementCue.duration`
+[`AdvertisementCue`](reference/interfaces/AdvertisementCue.md).[`duration`](AdvertisementCue.md#duration)
 
 ***
 
@@ -64,7 +64,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`AdvertisementCue.embedded`
+[`AdvertisementCue`](reference/interfaces/AdvertisementCue.md).[`embedded`](AdvertisementCue.md#embedded)
 
 ***
 
@@ -74,7 +74,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`AdvertisementCue.id`
+[`AdvertisementCue`](reference/interfaces/AdvertisementCue.md).[`id`](AdvertisementCue.md#id)
 
 ***
 
@@ -90,7 +90,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`AdvertisementCue.position`
+[`AdvertisementCue`](reference/interfaces/AdvertisementCue.md).[`position`](AdvertisementCue.md#position)
 
 ***
 
@@ -100,7 +100,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`AdvertisementCue.resolved`
+[`AdvertisementCue`](reference/interfaces/AdvertisementCue.md).[`resolved`](AdvertisementCue.md#resolved)
 
 ***
 
@@ -110,7 +110,7 @@ ts-auto-guard:type-guard
 
 #### Inherited from
 
-`AdvertisementCue.type`
+[`AdvertisementCue`](reference/interfaces/AdvertisementCue.md).[`type`](AdvertisementCue.md#type)
 
 ***
 

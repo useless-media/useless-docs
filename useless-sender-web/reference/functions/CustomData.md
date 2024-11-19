@@ -1,11 +1,11 @@
 # CustomData
 
-> **CustomData**(`args`): [`CustomData`](reference/functions/CustomData.md)
+> **CustomData**(`args`): [`CustomData`](reference/interfaces/CustomData.md)
 
 ## Parameters
 
-• **args**: [`CustomData`](reference/functions/CustomData.md)
+• **args**: [`CustomData`](reference/interfaces/CustomData.md)
 
 ## Returns
 
-[`CustomData`](reference/functions/CustomData.md)
+[`CustomData`](reference/interfaces/CustomData.md)

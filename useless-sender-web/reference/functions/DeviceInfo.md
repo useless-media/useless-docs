@@ -1,11 +1,11 @@
 # DeviceInfo
 
-> **DeviceInfo**(`args`): [`DeviceInfo`](reference/functions/DeviceInfo.md)
+> **DeviceInfo**(`args`): [`DeviceInfo`](reference/interfaces/DeviceInfo.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`DeviceInfo`](reference/functions/DeviceInfo.md), `"limitations"`>
+• **args**: `Optional`<[`DeviceInfo`](reference/interfaces/DeviceInfo.md), `"limitations"`>
 
 ## Returns
 
-[`DeviceInfo`](reference/functions/DeviceInfo.md)
+[`DeviceInfo`](reference/interfaces/DeviceInfo.md)

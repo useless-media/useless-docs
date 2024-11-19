@@ -1,11 +1,11 @@
 # Volume
 
-> **Volume**(`args`): [`Volume`](reference/functions/Volume.md)
+> **Volume**(`args`): [`Volume`](reference/interfaces/Volume.md)
 
 ## Parameters
 
-• **args**: [`Volume`](reference/functions/Volume.md)
+• **args**: [`Volume`](reference/interfaces/Volume.md)
 
 ## Returns
 
-[`Volume`](reference/functions/Volume.md)
+[`Volume`](reference/interfaces/Volume.md)

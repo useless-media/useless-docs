@@ -8,19 +8,19 @@
 
 ### activeTracks
 
-> **activeTracks**: [`Track`](reference/functions/Track.md)[]
+> **activeTracks**: [`Track`](reference/interfaces/Track.md)[]
 
 convenience
 
 ***
 
-### cast
+### cast()
 
 > **cast**: <`TLoad`>(`load`) => `Promise`<`void`>
 
-#### Type parameters
+#### Type Parameters
 
-• **TLoad** extends [`Load`](reference/functions/Load.md) = [`Load`](../functions/Load.md)
+• **TLoad** *extends* [`Load`](reference/interfaces/Load.md) = [`Load`](Load.md)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ convenience
 
 ***
 
-### destroy
+### destroy()
 
 > **destroy**: (`stopCasting`?) => `Promise`<`void`>
 
@@ -52,7 +52,7 @@ convenience
 
 ***
 
-### dismissStillWatching
+### dismissStillWatching()
 
 > **dismissStillWatching**: () => `Promise`<`void`>
 
@@ -64,7 +64,7 @@ messaging
 
 ***
 
-### pause
+### pause()
 
 > **pause**: (`command`?) => `Promise`<`void`>
 
@@ -78,7 +78,7 @@ messaging
 
 ***
 
-### play
+### play()
 
 > **play**: (`command`?) => `Promise`<`void`>
 
@@ -98,7 +98,7 @@ messaging
 
 ***
 
-### seek
+### seek()
 
 > **seek**: (`command`) => `Promise`<`void`>
 
@@ -112,7 +112,7 @@ messaging
 
 ***
 
-### sendMessage
+### sendMessage()
 
 > **sendMessage**: (`messageNamespace`, `message`) => `Promise`<`void`>
 
@@ -128,7 +128,7 @@ messaging
 
 ***
 
-### sendUselessClientMessage
+### sendUselessClientMessage()
 
 > **sendUselessClientMessage**: (`message`) => `Promise`<`void`>
 
@@ -142,7 +142,7 @@ messaging
 
 ***
 
-### setAudioTrack
+### setAudioTrack()
 
 > **setAudioTrack**: (`command`) => `Promise`<`void`>
 
@@ -156,13 +156,13 @@ messaging
 
 ***
 
-### setAudioTrackByTrack
+### setAudioTrackByTrack()
 
 > **setAudioTrackByTrack**: (`track`) => `Promise`<`void`>
 
 #### Parameters
 
-• **track**: [`Track`](reference/functions/Track.md)
+• **track**: [`Track`](reference/interfaces/Track.md)
 
 #### Returns
 
@@ -170,7 +170,7 @@ messaging
 
 ***
 
-### setMuted
+### setMuted()
 
 > **setMuted**: (`command`) => `Promise`<`void`>
 
@@ -184,7 +184,7 @@ messaging
 
 ***
 
-### setTextTrack
+### setTextTrack()
 
 > **setTextTrack**: (`command`?) => `Promise`<`void`>
 
@@ -198,13 +198,13 @@ messaging
 
 ***
 
-### setTextTrackByTrack
+### setTextTrackByTrack()
 
 > **setTextTrackByTrack**: (`track`?) => `Promise`<`void`>
 
 #### Parameters
 
-• **track?**: [`Track`](reference/functions/Track.md)
+• **track?**: [`Track`](reference/interfaces/Track.md)
 
 #### Returns
 
@@ -212,7 +212,7 @@ messaging
 
 ***
 
-### setTracks
+### setTracks()
 
 > **setTracks**: (`command`) => `Promise`<`void`>
 
@@ -226,13 +226,13 @@ messaging
 
 ***
 
-### setTracksByTracks
+### setTracksByTracks()
 
 > **setTracksByTracks**: (`tracks`) => `Promise`<`void`>
 
 #### Parameters
 
-• **tracks**: [`Track`](reference/functions/Track.md)[]
+• **tracks**: [`Track`](reference/interfaces/Track.md)[]
 
 #### Returns
 
@@ -240,7 +240,7 @@ messaging
 
 ***
 
-### setVolume
+### setVolume()
 
 > **setVolume**: (`command`) => `Promise`<`void`>
 
@@ -254,7 +254,7 @@ messaging
 
 ***
 
-### skipSection
+### skipSection()
 
 > **skipSection**: (`command`) => `Promise`<`void`>
 
@@ -268,7 +268,7 @@ messaging
 
 ***
 
-### stop
+### stop()
 
 > **stop**: (`command`?) => `Promise`<`void`>
 
@@ -284,7 +284,7 @@ messaging
 
 ### tracks
 
-> **tracks**: [`Track`](reference/functions/Track.md)[]
+> **tracks**: [`Track`](reference/interfaces/Track.md)[]
 
 ## Methods
 
@@ -292,15 +292,15 @@ messaging
 
 > **addEventListener**<`K`>(`type`, `subscriber`): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
-#### Type parameters
+#### Type Parameters
 
-• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
 • **type**: `K`
 
-• **subscriber**: (`e`) => `void`
+• **subscriber**
 
 #### Returns
 
@@ -316,9 +316,9 @@ messaging
 
 > **emit**<`K`>(`type`, `event`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
-#### Type parameters
+#### Type Parameters
 
-• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
@@ -340,9 +340,9 @@ messaging
 
 > **emitAsync**<`K`>(`type`, `event`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
-#### Type parameters
+#### Type Parameters
 
-• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
@@ -364,15 +364,15 @@ messaging
 
 > **off**<`K`>(`type`?, `subscriber`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
-#### Type parameters
+#### Type Parameters
 
-• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
 • **type?**: `K`
 
-• **subscriber?**: (`e`) => `void`
+• **subscriber?**
 
 #### Returns
 
@@ -388,15 +388,15 @@ messaging
 
 > **on**<`K`>(`type`, `subscriber`): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
-#### Type parameters
+#### Type Parameters
 
-• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
 • **type**: `K`
 
-• **subscriber**: (`e`) => `void`
+• **subscriber**
 
 #### Returns
 
@@ -412,15 +412,15 @@ messaging
 
 > **once**<`K`>(`type`, `subscriber`): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
-#### Type parameters
+#### Type Parameters
 
-• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
 • **type**: `K`
 
-• **subscriber**: (`e`) => `void`
+• **subscriber**
 
 #### Returns
 
@@ -436,15 +436,15 @@ messaging
 
 > **removeEventListener**<`K`>(`type`?, `subscriber`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
-#### Type parameters
+#### Type Parameters
 
-• **K** extends keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
 • **type?**: `K`
 
-• **subscriber?**: (`e`) => `void`
+• **subscriber?**
 
 #### Returns
 

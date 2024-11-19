@@ -1,11 +1,11 @@
 # Channel
 
-> **Channel**(`args`): [`Channel`](reference/functions/Channel.md)
+> **Channel**(`args`): [`Channel`](reference/interfaces/Channel.md)
 
 ## Parameters
 
-• **args**: [`Channel`](reference/functions/Channel.md)
+• **args**: [`Channel`](reference/interfaces/Channel.md)
 
 ## Returns
 
-[`Channel`](reference/functions/Channel.md)
+[`Channel`](reference/interfaces/Channel.md)

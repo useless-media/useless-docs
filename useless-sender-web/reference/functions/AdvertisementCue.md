@@ -1,11 +1,11 @@
 # AdvertisementCue
 
-> **AdvertisementCue**(`args`): [`AdvertisementCue`](reference/functions/AdvertisementCue.md)
+> **AdvertisementCue**(`args`): [`AdvertisementCue`](reference/interfaces/AdvertisementCue.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`AdvertisementCue`](reference/functions/AdvertisementCue.md), `"resolved"` | `"embedded"`>
+• **args**: `Optional`<[`AdvertisementCue`](reference/interfaces/AdvertisementCue.md), `"resolved"` | `"embedded"`>
 
 ## Returns
 
-[`AdvertisementCue`](reference/functions/AdvertisementCue.md)
+[`AdvertisementCue`](reference/interfaces/AdvertisementCue.md)

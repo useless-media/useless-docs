@@ -1,11 +1,11 @@
 # Section
 
-> **Section**(`args`): [`Section`](reference/functions/Section.md)
+> **Section**(`args`): [`Section`](reference/interfaces/Section.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`Section`](reference/functions/Section.md), `"duration"`>
+• **args**: `Optional`<[`Section`](reference/interfaces/Section.md), `"duration"`>
 
 ## Returns
 
-[`Section`](reference/functions/Section.md)
+[`Section`](reference/interfaces/Section.md)

@@ -4,6 +4,11 @@
 
 ts-auto-guard:type-guard
 
+## Extended by
+
+- [`BasicCredentials`](reference/interfaces/BasicCredentials.md)
+- [`TokenCredentials`](reference/interfaces/TokenCredentials.md)
+
 ## Properties
 
 ### auxiliaryData?

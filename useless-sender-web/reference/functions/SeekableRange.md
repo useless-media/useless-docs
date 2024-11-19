@@ -1,11 +1,11 @@
 # SeekableRange
 
-> **SeekableRange**(`args`): [`SeekableRange`](reference/functions/SeekableRange.md)
+> **SeekableRange**(`args`): [`SeekableRange`](reference/interfaces/SeekableRange.md)
 
 ## Parameters
 
-• **args**: [`SeekableRange`](reference/functions/SeekableRange.md)
+• **args**: [`SeekableRange`](reference/interfaces/SeekableRange.md)
 
 ## Returns
 
-[`SeekableRange`](reference/functions/SeekableRange.md)
+[`SeekableRange`](reference/interfaces/SeekableRange.md)

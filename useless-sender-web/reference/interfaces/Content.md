@@ -20,7 +20,7 @@ ts-auto-guard:type-guard
 
 ### metadata?
 
-> **metadata**?: [`Metadata`](reference/functions/Metadata.md)
+> **metadata**?: [`Metadata`](reference/interfaces/Metadata.md)
 
 ***
 
@@ -32,7 +32,7 @@ ts-auto-guard:type-guard
 
 ### streams
 
-> **streams**: [`Stream`](reference/functions/Stream.md)[]
+> **streams**: [`Stream`](reference/interfaces/Stream.md)[]
 
 ***
 

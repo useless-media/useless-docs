@@ -2,18 +2,18 @@
 
 @x-see {isLoadedAdvertisement} ts-auto-guard:type-guard
 
-## Type parameters
+## Type Parameters
 
-• **TAdvertisementAuxiliaryData** extends `AdvertisementAuxiliaryData` = `AdvertisementAuxiliaryData`
+• **TAdvertisementAuxiliaryData** *extends* `AdvertisementAuxiliaryData` = `AdvertisementAuxiliaryData`
 
 ## Properties
 
 ### advertisementBreaks
 
-> **advertisementBreaks**: ([`AdvertisementBreak`](reference/functions/AdvertisementBreak.md) | [`AdvertisementCue`](../functions/AdvertisementCue.md))[]
+> **advertisementBreaks**: ([`AdvertisementBreak`](reference/interfaces/AdvertisementBreak.md) | [`AdvertisementCue`](AdvertisementCue.md))[]
 
 ***
 
 ### advertisements
 
-> **advertisements**: [`Advertisement`](reference/functions/Advertisement.md)<`TAdvertisementAuxiliaryData`>[]
+> **advertisements**: [`Advertisement`](reference/interfaces/Advertisement.md)<`TAdvertisementAuxiliaryData`>[]

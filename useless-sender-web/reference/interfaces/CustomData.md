@@ -8,28 +8,28 @@ ts-auto-guard:type-guard
 
 ### advertisement?
 
-> **advertisement**?: [`LoadAdvertisement`](reference/functions/LoadAdvertisement.md)
+> **advertisement**?: [`LoadAdvertisement`](reference/interfaces/LoadAdvertisement.md)
 
 ***
 
 ### content
 
-> **content**: [`Content`](reference/functions/Content.md)
+> **content**: [`Content`](reference/interfaces/Content.md)
 
 ***
 
 ### credentials?
 
-> **credentials**?: [`Credentials`](reference/functions/Credentials.md)
+> **credentials**?: [`Credentials`](reference/interfaces/Credentials.md)
 
 ***
 
 ### language?
 
-> **language**?: [`Language`](reference/functions/Language.md)
+> **language**?: [`Language`](reference/interfaces/Language.md)
 
 ***
 
 ### tracking?
 
-> **tracking**?: [`LoadTracking`](reference/functions/LoadTracking.md)
+> **tracking**?: [`LoadTracking`](reference/interfaces/LoadTracking.md)

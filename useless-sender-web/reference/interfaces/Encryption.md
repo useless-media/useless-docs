@@ -8,7 +8,7 @@ ts-auto-guard:type-guard
 
 ### cipher
 
-> **cipher**: `Aes128`
+> **cipher**: `CipherTypes`
 
 ***
 

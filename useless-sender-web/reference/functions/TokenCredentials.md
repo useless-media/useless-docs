@@ -1,11 +1,11 @@
 # TokenCredentials
 
-> **TokenCredentials**(`args`): [`TokenCredentials`](reference/functions/TokenCredentials.md)
+> **TokenCredentials**(`args`): [`TokenCredentials`](reference/interfaces/TokenCredentials.md)
 
 ## Parameters
 
-• **args**: `Optional`<`Omit`<[`TokenCredentials`](reference/functions/TokenCredentials.md), `"type"`>, `"scheme"`>
+• **args**: `Optional`<`Omit`<[`TokenCredentials`](reference/interfaces/TokenCredentials.md), `"type"`>, `"scheme"`>
 
 ## Returns
 
-[`TokenCredentials`](reference/functions/TokenCredentials.md)
+[`TokenCredentials`](reference/interfaces/TokenCredentials.md)

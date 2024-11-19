@@ -4,6 +4,12 @@
 
 ts-auto-guard:type-guard
 
+## Extended by
+
+- [`TimelineEvent`](reference/interfaces/TimelineEvent.md)
+- [`TimelineMetadata`](reference/interfaces/TimelineMetadata.md)
+- [`TimelineSection`](reference/interfaces/TimelineSection.md)
+
 ## Properties
 
 ### auxiliaryData?

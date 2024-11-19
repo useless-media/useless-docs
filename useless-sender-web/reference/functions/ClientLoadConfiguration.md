@@ -1,11 +1,11 @@
 # ClientLoadConfiguration
 
-> **ClientLoadConfiguration**(`args`): [`ClientLoadConfiguration`](reference/functions/ClientLoadConfiguration.md)
+> **ClientLoadConfiguration**(`args`): [`ClientLoadConfiguration`](reference/interfaces/ClientLoadConfiguration.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`ClientLoadConfiguration`](reference/functions/ClientLoadConfiguration.md), `"playbackConfigurationProfiles"`>
+• **args**: `Optional`<[`ClientLoadConfiguration`](reference/interfaces/ClientLoadConfiguration.md), `"playbackConfigurationProfiles"`>
 
 ## Returns
 
-[`ClientLoadConfiguration`](reference/functions/ClientLoadConfiguration.md)
+[`ClientLoadConfiguration`](reference/interfaces/ClientLoadConfiguration.md)

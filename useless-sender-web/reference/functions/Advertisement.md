@@ -1,15 +1,15 @@
 # Advertisement
 
-> **Advertisement**<`TAdvertisementAuxiliaryData`>(`args`): [`Advertisement`](reference/functions/Advertisement.md)<`TAdvertisementAuxiliaryData`>
+> **Advertisement**<`TAdvertisementAuxiliaryData`>(`args`): [`Advertisement`](reference/interfaces/Advertisement.md)<`TAdvertisementAuxiliaryData`>
 
-## Type parameters
+## Type Parameters
 
-• **TAdvertisementAuxiliaryData** extends `AdvertisementAuxiliaryData` = `AdvertisementAuxiliaryData`
+• **TAdvertisementAuxiliaryData** *extends* `AdvertisementAuxiliaryData` = `AdvertisementAuxiliaryData`
 
 ## Parameters
 
-• **args**: `Optional`<[`Advertisement`](reference/functions/Advertisement.md)<`TAdvertisementAuxiliaryData`>, `"active"` | `"completion"` | `"watched"`>
+• **args**: `Optional`<[`Advertisement`](reference/interfaces/Advertisement.md)<`TAdvertisementAuxiliaryData`>, `"active"` | `"completion"` | `"watched"`>
 
 ## Returns
 
-[`Advertisement`](reference/functions/Advertisement.md)<`TAdvertisementAuxiliaryData`>
+[`Advertisement`](reference/interfaces/Advertisement.md)<`TAdvertisementAuxiliaryData`>

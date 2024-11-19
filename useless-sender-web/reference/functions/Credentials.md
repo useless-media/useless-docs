@@ -1,11 +1,11 @@
 # Credentials
 
-> **Credentials**(`args`): [`Credentials`](reference/functions/Credentials.md)
+> **Credentials**(`args`): [`Credentials`](reference/interfaces/Credentials.md)
 
 ## Parameters
 
-• **args**: [`Credentials`](reference/functions/Credentials.md)
+• **args**: [`Credentials`](reference/interfaces/Credentials.md)
 
 ## Returns
 
-[`Credentials`](reference/functions/Credentials.md)
+[`Credentials`](reference/interfaces/Credentials.md)

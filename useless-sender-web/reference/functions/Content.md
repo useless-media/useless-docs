@@ -1,11 +1,11 @@
 # Content
 
-> **Content**(`args`): [`Content`](reference/functions/Content.md)
+> **Content**(`args`): [`Content`](reference/interfaces/Content.md)
 
 ## Parameters
 
-• **args**: `Optional`<[`Content`](reference/functions/Content.md), `"nextContent"` | `"streams"`>
+• **args**: `Optional`<[`Content`](reference/interfaces/Content.md), `"nextContent"` | `"streams"`>
 
 ## Returns
 
-[`Content`](reference/functions/Content.md)
+[`Content`](reference/interfaces/Content.md)

@@ -1,11 +1,11 @@
 # LoadTracking
 
-> **LoadTracking**(`args`?): [`LoadTracking`](reference/functions/LoadTracking.md)
+> **LoadTracking**(`args`?): [`LoadTracking`](reference/interfaces/LoadTracking.md)
 
 ## Parameters
 
-• **args?**: [`LoadTracking`](reference/functions/LoadTracking.md)
+• **args?**: [`LoadTracking`](reference/interfaces/LoadTracking.md)
 
 ## Returns
 
-[`LoadTracking`](reference/functions/LoadTracking.md)
+[`LoadTracking`](reference/interfaces/LoadTracking.md)

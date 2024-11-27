@@ -186,6 +186,20 @@
 
 ***
 
+### configure()
+
+> **configure**(`configuration`?): `void`
+
+#### Parameters
+
+• **configuration?**: `Partial`<[`UselessSenderConfiguration`](reference/classes/UselessSenderConfiguration.md)>
+
+#### Returns
+
+`void`
+
+***
+
 ### connect()
 
 > **connect**(): `Promise`<`void`>

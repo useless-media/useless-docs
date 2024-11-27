@@ -42,6 +42,18 @@
 
 ***
 
+### logger?
+
+> **logger**?: `ILogger`
+
+***
+
+### logLevel
+
+> **logLevel**: `LogLevels` = `LogLevels.Warning`
+
+***
+
 ### messageNamespace
 
 > **messageNamespace**: `string` = `''`

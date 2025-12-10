@@ -124,11 +124,11 @@
 
 ### getMediaStatusState()
 
-> **getMediaStatusState**(): `IMediaStatusState`
+> **getMediaStatusState**(): [`IMediaStatusState`](reference/interfaces/IMediaStatusState.md)
 
 #### Returns
 
-`IMediaStatusState`
+[`IMediaStatusState`](reference/interfaces/IMediaStatusState.md)
 
 ***
 

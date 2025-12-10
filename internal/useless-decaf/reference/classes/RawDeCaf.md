@@ -38,11 +38,11 @@
 
 ### getMediaStatusState()
 
-> **getMediaStatusState**(): `IMediaStatusState`
+> **getMediaStatusState**(): [`IMediaStatusState`](reference/interfaces/IMediaStatusState.md)
 
 #### Returns
 
-`IMediaStatusState`
+[`IMediaStatusState`](reference/interfaces/IMediaStatusState.md)
 
 ***
 
@@ -58,7 +58,7 @@
 
 ##### handler
 
-`TCustomMessageHandler`
+[`TCustomMessageHandler`](reference/type-aliases/TCustomMessageHandler.md)
 
 #### Returns
 
@@ -98,7 +98,7 @@
 
 ##### delegate
 
-`Partial`<`DeCafCoreDelegate`>
+`Partial`<[`DeCafCoreDelegate`](reference/classes/DeCafCoreDelegate.md)>
 
 #### Returns
 

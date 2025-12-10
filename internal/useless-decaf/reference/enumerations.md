@@ -6,6 +6,7 @@
 * [ContentFilteringMode](reference/enumerations/ContentFilteringMode.md)
 * [CustomUselessMessages](reference/enumerations/CustomUselessMessages.md)
 * [DeCafErrorCodes](reference/enumerations/DeCafErrorCodes.md)
+* [DeCafLicenseComponents](reference/enumerations/DeCafLicenseComponents.md)
 * [DeCafProcessTimers](reference/enumerations/DeCafProcessTimers.md)
 * [DetailedErrorCode](reference/enumerations/DetailedErrorCode.md)
 * [DisconnectReason](reference/enumerations/DisconnectReason.md)

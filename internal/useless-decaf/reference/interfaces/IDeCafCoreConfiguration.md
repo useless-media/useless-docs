@@ -4,13 +4,13 @@
 
 ### debug
 
-> **debug**: `IDeCafCoreDebugConfiguration`
+> **debug**: [`IDeCafCoreDebugConfiguration`](reference/interfaces/IDeCafCoreDebugConfiguration.md)
 
 ***
 
 ### firmwareManager
 
-> **firmwareManager**: `FirmwareManagerConfiguration`
+> **firmwareManager**: [`FirmwareManagerConfiguration`](reference/classes/FirmwareManagerConfiguration.md)
 
 ***
 

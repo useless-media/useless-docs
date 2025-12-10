@@ -1,4 +1,8 @@
 {
+  "decaf-commercial": {
+    "name": "DeCaf Commercial",
+    "path": "decaf-commercial"
+  },
   "decaf-service-sdk": {
     "name": "DeCaf Service Sdk",
     "path": "decaf-service-sdk"

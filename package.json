@@ -12,6 +12,7 @@
     "url": "https://github.com/useless-media/useless-docs.git"
   },
   "scripts": {
+    "regenerate:landings": "node scripts/regenerate-landing-html-files",
     "regenerate:projects": "node scripts/regenerate-project-html-files",
     "start:dev": "http-server --cors -c-1"
   },

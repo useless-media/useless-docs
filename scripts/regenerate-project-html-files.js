@@ -1,4 +1,4 @@
-import { booleanOrDefault, omit, stringFormat, stringOrDefault } from '@useless-media/useless-sdk';
+import { booleanOrDefault, omit, stringFormat } from '@useless-media/useless-sdk';
 import fs from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';

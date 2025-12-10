@@ -3,6 +3,7 @@
   "version": "0.0.17",
   "license": "MIT",
   "main": "src/useless-docs.js",
+  "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -11,6 +12,10 @@
     "url": "https://github.com/useless-media/useless-docs.git"
   },
   "scripts": {
+    "regenerate:projects": "node scripts/regenerate-project-html-files",
     "start:dev": "http-server --cors -c-1"
+  },
+  "devDependencies": {
+    "@useless-media/useless-sdk": "^0.3.0"
   }
 }

@@ -23,7 +23,7 @@
       name: '{name}',
       nameLink: '..',
       repo: '',
-      logo: '../../images/useless-media.svg',
+      logo: '../{relativePathToRoot}images/useless-media.svg',
       auto2top: true,
       loadSidebar: true,
       subMaxLevel: 4,

@@ -1,0 +1,24 @@
+{
+  "decaf-service-sdk": {
+    "name": "DeCaf Service Sdk",
+    "path": "decaf-service-sdk"
+  },
+  "useless-sender": {
+    "name": "Useless Sender Library",
+    "path": "useless-sender"
+  },
+  "useless-sender-web": {
+    "name": "Useless Sender Library (Web)",
+    "path": "useless-sender-web"
+  },
+  "internal": {
+    "useless-decaf": {
+      "name": "Useless DeCaf",
+      "path": "useless-decaf"
+    },
+    "useless-decaf-client-sdk": {
+      "name": "Useless DeCaf Client Sdk",
+      "path": "useless-decaf-client-sdk"
+    }
+  }
+}

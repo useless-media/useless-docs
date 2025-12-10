@@ -2,12 +2,12 @@
 
 ## Properties
 
-### adTagUrl?
-
-> **adTagUrl**?: `string`
-
-***
-
 ### adsResponse?
 
 > **adsResponse**?: `string`
+
+***
+
+### adTagUrl?
+
+> **adTagUrl**?: `string`

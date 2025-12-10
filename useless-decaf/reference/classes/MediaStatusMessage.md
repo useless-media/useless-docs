@@ -6,21 +6,23 @@
 
 ## Constructors
 
-### new MediaStatusMessage(args)
+### Constructor
 
-> **new MediaStatusMessage**(`args`): [`MediaStatusMessage`](reference/classes/MediaStatusMessage.md)
+> **new MediaStatusMessage**(`args`): `MediaStatusMessage`
 
 #### Parameters
 
-• **args**: [`MediaStatusMessageArgs`](reference/interfaces/MediaStatusMessageArgs.md)
+##### args
+
+[`MediaStatusMessageArgs`](reference/interfaces/MediaStatusMessageArgs.md)
 
 #### Returns
 
-[`MediaStatusMessage`](reference/classes/MediaStatusMessage.md)
+`MediaStatusMessage`
 
 #### Overrides
 
-[`FirmwareMessageOutBound.constructor`](reference/classes/FirmwareMessageOutBound.md#constructors)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`constructor`](FirmwareMessageOutBound.md#constructor)
 
 ## Properties
 
@@ -30,7 +32,7 @@
 
 #### Inherited from
 
-[`FirmwareMessageOutBound.data`](reference/classes/FirmwareMessageOutBound.md#data)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`data`](FirmwareMessageOutBound.md#data)
 
 ***
 
@@ -40,7 +42,7 @@
 
 #### Overrides
 
-[`FirmwareMessageOutBound.namespace`](reference/classes/FirmwareMessageOutBound.md#namespace)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`namespace`](FirmwareMessageOutBound.md#namespace)
 
 ***
 
@@ -50,4 +52,4 @@
 
 #### Inherited from
 
-[`FirmwareMessageOutBound.senderId`](reference/classes/FirmwareMessageOutBound.md#senderid)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`senderId`](FirmwareMessageOutBound.md#senderid)

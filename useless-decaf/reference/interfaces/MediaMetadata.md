@@ -1,6 +1,6 @@
 # MediaMetadata
 
-## Extended By
+## Extended by
 
 - [`GenericMediaMetadata`](reference/interfaces/GenericMediaMetadata.md)
 

@@ -6,21 +6,23 @@
 
 ## Constructors
 
-### new StartHeartbeatMessage(maxInactivity)
+### Constructor
 
-> **new StartHeartbeatMessage**(`maxInactivity`?): [`StartHeartbeatMessage`](reference/classes/StartHeartbeatMessage.md)
+> **new StartHeartbeatMessage**(`maxInactivity?`): `StartHeartbeatMessage`
 
 #### Parameters
 
-• **maxInactivity?**: `number`
+##### maxInactivity?
+
+`number`
 
 #### Returns
 
-[`StartHeartbeatMessage`](reference/classes/StartHeartbeatMessage.md)
+`StartHeartbeatMessage`
 
 #### Overrides
 
-[`FirmwareMessageOutBound.constructor`](reference/classes/FirmwareMessageOutBound.md#constructors)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`constructor`](FirmwareMessageOutBound.md#constructor)
 
 ## Properties
 
@@ -30,7 +32,7 @@
 
 #### Inherited from
 
-[`FirmwareMessageOutBound.data`](reference/classes/FirmwareMessageOutBound.md#data)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`data`](FirmwareMessageOutBound.md#data)
 
 ***
 
@@ -40,7 +42,7 @@
 
 #### Overrides
 
-[`FirmwareMessageOutBound.namespace`](reference/classes/FirmwareMessageOutBound.md#namespace)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`namespace`](FirmwareMessageOutBound.md#namespace)
 
 ***
 
@@ -50,4 +52,4 @@
 
 #### Overrides
 
-[`FirmwareMessageOutBound.senderId`](reference/classes/FirmwareMessageOutBound.md#senderid)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`senderId`](FirmwareMessageOutBound.md#senderid)

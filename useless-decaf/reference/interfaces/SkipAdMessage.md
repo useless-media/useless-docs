@@ -60,8 +60,8 @@ FirmwareMessage
 
 ### type
 
-> **type**: `SkipAd`
+> **type**: [`SkipAd`](reference/enumerations/MessageType.md#skipad)
 
 #### Overrides
 
-`FirmwareMessage.type`
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`type`](BaseFirmwareMessage.md#type)

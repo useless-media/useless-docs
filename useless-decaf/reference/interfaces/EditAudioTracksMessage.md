@@ -72,8 +72,8 @@ FirmwareMessage
 
 ### type
 
-> **type**: `EditAudioTracks`
+> **type**: [`EditAudioTracks`](reference/enumerations/MessageType.md#editaudiotracks)
 
 #### Overrides
 
-`FirmwareMessage.type`
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`type`](BaseFirmwareMessage.md#type)

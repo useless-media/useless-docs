@@ -4,4 +4,4 @@
 
 ### core
 
-> **core**: `DeCafCore`
+> **core**: [`DeCafCore`](reference/classes/DeCafCore.md)

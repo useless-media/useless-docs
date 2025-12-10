@@ -12,17 +12,17 @@
 
 #### Inherited from
 
-[`MediaStatus.activeTrackIds`](reference/interfaces/MediaStatus.md#activetrackids)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`activeTrackIds`](MediaStatus.md#activetrackids)
 
 ***
 
 ### breakStatus?
 
-> **breakStatus**?: `null` | [`BreakStatus`](reference/interfaces/BreakStatus.md)
+> **breakStatus**?: [`BreakStatus`](reference/interfaces/BreakStatus.md) | `null`
 
 #### Inherited from
 
-[`MediaStatus.breakStatus`](reference/interfaces/MediaStatus.md#breakstatus)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`breakStatus`](MediaStatus.md#breakstatus)
 
 ***
 
@@ -32,7 +32,7 @@
 
 #### Inherited from
 
-[`MediaStatus.currentItemId`](reference/interfaces/MediaStatus.md#currentitemid)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`currentItemId`](MediaStatus.md#currentitemid)
 
 ***
 
@@ -42,7 +42,7 @@
 
 #### Inherited from
 
-[`MediaStatus.currentTime`](reference/interfaces/MediaStatus.md#currenttime)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`currentTime`](MediaStatus.md#currenttime)
 
 ***
 
@@ -52,17 +52,17 @@
 
 #### Inherited from
 
-[`MediaStatus.customData`](reference/interfaces/MediaStatus.md#customdata)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`customData`](MediaStatus.md#customdata)
 
 ***
 
 ### extendedStatus?
 
-> **extendedStatus**?: `null` | [`ExtendedMediaStatus`](reference/interfaces/ExtendedMediaStatus.md)
+> **extendedStatus**?: [`ExtendedMediaStatus`](reference/interfaces/ExtendedMediaStatus.md) | `null`
 
 #### Inherited from
 
-[`MediaStatus.extendedStatus`](reference/interfaces/MediaStatus.md#extendedstatus)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`extendedStatus`](MediaStatus.md#extendedstatus)
 
 ***
 
@@ -72,7 +72,7 @@
 
 #### Inherited from
 
-[`MediaStatus.idleReason`](reference/interfaces/MediaStatus.md#idlereason)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`idleReason`](MediaStatus.md#idlereason)
 
 ***
 
@@ -82,7 +82,7 @@
 
 #### Inherited from
 
-[`MediaStatus.items`](reference/interfaces/MediaStatus.md#items)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`items`](MediaStatus.md#items)
 
 ***
 
@@ -92,7 +92,7 @@
 
 #### Inherited from
 
-[`MediaStatus.liveSeekableRange`](reference/interfaces/MediaStatus.md#liveseekablerange)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`liveSeekableRange`](MediaStatus.md#liveseekablerange)
 
 ***
 
@@ -102,7 +102,7 @@
 
 #### Inherited from
 
-[`MediaStatus.loadingItemId`](reference/interfaces/MediaStatus.md#loadingitemid)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`loadingItemId`](MediaStatus.md#loadingitemid)
 
 ***
 
@@ -112,7 +112,7 @@
 
 #### Inherited from
 
-[`MediaStatus.media`](reference/interfaces/MediaStatus.md#media)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`media`](MediaStatus.md#media)
 
 ***
 
@@ -122,7 +122,7 @@
 
 #### Inherited from
 
-[`MediaStatus.mediaSessionId`](reference/interfaces/MediaStatus.md#mediasessionid)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`mediaSessionId`](MediaStatus.md#mediasessionid)
 
 ***
 
@@ -132,7 +132,7 @@
 
 #### Inherited from
 
-[`MediaStatus.playbackRate`](reference/interfaces/MediaStatus.md#playbackrate)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`playbackRate`](MediaStatus.md#playbackrate)
 
 ***
 
@@ -142,7 +142,7 @@
 
 #### Inherited from
 
-[`MediaStatus.playerState`](reference/interfaces/MediaStatus.md#playerstate)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`playerState`](MediaStatus.md#playerstate)
 
 ***
 
@@ -152,7 +152,7 @@
 
 #### Inherited from
 
-[`MediaStatus.preloadedItemId`](reference/interfaces/MediaStatus.md#preloadeditemid)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`preloadedItemId`](MediaStatus.md#preloadeditemid)
 
 ***
 
@@ -162,7 +162,7 @@
 
 #### Inherited from
 
-[`MediaStatus.queueData`](reference/interfaces/MediaStatus.md#queuedata)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`queueData`](MediaStatus.md#queuedata)
 
 ***
 
@@ -172,7 +172,7 @@
 
 #### Inherited from
 
-[`MediaStatus.repeatMode`](reference/interfaces/MediaStatus.md#repeatmode)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`repeatMode`](MediaStatus.md#repeatmode)
 
 ***
 
@@ -182,7 +182,7 @@
 
 #### Inherited from
 
-[`MediaStatus.supportedMediaCommands`](reference/interfaces/MediaStatus.md#supportedmediacommands)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`supportedMediaCommands`](MediaStatus.md#supportedmediacommands)
 
 ***
 
@@ -192,7 +192,7 @@
 
 #### Inherited from
 
-[`MediaStatus.type`](reference/interfaces/MediaStatus.md#type)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`type`](MediaStatus.md#type)
 
 ***
 
@@ -202,7 +202,7 @@
 
 #### Inherited from
 
-[`MediaStatus.videoInfo`](reference/interfaces/MediaStatus.md#videoinfo)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`videoInfo`](MediaStatus.md#videoinfo)
 
 ***
 
@@ -212,4 +212,4 @@
 
 #### Inherited from
 
-[`MediaStatus.volume`](reference/interfaces/MediaStatus.md#volume)
+[`MediaStatus`](reference/interfaces/MediaStatus.md).[`volume`](MediaStatus.md#volume)

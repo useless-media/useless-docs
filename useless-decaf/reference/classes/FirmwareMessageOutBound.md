@@ -1,6 +1,6 @@
 # FirmwareMessageOutBound
 
-## Extended By
+## Extended by
 
 - [`CustomMessage`](reference/classes/CustomMessage.md)
 - [`MediaStatusMessage`](reference/classes/MediaStatusMessage.md)
@@ -9,21 +9,27 @@
 
 ## Constructors
 
-### new FirmwareMessageOutBound(data, senderId, namespace)
+### Constructor
 
-> **`protected`** **new FirmwareMessageOutBound**(`data`?, `senderId`?, `namespace`?): [`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md)
+> `protected` **new FirmwareMessageOutBound**(`data?`, `senderId?`, `namespace?`): `FirmwareMessageOutBound`
 
 #### Parameters
 
-• **data?**: `Record`<`string`, `any`>
+##### data?
 
-• **senderId?**: `string`
+`Record`<`string`, `any`>
 
-• **namespace?**: `string`
+##### senderId?
+
+`string`
+
+##### namespace?
+
+`string`
 
 #### Returns
 
-[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md)
+`FirmwareMessageOutBound`
 
 ## Properties
 

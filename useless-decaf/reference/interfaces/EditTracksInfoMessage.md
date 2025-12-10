@@ -78,8 +78,8 @@ FirmwareMessage
 
 ### type
 
-> **type**: `EditTracksInfo`
+> **type**: [`EditTracksInfo`](reference/enumerations/MessageType.md#edittracksinfo)
 
 #### Overrides
 
-`FirmwareMessage.type`
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`type`](BaseFirmwareMessage.md#type)

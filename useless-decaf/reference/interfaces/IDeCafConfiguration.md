@@ -2,6 +2,18 @@
 
 ## Properties
 
+### baseUrl
+
+> **baseUrl**: `string`
+
+***
+
+### client
+
+> **client**: `Record`<`string`, `any`>
+
+***
+
 ### clientUrl?
 
 > **clientUrl**?: `string`
@@ -17,3 +29,15 @@
 ### features
 
 > **features**: [`IDeCafFeatures`](reference/interfaces/IDeCafFeatures.md)
+
+***
+
+### license?
+
+> **license**?: `string`
+
+***
+
+### logoUrl?
+
+> **logoUrl**?: `string`

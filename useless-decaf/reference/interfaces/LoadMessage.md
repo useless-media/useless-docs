@@ -14,7 +14,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.activeTrackIds`](reference/interfaces/LoadRequestData.md#activetrackids)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`activeTrackIds`](LoadRequestData.md#activetrackids)
 
 ***
 
@@ -24,7 +24,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.autoplay`](reference/interfaces/LoadRequestData.md#autoplay)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`autoplay`](LoadRequestData.md#autoplay)
 
 ***
 
@@ -34,7 +34,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.credentials`](reference/interfaces/LoadRequestData.md#credentials)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`credentials`](LoadRequestData.md#credentials)
 
 ***
 
@@ -44,7 +44,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.credentialsType`](reference/interfaces/LoadRequestData.md#credentialstype)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`credentialsType`](LoadRequestData.md#credentialstype)
 
 ***
 
@@ -54,7 +54,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.currentTime`](reference/interfaces/LoadRequestData.md#currenttime)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`currentTime`](LoadRequestData.md#currenttime)
 
 ***
 
@@ -64,7 +64,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.customData`](reference/interfaces/LoadRequestData.md#customdata)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`customData`](LoadRequestData.md#customdata)
 
 ***
 
@@ -74,7 +74,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.loadOptions`](reference/interfaces/LoadRequestData.md#loadoptions)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`loadOptions`](LoadRequestData.md#loadoptions)
 
 ***
 
@@ -84,7 +84,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.media`](reference/interfaces/LoadRequestData.md#media)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`media`](LoadRequestData.md#media)
 
 ***
 
@@ -94,7 +94,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.mediaSessionId`](reference/interfaces/LoadRequestData.md#mediasessionid)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`mediaSessionId`](LoadRequestData.md#mediasessionid)
 
 ***
 
@@ -114,7 +114,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.playbackRate`](reference/interfaces/LoadRequestData.md#playbackrate)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`playbackRate`](LoadRequestData.md#playbackrate)
 
 ***
 
@@ -124,7 +124,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.queueData`](reference/interfaces/LoadRequestData.md#queuedata)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`queueData`](LoadRequestData.md#queuedata)
 
 ***
 
@@ -134,7 +134,7 @@ FirmwareMessage
 
 #### Inherited from
 
-[`LoadRequestData.requestId`](reference/interfaces/LoadRequestData.md#requestid)
+[`LoadRequestData`](reference/interfaces/LoadRequestData.md).[`requestId`](LoadRequestData.md#requestid)
 
 ***
 
@@ -150,8 +150,8 @@ FirmwareMessage
 
 ### type
 
-> **type**: `Load`
+> **type**: [`Load`](reference/enumerations/MessageType.md#load)
 
 #### Overrides
 
-[`LoadRequestData.type`](reference/interfaces/LoadRequestData.md#type)
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`type`](BaseFirmwareMessage.md#type)

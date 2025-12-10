@@ -4,4 +4,4 @@
 
 ### console
 
-> **console**: [`ReceiverConsoleInterceptorConfiguration`](reference/classes/ReceiverConsoleInterceptorConfiguration.md)
+> **console**: `IUselessConsoleInterceptorConfiguration`

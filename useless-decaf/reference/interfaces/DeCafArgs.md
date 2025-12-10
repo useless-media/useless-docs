@@ -10,105 +10,135 @@
 
 ### configuration?
 
-> **configuration**?: `Object`
+> **configuration**?: `object`
 
-#### Type declaration
+#### baseUrl?
 
-##### clientUrl?
+> **baseUrl**?: `string`
+
+#### client?
+
+> **client**?: `object`
+
+##### Index Signature
+
+[`key`: `string`]: `any`
+
+#### clientUrl?
 
 > **clientUrl**?: `string`
 
-##### environment?
+#### environment?
 
 > **environment**?: [`Environments`](reference/enumerations/Environments.md)
 
-##### features?
+#### features?
 
-> **features**?: `Object`
+> **features**?: `object`
+
+##### features.describer?
+
+> **describer**?: `object`
+
+##### features.describer.exclude?
+
+> **exclude**?: `string`[]
+
+##### features.describer.maxEvalResponseSize?
+
+> **maxEvalResponseSize**?: `number`
+
+##### features.describer.maxPendingMessages?
+
+> **maxPendingMessages**?: `number`
 
 ##### features.interceptors?
 
-> **features.interceptors**?: `Object`
+> **interceptors**?: `object`
 
 ##### features.interceptors.console?
 
-> **features.interceptors.console**?: `Object`
+> **console**?: `object`
 
-##### features.interceptors.console.debug?
+##### features.interceptors.console.console?
 
-> **features.interceptors.console.debug**?: `Object`
+> **console**?: `object`
 
-##### features.interceptors.console.debug.block?
+##### features.interceptors.console.console.assert?
 
-> **features.interceptors.console.debug.block**?: `boolean`
+> **assert**?: ... | ...
 
-##### features.interceptors.console.debug.send?
+##### features.interceptors.console.console.debug?
 
-> **features.interceptors.console.debug.send**?: `boolean`
+> **debug**?: ... | ...
 
-##### features.interceptors.console.dir?
+##### features.interceptors.console.console.dir?
 
-> **features.interceptors.console.dir**?: `Object`
+> **dir**?: ... | ...
 
-##### features.interceptors.console.dir.block?
+##### features.interceptors.console.console.error?
 
-> **features.interceptors.console.dir.block**?: `boolean`
+> **error**?: ... | ...
 
-##### features.interceptors.console.dir.send?
+##### features.interceptors.console.console.info?
 
-> **features.interceptors.console.dir.send**?: `boolean`
+> **info**?: ... | ...
+
+##### features.interceptors.console.console.log?
+
+> **log**?: ... | ...
+
+##### features.interceptors.console.console.trace?
+
+> **trace**?: ... | ...
+
+##### features.interceptors.console.console.warn?
+
+> **warn**?: ... | ...
 
 ##### features.interceptors.console.enabled?
 
-> **features.interceptors.console.enabled**?: `boolean` = `true`
+> **enabled**?: `boolean`
 
-##### features.interceptors.console.error?
+##### features.interceptors.console.exclude?
 
-> **features.interceptors.console.error**?: `Object`
+> **exclude**?: `string`[]
 
-##### features.interceptors.console.error.block?
+##### features.interceptors.console.maxPendingMessages?
 
-> **features.interceptors.console.error.block**?: `boolean`
+> **maxPendingMessages**?: `number`
 
-##### features.interceptors.console.error.send?
+##### features.senderManager?
 
-> **features.interceptors.console.error.send**?: `boolean`
+> **senderManager**?: `object`
 
-##### features.interceptors.console.info?
+##### features.senderManager.allSendersHandleAllMessages?
 
-> **features.interceptors.console.info**?: `Object`
+> **allSendersHandleAllMessages**?: `boolean`
 
-##### features.interceptors.console.info.block?
+##### features.senderManager.autoUpgradeSenders?
 
-> **features.interceptors.console.info.block**?: `boolean`
+> **autoUpgradeSenders**?: `boolean`
 
-##### features.interceptors.console.info.send?
+##### features.senderManager.handshake?
 
-> **features.interceptors.console.info.send**?: `boolean`
+> **handshake**?: `boolean`
 
-##### features.interceptors.console.log?
+##### features.senderManager.messageEventsByNamespace?
 
-> **features.interceptors.console.log**?: `Object`
+> **messageEventsByNamespace**?: `object`
 
-##### features.interceptors.console.log.block?
+###### Index Signature
 
-> **features.interceptors.console.log.block**?: `boolean`
+[`key`: `string`]: `string` | `undefined`
 
-##### features.interceptors.console.log.send?
+#### license?
 
-> **features.interceptors.console.log.send**?: `boolean`
+> **license**?: `string`
 
-##### features.interceptors.console.warn?
+#### logoUrl?
 
-> **features.interceptors.console.warn**?: `Object`
-
-##### features.interceptors.console.warn.block?
-
-> **features.interceptors.console.warn.block**?: `boolean`
-
-##### features.interceptors.console.warn.send?
-
-> **features.interceptors.console.warn.send**?: `boolean`
+> **logoUrl**?: `string`
 
 ***
 
@@ -120,4 +150,4 @@
 
 ### core
 
-> **core**: `DeCafCore`
+> **core**: [`DeCafCore`](reference/classes/DeCafCore.md)

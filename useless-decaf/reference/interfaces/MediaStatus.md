@@ -1,6 +1,6 @@
 # MediaStatus
 
-## Extended By
+## Extended by
 
 - [`CloudMediaStatus`](reference/interfaces/CloudMediaStatus.md)
 
@@ -14,7 +14,7 @@
 
 ### breakStatus?
 
-> **breakStatus**?: `null` | [`BreakStatus`](reference/interfaces/BreakStatus.md)
+> **breakStatus**?: [`BreakStatus`](reference/interfaces/BreakStatus.md) | `null`
 
 ***
 
@@ -38,7 +38,7 @@
 
 ### extendedStatus?
 
-> **extendedStatus**?: `null` | [`ExtendedMediaStatus`](reference/interfaces/ExtendedMediaStatus.md)
+> **extendedStatus**?: [`ExtendedMediaStatus`](reference/interfaces/ExtendedMediaStatus.md) | `null`
 
 ***
 

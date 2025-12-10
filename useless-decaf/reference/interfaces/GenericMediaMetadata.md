@@ -24,7 +24,7 @@
 
 #### Inherited from
 
-[`MediaMetadata.metadataType`](reference/interfaces/MediaMetadata.md#metadatatype)
+[`MediaMetadata`](reference/interfaces/MediaMetadata.md).[`metadataType`](MediaMetadata.md#metadatatype)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Inherited from
 
-[`MediaMetadata.posterUrl`](reference/interfaces/MediaMetadata.md#posterurl)
+[`MediaMetadata`](reference/interfaces/MediaMetadata.md).[`posterUrl`](MediaMetadata.md#posterurl)
 
 ***
 
@@ -44,7 +44,7 @@
 
 #### Inherited from
 
-[`MediaMetadata.queueItemId`](reference/interfaces/MediaMetadata.md#queueitemid)
+[`MediaMetadata`](reference/interfaces/MediaMetadata.md).[`queueItemId`](MediaMetadata.md#queueitemid)
 
 ***
 
@@ -66,7 +66,7 @@
 
 #### Inherited from
 
-[`MediaMetadata.sectionDuration`](reference/interfaces/MediaMetadata.md#sectionduration)
+[`MediaMetadata`](reference/interfaces/MediaMetadata.md).[`sectionDuration`](MediaMetadata.md#sectionduration)
 
 ***
 
@@ -76,7 +76,7 @@
 
 #### Inherited from
 
-[`MediaMetadata.sectionStartAbsoluteTime`](reference/interfaces/MediaMetadata.md#sectionstartabsolutetime)
+[`MediaMetadata`](reference/interfaces/MediaMetadata.md).[`sectionStartAbsoluteTime`](MediaMetadata.md#sectionstartabsolutetime)
 
 ***
 
@@ -86,7 +86,7 @@
 
 #### Inherited from
 
-[`MediaMetadata.sectionStartTimeInContainer`](reference/interfaces/MediaMetadata.md#sectionstarttimeincontainer)
+[`MediaMetadata`](reference/interfaces/MediaMetadata.md).[`sectionStartTimeInContainer`](MediaMetadata.md#sectionstarttimeincontainer)
 
 ***
 
@@ -96,7 +96,7 @@
 
 #### Inherited from
 
-[`MediaMetadata.sectionStartTimeInMedia`](reference/interfaces/MediaMetadata.md#sectionstarttimeinmedia)
+[`MediaMetadata`](reference/interfaces/MediaMetadata.md).[`sectionStartTimeInMedia`](MediaMetadata.md#sectionstarttimeinmedia)
 
 ***
 

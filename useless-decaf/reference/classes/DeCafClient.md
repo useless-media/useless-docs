@@ -4,386 +4,236 @@ Interface of a DeCafClient.
 
 ## Constructors
 
-### new DeCafClient(container, deCaf, state)
+### Constructor
 
-> **`protected`** **new DeCafClient**(`container`, `deCaf`, `state`): [`DeCafClient`](reference/classes/DeCafClient.md)
+> `protected` **new DeCafClient**(`deCaf`, `configuration`): `DeCafClient`
 
 #### Parameters
 
-• **container**: `HTMLDivElement`
+##### deCaf
 
-• **deCaf**: [`DeCafProxy`](reference/classes/DeCafProxy.md)
+[`DeCaf`](reference/classes/DeCaf.md)
 
-• **state**: [`IPlaybackSessionState`](reference/interfaces/IPlaybackSessionState.md)
+##### configuration
+
+`Record`<`string`, `any`>
 
 #### Returns
 
-[`DeCafClient`](reference/classes/DeCafClient.md)
+`DeCafClient`
 
 ## Methods
 
-### `abstract` handleCustomMessage()
+### handleConfigure()
 
-> **`abstract`** **handleCustomMessage**(`message`): `Promise`<`void`>
-
-Handles a custom message.
+> `abstract` **handleConfigure**(`configuration`): `Promise`<`void`>
 
 #### Parameters
 
-• **message**: [`RawFirmwareMessage`](reference/interfaces/RawFirmwareMessage.md)
+##### configuration
 
-The RawFirmwareMessage to be processed.
+`Record`<`string`, `any`>
 
 #### Returns
 
 `Promise`<`void`>
 
-A Promise that resolves when the message is handled.
-
 ***
 
-### handleEditAudioTracks()
+### handleLoad()
 
-> **handleEditAudioTracks**(`message`): `Promise`<`void`>
-
-Handles an edit audio tracks request.
+> `abstract` **handleLoad**(`load`, `playbackSession`): `Promise`<`void`>
 
 #### Parameters
 
-• **message**: [`EditAudioTracksMessage`](reference/interfaces/EditAudioTracksMessage.md)
+##### load
 
-The EditAudioTracksMessage to be processed.
+`Load`
+
+##### playbackSession
+
+[`PlaybackSession`](reference/classes/PlaybackSession.md)
 
 #### Returns
 
 `Promise`<`void`>
 
-A Promise that resolves when the message is handled.
-
 ***
 
-### handleEditTracks()
+### handleNextLoad()
 
-> **handleEditTracks**(`message`): `Promise`<`void`>
-
-Handles an edit tracks request.
+> `abstract` **handleNextLoad**(`nextLoad?`): `Promise`<`void`>
 
 #### Parameters
 
-• **message**: [`EditTracksInfoMessage`](reference/interfaces/EditTracksInfoMessage.md)
+##### nextLoad?
 
-The EditTracksMessage to be processed.
+`Load`
 
 #### Returns
 
 `Promise`<`void`>
-
-A Promise that resolves when the message is handled.
-
-***
-
-### handleFocusState()
-
-> **handleFocusState**(`message`): `Promise`<`void`>
-
-Handles a focus state request.
-
-#### Parameters
-
-• **message**: [`FocusStateMessage`](reference/interfaces/FocusStateMessage.md)
-
-The FocusStateMessage to be processed.
-
-#### Returns
-
-`Promise`<`void`>
-
-A Promise that resolves when the message is handled.
-
-***
-
-### handleGetStatus()
-
-> **handleGetStatus**(`message`): `Promise`<`void`>
-
-Handles a get status request.
-
-#### Parameters
-
-• **message**: [`GetStatusMessage`](reference/interfaces/GetStatusMessage.md)
-
-The GetStatusMessage to be processed.
-
-#### Returns
-
-`Promise`<`void`>
-
-A Promise that resolves when the message is handled.
-
-***
-
-### `abstract` handleLoad()
-
-> **`abstract`** **handleLoad**(`message`): `Promise`<`void` | [`LoadMessage`](reference/interfaces/LoadMessage.md)>
-
-Handles a load request.
-
-#### Parameters
-
-• **message**: [`LoadMessage`](reference/interfaces/LoadMessage.md)
-
-The LoadMessage to be processed.
-
-#### Returns
-
-`Promise`<`void` | [`LoadMessage`](reference/interfaces/LoadMessage.md)>
-
-A Promise that resolves with a LoadMessage or void when the request is handled.
 
 ***
 
 ### handlePause()
 
-> **handlePause**(): `Promise`<`void`>
+> `abstract` **handlePause**(`command?`): `Promise`<`void`>
 
-Handles a pause request.
+#### Parameters
+
+##### command?
+
+`PauseCommand`
 
 #### Returns
 
 `Promise`<`void`>
-
-A Promise that resolves when the request is handled.
 
 ***
 
 ### handlePlay()
 
-> **handlePlay**(): `Promise`<`void`>
+> `abstract` **handlePlay**(`command?`): `Promise`<`void`>
 
-Handles a play request.
+#### Parameters
+
+##### command?
+
+`PlayCommand`
 
 #### Returns
 
 `Promise`<`void`>
 
-A Promise that resolves when the request is handled.
+***
+
+### handleReset()
+
+> `abstract` **handleReset**(): `Promise`<`void`>
+
+#### Returns
+
+`Promise`<`void`>
 
 ***
 
 ### handleSeek()
 
-> **handleSeek**(`message`): `Promise`<`void`>
-
-Handles a seek request.
+> `abstract` **handleSeek**(`command?`): `Promise`<`void`>
 
 #### Parameters
 
-• **message**: [`SeekMessage`](reference/interfaces/SeekMessage.md)
+##### command?
 
-The SeekMessage to be processed.
+`SeekCommand`
 
 #### Returns
 
 `Promise`<`void`>
-
-A Promise that resolves when the request is handled.
 
 ***
 
 ### handleSenderConnected()
 
-> **handleSenderConnected**(`message`): `Promise`<`void`>
-
-Handles a sender connected message.
+> `abstract` **handleSenderConnected**(`id`): `Promise`<`void`>
 
 #### Parameters
 
-• **message**: [`SenderConnectedMessage`](reference/interfaces/SenderConnectedMessage.md)
+##### id
 
-The SenderConnectedMessage to be processed.
+`string`
 
 #### Returns
 
 `Promise`<`void`>
-
-A Promise that resolves when the message is handled.
 
 ***
 
 ### handleSenderDisconnected()
 
-> **handleSenderDisconnected**(`message`): `Promise`<`void`>
-
-Handles a sender disconnected message.
+> `abstract` **handleSenderDisconnected**(`id`): `Promise`<`void`>
 
 #### Parameters
 
-• **message**: [`SenderDisconnectedMessage`](reference/interfaces/SenderDisconnectedMessage.md)
+##### id
 
-The SenderDisconnectedMessage to be processed.
+`string`
 
 #### Returns
 
 `Promise`<`void`>
 
-A Promise that resolves when the message is handled.
+***
+
+### handleSetTracks()
+
+> `abstract` **handleSetTracks**(`command`): `Promise`<`void`>
+
+#### Parameters
+
+##### command
+
+`SetTracks`
+
+#### Returns
+
+`Promise`<`void`>
 
 ***
 
 ### handleSetVolume()
 
-> **handleSetVolume**(`message`): `Promise`<`void`>
-
-Handles a set volume request.
+> `abstract` **handleSetVolume**(`command`): `Promise`<`void`>
 
 #### Parameters
 
-• **message**: [`SetVolumeMessage`](reference/interfaces/SetVolumeMessage.md)
+##### command
 
-The SetVolumeMessage to be processed.
+`SetVolumeCommand`
 
 #### Returns
 
 `Promise`<`void`>
-
-A Promise that resolves when the request is handled.
-
-***
-
-### handleShowMediaControls()
-
-> **handleShowMediaControls**(`message`): `Promise`<`void`>
-
-Handles a show media controls request.
-
-#### Parameters
-
-• **message**: [`ShowMediaControlsMessage`](reference/interfaces/ShowMediaControlsMessage.md)
-
-The ShowMediaControlsMessage to be processed.
-
-#### Returns
-
-`Promise`<`void`>
-
-A Promise that resolves when the request is handled.
-
-***
-
-### handleSkipAd()
-
-> **handleSkipAd**(`message`): `Promise`<`void`>
-
-Handles a skip ad request.
-
-#### Parameters
-
-• **message**: [`SkipAdMessage`](reference/interfaces/SkipAdMessage.md)
-
-The SkipAdMessage to be processed.
-
-#### Returns
-
-`Promise`<`void`>
-
-A Promise that resolves when the request is handled.
-
-***
-
-### handleStandbyChanged()
-
-> **handleStandbyChanged**(`message`): `Promise`<`void`>
-
-Handles a standby changed message.
-
-#### Parameters
-
-• **message**: [`StandbyChangedMessage`](reference/interfaces/StandbyChangedMessage.md)
-
-The StandbyChangedMessage to be processed.
-
-#### Returns
-
-`Promise`<`void`>
-
-A Promise that resolves when the message is handled.
 
 ***
 
 ### handleStop()
 
-> **handleStop**(`message`): `Promise`<`void`>
-
-Handles a stop request.
+> `abstract` **handleStop**(`command?`): `Promise`<`void`>
 
 #### Parameters
 
-• **message**: [`StopMessage`](reference/interfaces/StopMessage.md)
+##### command?
 
-The StopMessage to be processed.
+`StopCommand`
 
 #### Returns
 
 `Promise`<`void`>
-
-A Promise that resolves when the request is handled.
 
 ***
 
 ### handleTerminate()
 
-> **handleTerminate**(`message`): `Promise`<`void`>
-
-Handles a terminate message.
+> `abstract` **handleTerminate**(`command?`): `Promise`<`void`>
 
 #### Parameters
 
-• **message**: [`TerminateMessage`](reference/interfaces/TerminateMessage.md)
+##### command?
 
-The TerminateMessage to be processed.
+`TerminateCommand`
 
 #### Returns
 
 `Promise`<`void`>
-
-A Promise that resolves when the message is handled.
 
 ***
 
-### handleVisibilityChanged()
+### initialize()
 
-> **handleVisibilityChanged**(`message`): `Promise`<`void`>
-
-Handles a change in visibility message.
-
-#### Parameters
-
-• **message**: [`VisibilityChangedMessage`](reference/interfaces/VisibilityChangedMessage.md)
-
-The VisibilityChangedMessage to be processed.
+> `abstract` **initialize**(): `Promise`<`void`>
 
 #### Returns
 
 `Promise`<`void`>
-
-A Promise that resolves when the message is handled.
-
-***
-
-### handleVolumeChanged()
-
-> **handleVolumeChanged**(`message`): `Promise`<`void`>
-
-Handles a change in volume message.
-
-#### Parameters
-
-• **message**: [`VolumeChangedMessage`](reference/interfaces/VolumeChangedMessage.md)
-
-The VolumeChangedMessage to be processed.
-
-#### Returns
-
-`Promise`<`void`>
-
-A Promise that resolves when the message is handled.

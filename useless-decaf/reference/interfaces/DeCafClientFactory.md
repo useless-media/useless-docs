@@ -4,25 +4,25 @@ Interface for the factory responsible for creating DeCafClient instances.
 
 ## Properties
 
-### create
+### create()
 
-> **create**: (`container`, `deCaf`, `state`) => [`DeCafClient`](reference/classes/DeCafClient.md)
+> **create**: (`deCaf`, `configuration`) => [`DeCafClient`](reference/classes/DeCafClient.md)
 
 Creates a new instance of DeCafClient.
 
 #### Parameters
 
-• **container**: `HTMLDivElement`
+##### deCaf
 
-The HTMLDivElement where the DeCafClient will be embedded.
+[`DeCaf`](reference/classes/DeCaf.md)
 
-• **deCaf**: [`DeCafProxy`](reference/classes/DeCafProxy.md)
+The DeCaf instance.
 
-The DeCafProxy instance associated with the DeCafClient.
+##### configuration
 
-• **state**: [`IPlaybackSessionState`](reference/interfaces/IPlaybackSessionState.md)
+`Record`<`string`, `any`>
 
-The initial playback session state for the DeCafClient.
+The client configuration.
 
 #### Returns
 

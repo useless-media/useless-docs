@@ -1,6 +1,6 @@
 # Event
 
-## Extended By
+## Extended by
 
 - [`SegmentDownloadedEvent`](reference/interfaces/SegmentDownloadedEvent.md)
 - [`RequestEvent`](reference/interfaces/RequestEvent.md)
@@ -25,17 +25,19 @@
 
 ## Constructors
 
-### new Event(type)
+### Constructor
 
-> **new Event**(`type`): [`Event`](reference/classes/Event.md)
+> **new Event**(`type`): `Event`
 
 #### Parameters
 
-• **type**: [`EventType`](reference/enumerations/EventType.md)
+##### type
+
+[`EventType`](reference/enumerations/EventType.md)
 
 #### Returns
 
-[`Event`](reference/classes/Event.md)
+`Event`
 
 ## Properties
 

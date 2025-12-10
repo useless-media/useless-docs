@@ -1,6 +1,6 @@
 # BaseFirmwareMessage
 
-## Extended By
+## Extended by
 
 - [`FocusStateMessage`](reference/interfaces/FocusStateMessage.md)
 - [`ReadyMessage`](reference/interfaces/ReadyMessage.md)

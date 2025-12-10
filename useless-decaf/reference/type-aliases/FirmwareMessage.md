@@ -1,5 +1,5 @@
 # FirmwareMessage
 
-> **FirmwareMessage**: [`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md) & [`RequestData`](../interfaces/RequestData.md)
+> **FirmwareMessage** = [`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md) & [`RequestData`](../interfaces/RequestData.md)
 
 FirmwareMessage

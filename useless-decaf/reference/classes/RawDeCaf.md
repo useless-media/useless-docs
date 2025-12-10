@@ -2,31 +2,35 @@
 
 ## Constructors
 
-### new RawDeCaf(args)
+### Constructor
 
-> **new RawDeCaf**(`args`): [`RawDeCaf`](reference/classes/RawDeCaf.md)
+> **new RawDeCaf**(`args`): `RawDeCaf`
 
 #### Parameters
 
-• **args**: [`RawDeCafArgs`](reference/interfaces/RawDeCafArgs.md)
+##### args
+
+[`RawDeCafArgs`](reference/interfaces/RawDeCafArgs.md)
 
 #### Returns
 
-[`RawDeCaf`](reference/classes/RawDeCaf.md)
+`RawDeCaf`
 
 ## Properties
 
 ### core
 
-> **`protected`** **`readonly`** **core**: `DeCafCore`
+> `protected` `readonly` **core**: [`DeCafCore`](reference/classes/DeCafCore.md)
 
 ## Accessors
 
 ### mediaStatus
 
-> **`get`** **mediaStatus**(): [`MediaStatus`](reference/interfaces/MediaStatus.md)
+#### Get Signature
 
-#### Returns
+> **get** **mediaStatus**(): [`MediaStatus`](reference/interfaces/MediaStatus.md)
+
+##### Returns
 
 [`MediaStatus`](reference/interfaces/MediaStatus.md)
 
@@ -34,11 +38,11 @@
 
 ### getMediaStatusState()
 
-> **getMediaStatusState**(): [`IMediaStatusState`](reference/interfaces/IMediaStatusState.md)
+> **getMediaStatusState**(): `IMediaStatusState`
 
 #### Returns
 
-[`IMediaStatusState`](reference/interfaces/IMediaStatusState.md)
+`IMediaStatusState`
 
 ***
 
@@ -48,9 +52,13 @@
 
 #### Parameters
 
-• **namespace**: `string`
+##### namespace
 
-• **handler**: [`TCustomMessageHandler`](reference/type-aliases/TCustomMessageHandler.md)
+`string`
+
+##### handler
+
+`TCustomMessageHandler`
 
 #### Returns
 
@@ -60,15 +68,21 @@
 
 ### sendMessage()
 
-> **sendMessage**(`namespace`, `message`, `senderId`?): `void`
+> **sendMessage**(`namespace`, `message`, `senderId?`): `void`
 
 #### Parameters
 
-• **namespace**: `string`
+##### namespace
 
-• **message**: `Record`<`string`, `any`>
+`string`
 
-• **senderId?**: `string`
+##### message
+
+`Record`<`string`, `any`>
+
+##### senderId?
+
+`string`
 
 #### Returns
 
@@ -82,7 +96,9 @@
 
 #### Parameters
 
-• **delegate**: `Partial`<[`DeCafCoreDelegate`](reference/classes/DeCafCoreDelegate.md)>
+##### delegate
+
+`Partial`<`DeCafCoreDelegate`>
 
 #### Returns
 

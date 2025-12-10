@@ -4,5 +4,5 @@
 
 | Member | Value |
 | :------ | :------ |
-| `PLAYBACK_PAUSE` | `"PLAYBACK_PAUSE"` |
-| `PLAYBACK_START` | `"PLAYBACK_START"` |
+| <a id="playback_pause"></a> `PLAYBACK_PAUSE` | `"PLAYBACK_PAUSE"` |
+| <a id="playback_start"></a> `PLAYBACK_START` | `"PLAYBACK_START"` |

@@ -66,8 +66,8 @@ FirmwareMessage
 
 ### type
 
-> **type**: `Seek`
+> **type**: [`Seek`](reference/enumerations/MessageType.md#seek)
 
 #### Overrides
 
-`FirmwareMessage.type`
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`type`](BaseFirmwareMessage.md#type)

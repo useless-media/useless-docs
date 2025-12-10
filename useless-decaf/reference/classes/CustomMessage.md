@@ -6,25 +6,31 @@
 
 ## Constructors
 
-### new CustomMessage(namespace, data, senderId)
+### Constructor
 
-> **new CustomMessage**(`namespace`, `data`, `senderId`?): [`CustomMessage`](reference/classes/CustomMessage.md)
+> **new CustomMessage**(`namespace`, `data`, `senderId?`): `CustomMessage`
 
 #### Parameters
 
-• **namespace**: `string`
+##### namespace
 
-• **data**: `Record`<`string`, `any`>
+`string`
 
-• **senderId?**: `string`
+##### data
+
+`Record`<`string`, `any`>
+
+##### senderId?
+
+`string`
 
 #### Returns
 
-[`CustomMessage`](reference/classes/CustomMessage.md)
+`CustomMessage`
 
 #### Overrides
 
-[`FirmwareMessageOutBound.constructor`](reference/classes/FirmwareMessageOutBound.md#constructors)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`constructor`](FirmwareMessageOutBound.md#constructor)
 
 ## Properties
 
@@ -34,7 +40,7 @@
 
 #### Inherited from
 
-[`FirmwareMessageOutBound.data`](reference/classes/FirmwareMessageOutBound.md#data)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`data`](FirmwareMessageOutBound.md#data)
 
 ***
 
@@ -44,7 +50,7 @@
 
 #### Inherited from
 
-[`FirmwareMessageOutBound.namespace`](reference/classes/FirmwareMessageOutBound.md#namespace)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`namespace`](FirmwareMessageOutBound.md#namespace)
 
 ***
 
@@ -54,4 +60,4 @@
 
 #### Inherited from
 
-[`FirmwareMessageOutBound.senderId`](reference/classes/FirmwareMessageOutBound.md#senderid)
+[`FirmwareMessageOutBound`](reference/classes/FirmwareMessageOutBound.md).[`senderId`](FirmwareMessageOutBound.md#senderid)

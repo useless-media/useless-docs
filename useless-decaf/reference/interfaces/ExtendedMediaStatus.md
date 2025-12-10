@@ -16,4 +16,4 @@
 
 ### playerState
 
-> **playerState**: `LOADING`
+> **playerState**: [`LOADING`](reference/enumerations/ExtendedPlayerState.md#loading)

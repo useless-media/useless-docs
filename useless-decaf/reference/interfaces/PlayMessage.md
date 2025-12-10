@@ -66,8 +66,8 @@ FirmwareMessage
 
 ### type
 
-> **type**: `Play`
+> **type**: [`Play`](reference/enumerations/MessageType.md#play)
 
 #### Overrides
 
-`FirmwareMessage.type`
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`type`](BaseFirmwareMessage.md#type)

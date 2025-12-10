@@ -24,7 +24,7 @@
 
 #### Inherited from
 
-[`RequestData.customData`](reference/interfaces/RequestData.md#customdata)
+[`RequestData`](reference/interfaces/RequestData.md).[`customData`](RequestData.md#customdata)
 
 ***
 
@@ -46,7 +46,7 @@
 
 #### Inherited from
 
-[`RequestData.mediaSessionId`](reference/interfaces/RequestData.md#mediasessionid)
+[`RequestData`](reference/interfaces/RequestData.md).[`mediaSessionId`](RequestData.md#mediasessionid)
 
 ***
 
@@ -62,7 +62,7 @@
 
 #### Inherited from
 
-[`RequestData.requestId`](reference/interfaces/RequestData.md#requestid)
+[`RequestData`](reference/interfaces/RequestData.md).[`requestId`](RequestData.md#requestid)
 
 ***
 
@@ -78,4 +78,4 @@
 
 #### Inherited from
 
-[`RequestData.type`](reference/interfaces/RequestData.md#type)
+[`RequestData`](reference/interfaces/RequestData.md).[`type`](RequestData.md#type)

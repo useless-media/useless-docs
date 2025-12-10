@@ -4,6 +4,6 @@
 
 | Member | Value |
 | :------ | :------ |
-| `AUDIO` | `"AUDIO"` |
-| `TEXT` | `"TEXT"` |
-| `VIDEO` | `"VIDEO"` |
+| <a id="audio"></a> `AUDIO` | `"AUDIO"` |
+| <a id="text"></a> `TEXT` | `"TEXT"` |
+| <a id="video"></a> `VIDEO` | `"VIDEO"` |

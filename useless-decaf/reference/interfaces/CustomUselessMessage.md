@@ -4,15 +4,21 @@
 
 - [`RawFirmwareMessage`](reference/interfaces/RawFirmwareMessage.md)
 
+## Extended by
+
+- [`ConfigureMessage`](reference/interfaces/ConfigureMessage.md)
+- [`RedirectMessage`](reference/interfaces/RedirectMessage.md)
+- [`TerminateMessage`](reference/interfaces/TerminateMessage.md)
+
 ## Properties
 
 ### data
 
-> **data**: [`UselessMessage`](reference/classes/UselessMessage.md)
+> **data**: `UselessMessage`
 
 #### Overrides
 
-[`RawFirmwareMessage.data`](reference/interfaces/RawFirmwareMessage.md#data)
+[`RawFirmwareMessage`](reference/interfaces/RawFirmwareMessage.md).[`data`](RawFirmwareMessage.md#data)
 
 ***
 
@@ -22,7 +28,7 @@
 
 #### Inherited from
 
-[`RawFirmwareMessage.namespace`](reference/interfaces/RawFirmwareMessage.md#namespace)
+[`RawFirmwareMessage`](reference/interfaces/RawFirmwareMessage.md).[`namespace`](RawFirmwareMessage.md#namespace)
 
 ***
 
@@ -32,4 +38,4 @@
 
 #### Inherited from
 
-[`RawFirmwareMessage.senderId`](reference/interfaces/RawFirmwareMessage.md#senderid)
+[`RawFirmwareMessage`](reference/interfaces/RawFirmwareMessage.md).[`senderId`](RawFirmwareMessage.md#senderid)

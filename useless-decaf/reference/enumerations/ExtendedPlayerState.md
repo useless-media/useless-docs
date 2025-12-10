@@ -4,4 +4,4 @@
 
 | Member | Value |
 | :------ | :------ |
-| `LOADING` | `"LOADING"` |
+| <a id="loading"></a> `LOADING` | `"LOADING"` |

@@ -66,8 +66,8 @@ FirmwareMessage
 
 ### type
 
-> **type**: `Pause`
+> **type**: [`Pause`](reference/enumerations/MessageType.md#pause)
 
 #### Overrides
 
-`FirmwareMessage.type`
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`type`](BaseFirmwareMessage.md#type)

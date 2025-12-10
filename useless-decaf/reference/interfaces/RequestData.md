@@ -1,6 +1,6 @@
 # RequestData
 
-## Extended By
+## Extended by
 
 - [`RefreshCredentialsRequestData`](reference/interfaces/RefreshCredentialsRequestData.md)
 - [`VolumeRequestData`](reference/interfaces/VolumeRequestData.md)

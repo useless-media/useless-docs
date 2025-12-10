@@ -2,15 +2,19 @@
 
 ## Indexable
 
- [`k`: `string`]: [`RawFirmwareMessage`](reference/interfaces/RawFirmwareMessage.md)
+[`k`: `string`]: [`RawFirmwareMessage`](reference/interfaces/RawFirmwareMessage.md)
 
 ## Properties
 
 ### DeCaf.Configure
 
-> **DeCaf.Configure**: [`ConfigureMessage`](reference/interfaces/ConfigureMessage.md)<`Object`>
+> **DeCaf.Configure**: [`ConfigureMessage`](reference/interfaces/ConfigureMessage.md)
 
-#### Type declaration
+***
+
+### DeCaf.Redirect
+
+> **DeCaf.Redirect**: [`RedirectMessage`](reference/interfaces/RedirectMessage.md)
 
 ***
 

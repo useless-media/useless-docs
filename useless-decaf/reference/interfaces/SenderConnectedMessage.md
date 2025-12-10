@@ -18,7 +18,7 @@
 
 #### Inherited from
 
-[`BaseFirmwareMessage.namespace`](reference/interfaces/BaseFirmwareMessage.md#namespace)
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`namespace`](BaseFirmwareMessage.md#namespace)
 
 ***
 
@@ -28,17 +28,17 @@
 
 #### Overrides
 
-[`BaseFirmwareMessage.senderId`](reference/interfaces/BaseFirmwareMessage.md#senderid)
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`senderId`](BaseFirmwareMessage.md#senderid)
 
 ***
 
 ### type
 
-> **type**: `SenderConnected`
+> **type**: [`SenderConnected`](reference/enumerations/MessageType.md#senderconnected)
 
 #### Overrides
 
-[`BaseFirmwareMessage.type`](reference/interfaces/BaseFirmwareMessage.md#type)
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`type`](BaseFirmwareMessage.md#type)
 
 ***
 

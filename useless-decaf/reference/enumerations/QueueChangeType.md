@@ -4,8 +4,8 @@
 
 | Member | Value |
 | :------ | :------ |
-| `INSERT` | `"INSERT"` |
-| `ITEMS_CHANGE` | `"ITEMS_CHANGE"` |
-| `NO_CHANGE` | `"NO_CHANGE"` |
-| `REMOVE` | `"REMOVE"` |
-| `UPDATE` | `"UPDATE"` |
+| <a id="insert"></a> `INSERT` | `"INSERT"` |
+| <a id="items_change"></a> `ITEMS_CHANGE` | `"ITEMS_CHANGE"` |
+| <a id="no_change"></a> `NO_CHANGE` | `"NO_CHANGE"` |
+| <a id="remove"></a> `REMOVE` | `"REMOVE"` |
+| <a id="update"></a> `UPDATE` | `"UPDATE"` |

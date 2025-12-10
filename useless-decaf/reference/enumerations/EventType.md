@@ -4,80 +4,80 @@
 
 | Member | Value |
 | :------ | :------ |
-| `ABORT` | `"ABORT"` |
-| `ALL` | `"*"` |
-| `BITRATE_CHANGED` | `"BITRATE_CHANGED"` |
-| `BREAK_CLIP_ENDED` | `"BREAK_CLIP_ENDED"` |
-| `BREAK_CLIP_LOADING` | `"BREAK_CLIP_LOADING"` |
-| `BREAK_CLIP_STARTED` | `"BREAK_CLIP_STARTED"` |
-| `BREAK_ENDED` | `"BREAK_ENDED"` |
-| `BREAK_STARTED` | `"BREAK_STARTED"` |
-| `BUFFERING` | `"BUFFERING"` |
-| `CACHE_HIT` | `"CACHE_HIT"` |
-| `CACHE_INSERTED` | `"CACHE_INSERTED"` |
-| `CACHE_LOADED` | `"CACHE_LOADED"` |
-| `CAN_PLAY` | `"CAN_PLAY"` |
-| `CAN_PLAY_THROUGH` | `"CAN_PLAY_THROUGH"` |
-| `CLIP_ENDED` | `"CLIP_ENDED"` |
-| `CLIP_STARTED` | `"CLIP_STARTED"` |
-| `CUSTOM_STATE` | `"CUSTOM_STATE"` |
-| `DURATION_CHANGE` | `"DURATION_CHANGE"` |
-| `EMPTIED` | `"EMPTIED"` |
-| `EMSG` | `"EMSG"` |
-| `ENDED` | `"ENDED"` |
-| `ERROR` | `"ERROR"` |
-| `ID3` | `"ID3"` |
-| `LIVE_ENDED` | `"LIVE_ENDED"` |
-| `LIVE_IS_MOVING_WINDOW_CHANGED` | `"LIVE_IS_MOVING_WINDOW_CHANGED"` |
-| `LOADED_DATA` | `"LOADED_DATA"` |
-| `LOADED_METADATA` | `"LOADED_METADATA"` |
-| `LOAD_START` | `"LOAD_START"` |
-| `MEDIA_FINISHED` | `"MEDIA_FINISHED"` |
-| `MEDIA_INFORMATION_CHANGED` | `"MEDIA_INFORMATION_CHANGED"` |
-| `MEDIA_STATUS` | `"MEDIA_STATUS"` |
-| `PAUSE` | `"PAUSE"` |
-| `PLAY` | `"PLAY"` |
-| `PLAYER_LOADING` | `"PLAYER_LOADING"` |
-| `PLAYER_LOAD_COMPLETE` | `"PLAYER_LOAD_COMPLETE"` |
-| `PLAYER_PRELOADING` | `"PLAYER_PRELOADING"` |
-| `PLAYER_PRELOADING_CANCELLED` | `"PLAYER_PRELOADING_CANCELLED"` |
-| `PLAYING` | `"PLAYING"` |
-| `PROGRESS` | `"PROGRESS"` |
-| `RATE_CHANGE` | `"RATE_CHANGE"` |
-| `REQUEST_CUSTOM_COMMAND` | `"REQUEST_CUSTOM_COMMAND"` |
-| `REQUEST_DISPLAY_STATUS` | `"REQUEST_DISPLAY_STATUS"` |
-| `REQUEST_EDIT_AUDIO_TRACKS` | `"REQUEST_EDIT_AUDIO_TRACKS"` |
-| `REQUEST_EDIT_TRACKS_INFO` | `"REQUEST_EDIT_TRACKS_INFO"` |
-| `REQUEST_FOCUS_STATE` | `"REQUEST_FOCUS_STATE"` |
-| `REQUEST_LOAD` | `"REQUEST_LOAD"` |
-| `REQUEST_LOAD_BY_ENTITY` | `"REQUEST_LOAD_BY_ENTITY"` |
-| `REQUEST_PAUSE` | `"REQUEST_PAUSE"` |
-| `REQUEST_PLAY` | `"REQUEST_PLAY"` |
-| `REQUEST_PLAYBACK_RATE_CHANGE` | `"REQUEST_PLAYBACK_RATE_CHANGE"` |
-| `REQUEST_PLAY_AGAIN` | `"REQUEST_PLAY_AGAIN"` |
-| `REQUEST_PRECACHE` | `"REQUEST_PRECACHE"` |
-| `REQUEST_QUEUE_GET_ITEMS` | `"REQUEST_QUEUE_GET_ITEMS"` |
-| `REQUEST_QUEUE_GET_ITEM_IDS` | `"REQUEST_QUEUE_GET_ITEM_IDS"` |
-| `REQUEST_QUEUE_GET_ITEM_RANGE` | `"REQUEST_QUEUE_GET_ITEM_RANGE"` |
-| `REQUEST_QUEUE_INSERT` | `"REQUEST_QUEUE_INSERT"` |
-| `REQUEST_QUEUE_LOAD` | `"REQUEST_QUEUE_LOAD"` |
-| `REQUEST_QUEUE_REMOVE` | `"REQUEST_QUEUE_REMOVE"` |
-| `REQUEST_QUEUE_REORDER` | `"REQUEST_QUEUE_REORDER"` |
-| `REQUEST_QUEUE_UPDATE` | `"REQUEST_QUEUE_UPDATE"` |
-| `REQUEST_SEEK` | `"REQUEST_SEEK"` |
-| `REQUEST_SET_CREDENTIALS` | `"REQUEST_SET_CREDENTIALS"` |
-| `REQUEST_SKIP_AD` | `"REQUEST_SKIP_AD"` |
-| `REQUEST_STOP` | `"REQUEST_STOP"` |
-| `REQUEST_USER_ACTION` | `"REQUEST_USER_ACTION"` |
-| `REQUEST_VOLUME_CHANGE` | `"REQUEST_VOLUME_CHANGE"` |
-| `SEEKED` | `"SEEKED"` |
-| `SEEKING` | `"SEEKING"` |
-| `SEGMENT_DOWNLOADED` | `"SEGMENT_DOWNLOADED"` |
-| `STALLED` | `"STALLED"` |
-| `SUSPEND` | `"SUSPEND"` |
-| `TIMED_METADATA_CHANGED` | `"TIMED_METADATA_CHANGED"` |
-| `TIMED_METADATA_ENTER` | `"TIMED_METADATA_ENTER"` |
-| `TIMED_METADATA_EXIT` | `"TIMED_METADATA_EXIT"` |
-| `TIME_UPDATE` | `"TIME_UPDATE"` |
-| `TRACKS_CHANGED` | `"TRACKS_CHANGED"` |
-| `WAITING` | `"WAITING"` |
+| <a id="abort"></a> `ABORT` | `"ABORT"` |
+| <a id="all"></a> `ALL` | `"*"` |
+| <a id="bitrate_changed"></a> `BITRATE_CHANGED` | `"BITRATE_CHANGED"` |
+| <a id="break_clip_ended"></a> `BREAK_CLIP_ENDED` | `"BREAK_CLIP_ENDED"` |
+| <a id="break_clip_loading"></a> `BREAK_CLIP_LOADING` | `"BREAK_CLIP_LOADING"` |
+| <a id="break_clip_started"></a> `BREAK_CLIP_STARTED` | `"BREAK_CLIP_STARTED"` |
+| <a id="break_ended"></a> `BREAK_ENDED` | `"BREAK_ENDED"` |
+| <a id="break_started"></a> `BREAK_STARTED` | `"BREAK_STARTED"` |
+| <a id="buffering"></a> `BUFFERING` | `"BUFFERING"` |
+| <a id="cache_hit"></a> `CACHE_HIT` | `"CACHE_HIT"` |
+| <a id="cache_inserted"></a> `CACHE_INSERTED` | `"CACHE_INSERTED"` |
+| <a id="cache_loaded"></a> `CACHE_LOADED` | `"CACHE_LOADED"` |
+| <a id="can_play"></a> `CAN_PLAY` | `"CAN_PLAY"` |
+| <a id="can_play_through"></a> `CAN_PLAY_THROUGH` | `"CAN_PLAY_THROUGH"` |
+| <a id="clip_ended"></a> `CLIP_ENDED` | `"CLIP_ENDED"` |
+| <a id="clip_started"></a> `CLIP_STARTED` | `"CLIP_STARTED"` |
+| <a id="custom_state"></a> `CUSTOM_STATE` | `"CUSTOM_STATE"` |
+| <a id="duration_change"></a> `DURATION_CHANGE` | `"DURATION_CHANGE"` |
+| <a id="emptied"></a> `EMPTIED` | `"EMPTIED"` |
+| <a id="emsg"></a> `EMSG` | `"EMSG"` |
+| <a id="ended"></a> `ENDED` | `"ENDED"` |
+| <a id="error"></a> `ERROR` | `"ERROR"` |
+| <a id="id3"></a> `ID3` | `"ID3"` |
+| <a id="live_ended"></a> `LIVE_ENDED` | `"LIVE_ENDED"` |
+| <a id="live_is_moving_window_changed"></a> `LIVE_IS_MOVING_WINDOW_CHANGED` | `"LIVE_IS_MOVING_WINDOW_CHANGED"` |
+| <a id="load_start"></a> `LOAD_START` | `"LOAD_START"` |
+| <a id="loaded_data"></a> `LOADED_DATA` | `"LOADED_DATA"` |
+| <a id="loaded_metadata"></a> `LOADED_METADATA` | `"LOADED_METADATA"` |
+| <a id="media_finished"></a> `MEDIA_FINISHED` | `"MEDIA_FINISHED"` |
+| <a id="media_information_changed"></a> `MEDIA_INFORMATION_CHANGED` | `"MEDIA_INFORMATION_CHANGED"` |
+| <a id="media_status"></a> `MEDIA_STATUS` | `"MEDIA_STATUS"` |
+| <a id="pause"></a> `PAUSE` | `"PAUSE"` |
+| <a id="play"></a> `PLAY` | `"PLAY"` |
+| <a id="player_load_complete"></a> `PLAYER_LOAD_COMPLETE` | `"PLAYER_LOAD_COMPLETE"` |
+| <a id="player_loading"></a> `PLAYER_LOADING` | `"PLAYER_LOADING"` |
+| <a id="player_preloading"></a> `PLAYER_PRELOADING` | `"PLAYER_PRELOADING"` |
+| <a id="player_preloading_cancelled"></a> `PLAYER_PRELOADING_CANCELLED` | `"PLAYER_PRELOADING_CANCELLED"` |
+| <a id="playing"></a> `PLAYING` | `"PLAYING"` |
+| <a id="progress"></a> `PROGRESS` | `"PROGRESS"` |
+| <a id="rate_change"></a> `RATE_CHANGE` | `"RATE_CHANGE"` |
+| <a id="request_custom_command"></a> `REQUEST_CUSTOM_COMMAND` | `"REQUEST_CUSTOM_COMMAND"` |
+| <a id="request_display_status"></a> `REQUEST_DISPLAY_STATUS` | `"REQUEST_DISPLAY_STATUS"` |
+| <a id="request_edit_audio_tracks"></a> `REQUEST_EDIT_AUDIO_TRACKS` | `"REQUEST_EDIT_AUDIO_TRACKS"` |
+| <a id="request_edit_tracks_info"></a> `REQUEST_EDIT_TRACKS_INFO` | `"REQUEST_EDIT_TRACKS_INFO"` |
+| <a id="request_focus_state"></a> `REQUEST_FOCUS_STATE` | `"REQUEST_FOCUS_STATE"` |
+| <a id="request_load"></a> `REQUEST_LOAD` | `"REQUEST_LOAD"` |
+| <a id="request_load_by_entity"></a> `REQUEST_LOAD_BY_ENTITY` | `"REQUEST_LOAD_BY_ENTITY"` |
+| <a id="request_pause"></a> `REQUEST_PAUSE` | `"REQUEST_PAUSE"` |
+| <a id="request_play"></a> `REQUEST_PLAY` | `"REQUEST_PLAY"` |
+| <a id="request_play_again"></a> `REQUEST_PLAY_AGAIN` | `"REQUEST_PLAY_AGAIN"` |
+| <a id="request_playback_rate_change"></a> `REQUEST_PLAYBACK_RATE_CHANGE` | `"REQUEST_PLAYBACK_RATE_CHANGE"` |
+| <a id="request_precache"></a> `REQUEST_PRECACHE` | `"REQUEST_PRECACHE"` |
+| <a id="request_queue_get_item_ids"></a> `REQUEST_QUEUE_GET_ITEM_IDS` | `"REQUEST_QUEUE_GET_ITEM_IDS"` |
+| <a id="request_queue_get_item_range"></a> `REQUEST_QUEUE_GET_ITEM_RANGE` | `"REQUEST_QUEUE_GET_ITEM_RANGE"` |
+| <a id="request_queue_get_items"></a> `REQUEST_QUEUE_GET_ITEMS` | `"REQUEST_QUEUE_GET_ITEMS"` |
+| <a id="request_queue_insert"></a> `REQUEST_QUEUE_INSERT` | `"REQUEST_QUEUE_INSERT"` |
+| <a id="request_queue_load"></a> `REQUEST_QUEUE_LOAD` | `"REQUEST_QUEUE_LOAD"` |
+| <a id="request_queue_remove"></a> `REQUEST_QUEUE_REMOVE` | `"REQUEST_QUEUE_REMOVE"` |
+| <a id="request_queue_reorder"></a> `REQUEST_QUEUE_REORDER` | `"REQUEST_QUEUE_REORDER"` |
+| <a id="request_queue_update"></a> `REQUEST_QUEUE_UPDATE` | `"REQUEST_QUEUE_UPDATE"` |
+| <a id="request_seek"></a> `REQUEST_SEEK` | `"REQUEST_SEEK"` |
+| <a id="request_set_credentials"></a> `REQUEST_SET_CREDENTIALS` | `"REQUEST_SET_CREDENTIALS"` |
+| <a id="request_skip_ad"></a> `REQUEST_SKIP_AD` | `"REQUEST_SKIP_AD"` |
+| <a id="request_stop"></a> `REQUEST_STOP` | `"REQUEST_STOP"` |
+| <a id="request_user_action"></a> `REQUEST_USER_ACTION` | `"REQUEST_USER_ACTION"` |
+| <a id="request_volume_change"></a> `REQUEST_VOLUME_CHANGE` | `"REQUEST_VOLUME_CHANGE"` |
+| <a id="seeked"></a> `SEEKED` | `"SEEKED"` |
+| <a id="seeking"></a> `SEEKING` | `"SEEKING"` |
+| <a id="segment_downloaded"></a> `SEGMENT_DOWNLOADED` | `"SEGMENT_DOWNLOADED"` |
+| <a id="stalled"></a> `STALLED` | `"STALLED"` |
+| <a id="suspend"></a> `SUSPEND` | `"SUSPEND"` |
+| <a id="time_update"></a> `TIME_UPDATE` | `"TIME_UPDATE"` |
+| <a id="timed_metadata_changed"></a> `TIMED_METADATA_CHANGED` | `"TIMED_METADATA_CHANGED"` |
+| <a id="timed_metadata_enter"></a> `TIMED_METADATA_ENTER` | `"TIMED_METADATA_ENTER"` |
+| <a id="timed_metadata_exit"></a> `TIMED_METADATA_EXIT` | `"TIMED_METADATA_EXIT"` |
+| <a id="tracks_changed"></a> `TRACKS_CHANGED` | `"TRACKS_CHANGED"` |
+| <a id="waiting"></a> `WAITING` | `"WAITING"` |

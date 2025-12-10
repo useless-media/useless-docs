@@ -60,8 +60,8 @@ FirmwareMessage
 
 ### type
 
-> **type**: `GetStatus`
+> **type**: [`GetStatus`](reference/enumerations/MessageType.md#getstatus)
 
 #### Overrides
 
-`FirmwareMessage.type`
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`type`](BaseFirmwareMessage.md#type)

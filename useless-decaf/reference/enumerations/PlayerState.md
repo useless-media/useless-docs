@@ -4,7 +4,7 @@
 
 | Member | Value |
 | :------ | :------ |
-| `BUFFERING` | `"BUFFERING"` |
-| `IDLE` | `"IDLE"` |
-| `PAUSED` | `"PAUSED"` |
-| `PLAYING` | `"PLAYING"` |
+| <a id="buffering"></a> `BUFFERING` | `"BUFFERING"` |
+| <a id="idle"></a> `IDLE` | `"IDLE"` |
+| <a id="paused"></a> `PAUSED` | `"PAUSED"` |
+| <a id="playing"></a> `PLAYING` | `"PLAYING"` |

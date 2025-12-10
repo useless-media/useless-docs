@@ -1,6 +1,6 @@
 # RawFirmwareMessage
 
-## Extended By
+## Extended by
 
 - [`CustomUselessMessage`](reference/interfaces/CustomUselessMessage.md)
 

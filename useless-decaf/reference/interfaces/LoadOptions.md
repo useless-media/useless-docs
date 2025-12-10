@@ -4,4 +4,4 @@
 
 ### contentFilteringMode?
 
-> **contentFilteringMode**?: `FILTER_EXPLICIT`
+> **contentFilteringMode**?: [`FILTER_EXPLICIT`](reference/enumerations/ContentFilteringMode.md#filter_explicit)

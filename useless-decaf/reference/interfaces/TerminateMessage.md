@@ -8,29 +8,27 @@
 
 ### data
 
-> **data**: `Object`
+> **data**: `object`
 
-#### Type declaration
+#### data
 
-##### data
+> **data**: `TerminateCommand`
 
-> **data**: `Object`
-
-##### id
+#### id
 
 > **id**: `string`
 
-##### type
+#### type
 
-> **type**: `DeCafTerminate`
+> **type**: [`DeCafTerminate`](reference/enumerations/CustomUselessMessages.md#decafterminate)
 
-##### version
+#### version
 
 > **version**: `number`
 
 #### Overrides
 
-[`CustomUselessMessage.data`](reference/interfaces/CustomUselessMessage.md#data)
+[`CustomUselessMessage`](reference/interfaces/CustomUselessMessage.md).[`data`](CustomUselessMessage.md#data)
 
 ***
 
@@ -40,7 +38,7 @@
 
 #### Inherited from
 
-[`CustomUselessMessage.namespace`](reference/interfaces/CustomUselessMessage.md#namespace)
+[`CustomUselessMessage`](reference/interfaces/CustomUselessMessage.md).[`namespace`](CustomUselessMessage.md#namespace)
 
 ***
 
@@ -50,4 +48,4 @@
 
 #### Inherited from
 
-[`CustomUselessMessage.senderId`](reference/interfaces/CustomUselessMessage.md#senderid)
+[`CustomUselessMessage`](reference/interfaces/CustomUselessMessage.md).[`senderId`](CustomUselessMessage.md#senderid)

@@ -12,7 +12,7 @@
 
 #### Inherited from
 
-[`BaseFirmwareMessage.namespace`](reference/interfaces/BaseFirmwareMessage.md#namespace)
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`namespace`](BaseFirmwareMessage.md#namespace)
 
 ***
 
@@ -22,7 +22,7 @@
 
 #### Inherited from
 
-[`BaseFirmwareMessage.senderId`](reference/interfaces/BaseFirmwareMessage.md#senderid)
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`senderId`](BaseFirmwareMessage.md#senderid)
 
 ***
 
@@ -34,8 +34,8 @@
 
 ### type
 
-> **type**: `FocusState`
+> **type**: [`FocusState`](reference/enumerations/MessageType.md#focusstate)
 
 #### Overrides
 
-[`BaseFirmwareMessage.type`](reference/interfaces/BaseFirmwareMessage.md#type)
+[`BaseFirmwareMessage`](reference/interfaces/BaseFirmwareMessage.md).[`type`](BaseFirmwareMessage.md#type)

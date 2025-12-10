@@ -4,41 +4,41 @@
 
 - [`CustomUselessMessage`](reference/interfaces/CustomUselessMessage.md)
 
-## Type parameters
+## Type Parameters
 
-• **TConfiguration** = `Object`
+### TConfiguration
+
+`TConfiguration` = { }
 
 ## Properties
 
 ### data
 
-> **data**: `Object`
+> **data**: `object`
 
-#### Type declaration
+#### data
 
-##### data
-
-> **data**: `Object`
+> **data**: `object`
 
 ##### data.configuration
 
-> **data.configuration**: `DeepPartial`<`TConfiguration`>
+> **configuration**: `DeepPartial`<`TConfiguration`>
 
-##### id
+#### id
 
 > **id**: `string`
 
-##### type
+#### type
 
-> **type**: `DeCafConfigure`
+> **type**: [`DeCafConfigure`](reference/enumerations/CustomUselessMessages.md#decafconfigure)
 
-##### version
+#### version
 
 > **version**: `number`
 
 #### Overrides
 
-[`CustomUselessMessage.data`](reference/interfaces/CustomUselessMessage.md#data)
+[`CustomUselessMessage`](reference/interfaces/CustomUselessMessage.md).[`data`](CustomUselessMessage.md#data)
 
 ***
 
@@ -48,7 +48,7 @@
 
 #### Inherited from
 
-[`CustomUselessMessage.namespace`](reference/interfaces/CustomUselessMessage.md#namespace)
+[`CustomUselessMessage`](reference/interfaces/CustomUselessMessage.md).[`namespace`](CustomUselessMessage.md#namespace)
 
 ***
 
@@ -58,4 +58,4 @@
 
 #### Inherited from
 
-[`CustomUselessMessage.senderId`](reference/interfaces/CustomUselessMessage.md#senderid)
+[`CustomUselessMessage`](reference/interfaces/CustomUselessMessage.md).[`senderId`](CustomUselessMessage.md#senderid)

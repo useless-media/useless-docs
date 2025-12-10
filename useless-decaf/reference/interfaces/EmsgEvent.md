@@ -26,7 +26,7 @@
 
 ### messageData?
 
-> **messageData**?: `Uint8Array`
+> **messageData**?: `Uint8Array`<`ArrayBufferLike`>
 
 ***
 
@@ -44,7 +44,7 @@
 
 ### segmentData?
 
-> **segmentData**?: `Uint8Array`
+> **segmentData**?: `Uint8Array`<`ArrayBufferLike`>
 
 ***
 
@@ -66,7 +66,7 @@
 
 #### Inherited from
 
-[`Event.type`](reference/classes/Event.md#type)
+[`Event`](reference/classes/Event.md).[`type`](../classes/Event.md#type)
 
 ***
 

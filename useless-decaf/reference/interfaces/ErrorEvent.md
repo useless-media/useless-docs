@@ -30,4 +30,4 @@
 
 #### Inherited from
 
-[`Event.type`](reference/classes/Event.md#type)
+[`Event`](reference/classes/Event.md).[`type`](../classes/Event.md#type)

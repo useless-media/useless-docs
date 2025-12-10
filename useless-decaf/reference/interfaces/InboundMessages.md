@@ -26,6 +26,12 @@
 
 ***
 
+### hdroutputtypechanged
+
+> **hdroutputtypechanged**: [`HdrOutputTypeChangedMessage`](reference/interfaces/HdrOutputTypeChangedMessage.md)
+
+***
+
 ### LOAD
 
 > **LOAD**: [`LoadMessage`](reference/interfaces/LoadMessage.md)
@@ -44,33 +50,27 @@
 
 ***
 
-### SEEK
+### playbackdevicestatus
 
-> **SEEK**: [`InternalSeekMessage`](reference/interfaces/InternalSeekMessage.md)
-
-***
-
-### SET_VOLUME
-
-> **SET_VOLUME**: [`SetVolumeMessage`](reference/interfaces/SetVolumeMessage.md)
+> **playbackdevicestatus**: [`PlaybackDeviceStatusMessage`](reference/interfaces/PlaybackDeviceStatusMessage.md)
 
 ***
 
-### SKIP_AD
+### QUEUE_GET_ITEM_IDS
 
-> **SKIP_AD**: [`SkipAdMessage`](reference/interfaces/SkipAdMessage.md)
-
-***
-
-### STOP
-
-> **STOP**: [`StopMessage`](reference/interfaces/StopMessage.md)
+> **QUEUE_GET_ITEM_IDS**: [`QueueGetItemIdsMessage`](reference/interfaces/QueueGetItemIdsMessage.md)
 
 ***
 
 ### ready
 
 > **ready**: [`ReadyMessage`](reference/interfaces/ReadyMessage.md)
+
+***
+
+### SEEK
+
+> **SEEK**: [`InternalSeekMessage`](reference/interfaces/InternalSeekMessage.md)
 
 ***
 
@@ -86,15 +86,33 @@
 
 ***
 
+### SET_VOLUME
+
+> **SET_VOLUME**: [`SetVolumeMessage`](reference/interfaces/SetVolumeMessage.md)
+
+***
+
 ### showmediacontrols
 
 > **showmediacontrols**: [`ShowMediaControlsMessage`](reference/interfaces/ShowMediaControlsMessage.md)
 
 ***
 
+### SKIP_AD
+
+> **SKIP_AD**: [`SkipAdMessage`](reference/interfaces/SkipAdMessage.md)
+
+***
+
 ### standbychanged
 
 > **standbychanged**: [`StandbyChangedMessage`](reference/interfaces/StandbyChangedMessage.md)
+
+***
+
+### STOP
+
+> **STOP**: [`StopMessage`](reference/interfaces/StopMessage.md)
 
 ***
 

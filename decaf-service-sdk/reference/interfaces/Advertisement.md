@@ -1,9 +1,5 @@
 # Advertisement<TAdvertisementAuxiliaryData>
 
-## X-see
-
-ts-auto-guard:type-guard
-
 ## Type Parameters
 
 ### TAdvertisementAuxiliaryData

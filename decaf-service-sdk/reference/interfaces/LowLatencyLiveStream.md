@@ -1,9 +1,5 @@
 # LowLatencyLiveStream
 
-## X-see
-
-ts-auto-guard:type-guard
-
 ## Extends
 
 - [`LowLatencyStream`](reference/interfaces/LowLatencyStream.md)

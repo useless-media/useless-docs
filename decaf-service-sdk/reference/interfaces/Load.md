@@ -1,9 +1,5 @@
 # Load
 
-## X-see
-
-ts-auto-guard:type-guard
-
 ## Properties
 
 ### advertisement?

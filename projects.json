@@ -1,4 +1,8 @@
 {
+  "decaf": {
+    "name": "DeCaf",
+    "path": "decaf"
+  },
   "decaf-commercial": {
     "name": "DeCaf Commercial",
     "path": "decaf-commercial"

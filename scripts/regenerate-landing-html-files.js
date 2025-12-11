@@ -31,9 +31,12 @@ const getLineEnding = str => {
 
     let inLinks = false;
     let readingLink = false;
+    let internalSection = false;
+    let internalSectionLinksEndIndex = -1;
     let linksEndIndex = -1;
     for (const l in lines) {
-      if (lines[l].trim() === '<div class="card-container">') { // Entered link section
+      if (lines[l].trim().startsWith('<div class="card-container')) { // Entered link section
+        internalSection = lines[l].includes('internal');
         inLinks = true;
       }
       if (!inLinks) continue;
@@ -48,7 +51,12 @@ const getLineEnding = str => {
 
       if (!readingLink && lines[l].trim() === '</div>') {
         inLinks = false;
-        linksEndIndex = l;
+        if (internalSection) {
+          internalSectionLinksEndIndex = l;
+        }
+        else {
+          linksEndIndex = l;
+        }
       }
 
       if (lines[l].includes('</a')) {
@@ -69,8 +77,14 @@ const getLineEnding = str => {
       }
     }
 
-    if (linesToInject.length && linksEndIndex > 0) {
-      lines.splice(linksEndIndex, 0, ...linesToInject);
+    if (linesToInject.length) {
+      if (internal && internalSectionLinksEndIndex > 0) {
+
+        lines.splice(internalSectionLinksEndIndex, 0, ...linesToInject);
+      }
+      else if (linksEndIndex > 0) {
+        lines.splice(linksEndIndex, 0, ...linesToInject);
+      }
     }
 
     return lines;

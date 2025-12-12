@@ -57,6 +57,11 @@
       "name": "Useless Nest Sdk",
       "path": "useless-nest-sdk",
       "relativePathToRoot": "../"
+    },
+    "useless-sdk": {
+      "name": "Useless Sdk",
+      "path": "useless-sdk",
+      "relativePathToRoot": "../"
     }
   }
 }

@@ -1,0 +1,71 @@
+# HttpStatusCode
+
+## Enumeration Members
+
+| Member | Value |
+| :------ | :------ |
+| <a id="clienterrorbadrequest"></a> `ClientErrorBadRequest` | `400` |
+| <a id="clienterrorconflict"></a> `ClientErrorConflict` | `409` |
+| <a id="clienterrorexpectationfailed"></a> `ClientErrorExpectationFailed` | `417` |
+| <a id="clienterrorfaileddependency"></a> `ClientErrorFailedDependency` | `424` |
+| <a id="clienterrorforbidden"></a> `ClientErrorForbidden` | `403` |
+| <a id="clienterrorgone"></a> `ClientErrorGone` | `410` |
+| <a id="clienterrorimateapot"></a> `ClientErrorImATeapot` | `418` |
+| <a id="clienterrorlengthrequired"></a> `ClientErrorLengthRequired` | `411` |
+| <a id="clienterrorlocked"></a> `ClientErrorLocked` | `423` |
+| <a id="clienterrorlogintimeout"></a> `ClientErrorLoginTimeOut` | `440` |
+| <a id="clienterrormethodnotallowed"></a> `ClientErrorMethodNotAllowed` | `405` |
+| <a id="clienterrormisdirectedrequest"></a> `ClientErrorMisdirectedRequest` | `421` |
+| <a id="clienterrornotacceptable"></a> `ClientErrorNotAcceptable` | `406` |
+| <a id="clienterrornotfound"></a> `ClientErrorNotFound` | `404` |
+| <a id="clienterrorpayloadtoolarge"></a> `ClientErrorPayloadTooLarge` | `413` |
+| <a id="clienterrorpaymentrequired"></a> `ClientErrorPaymentRequired` | `402` |
+| <a id="clienterrorpreconditionfailed"></a> `ClientErrorPreconditionFailed` | `412` |
+| <a id="clienterrorpreconditionrequired"></a> `ClientErrorPreconditionRequired` | `428` |
+| <a id="clienterrorproxyauthrequired"></a> `ClientErrorProxyAuthRequired` | `407` |
+| <a id="clienterrorrangenotsatisfiable"></a> `ClientErrorRangeNotSatisfiable` | `416` |
+| <a id="clienterrorrequestheaderfieldstoolarge"></a> `ClientErrorRequestHeaderFieldsTooLarge` | `431` |
+| <a id="clienterrorrequesttimeout"></a> `ClientErrorRequestTimeout` | `408` |
+| <a id="clienterrorretrywith"></a> `ClientErrorRetryWith` | `449` |
+| <a id="clienterrortoomanyrequests"></a> `ClientErrorTooManyRequests` | `429` |
+| <a id="clienterrorunauthorized"></a> `ClientErrorUnauthorized` | `401` |
+| <a id="clienterrorunavailableforlegalreasons"></a> `ClientErrorUnavailableForLegalReasons` | `451` |
+| <a id="clienterrorunprocessableentity"></a> `ClientErrorUnprocessableEntity` | `422` |
+| <a id="clienterrorunsupportedmediatype"></a> `ClientErrorUnsupportedMediaType` | `415` |
+| <a id="clienterrorupgraderequired"></a> `ClientErrorUpgradeRequired` | `426` |
+| <a id="clienterroruritoolong"></a> `ClientErrorURITooLong` | `414` |
+| <a id="infocontinue"></a> `InfoContinue` | `100` |
+| <a id="infoprocessing"></a> `InfoProcessing` | `102` |
+| <a id="infoswitchingprotocols"></a> `InfoSwitchingProtocols` | `101` |
+| <a id="redirectfound"></a> `RedirectFound` | `302` |
+| <a id="redirectmovedpermanently"></a> `RedirectMovedPermanently` | `301` |
+| <a id="redirectmultiplechoices"></a> `RedirectMultipleChoices` | `300` |
+| <a id="redirectnotmodified"></a> `RedirectNotModified` | `304` |
+| <a id="redirectpermanent"></a> `RedirectPermanent` | `308` |
+| <a id="redirectseeother"></a> `RedirectSeeOther` | `303` |
+| <a id="redirectswitchproxy"></a> `RedirectSwitchProxy` | `306` |
+| <a id="redirecttemp"></a> `RedirectTemp` | `307` |
+| <a id="redirectuseproxy"></a> `RedirectUseProxy` | `305` |
+| <a id="servererrorbadgateway"></a> `ServerErrorBadGateway` | `502` |
+| <a id="servererrorbandwidthlimitexceeded"></a> `ServerErrorBandwidthLimitExceeded` | `509` |
+| <a id="servererrorgatewaytimeout"></a> `ServerErrorGatewayTimeout` | `504` |
+| <a id="servererrorhttpversionnotsupported"></a> `ServerErrorHTTPVersionNotSupported` | `505` |
+| <a id="servererrorinsufficientstorage"></a> `ServerErrorInsufficientStorage` | `507` |
+| <a id="servererrorinternal"></a> `ServerErrorInternal` | `500` |
+| <a id="servererrorloopdetected"></a> `ServerErrorLoopDetected` | `508` |
+| <a id="servererrornetworkauthrequired"></a> `ServerErrorNetworkAuthRequired` | `511` |
+| <a id="servererrornotextended"></a> `ServerErrorNotExtended` | `510` |
+| <a id="servererrornotimplemented"></a> `ServerErrorNotImplemented` | `501` |
+| <a id="servererrorserviceunavailable"></a> `ServerErrorServiceUnavailable` | `503` |
+| <a id="servererrorvariantalsonegotiates"></a> `ServerErrorVariantAlsoNegotiates` | `506` |
+| <a id="successaccepted"></a> `SuccessAccepted` | `202` |
+| <a id="successalreadyreported"></a> `SuccessAlreadyReported` | `208` |
+| <a id="successcreated"></a> `SuccessCreated` | `201` |
+| <a id="successimused"></a> `SuccessIMUsed` | `229` |
+| <a id="successmultistatus"></a> `SuccessMultiStatus` | `207` |
+| <a id="successnocontent"></a> `SuccessNoContent` | `204` |
+| <a id="successnonauthoritativeinfo"></a> `SuccessNonAuthoritativeInfo` | `203` |
+| <a id="successok"></a> `SuccessOK` | `200` |
+| <a id="successpartialcontent"></a> `SuccessPartialContent` | `206` |
+| <a id="successresetcontent"></a> `SuccessResetContent` | `205` |
+| <a id="unknown"></a> `Unknown` | `0` |

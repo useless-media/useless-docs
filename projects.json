@@ -72,6 +72,11 @@
       "name": "Useless Api Sdk",
       "path": "useless-api-sdk",
       "relativePathToRoot": "../"
+    },
+    "useless-component-loader": {
+      "name": "Useless Component Loader",
+      "path": "useless-component-loader",
+      "relativePathToRoot": "../"
     }
   }
 }

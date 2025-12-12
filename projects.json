@@ -87,6 +87,11 @@
       "name": "Useless Delegate",
       "path": "useless-delegate",
       "relativePathToRoot": "../"
+    },
+    "useless-database": {
+      "name": "Useless Database",
+      "path": "useless-database",
+      "relativePathToRoot": "../"
     }
   }
 }

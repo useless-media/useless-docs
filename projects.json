@@ -82,6 +82,11 @@
       "name": "Useless Extendables",
       "path": "useless-extendables",
       "relativePathToRoot": "../"
+    },
+    "useless-delegate": {
+      "name": "Useless Delegate",
+      "path": "useless-delegate",
+      "relativePathToRoot": "../"
     }
   }
 }

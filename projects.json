@@ -32,6 +32,11 @@
     "useless-decaf-client-sdk": {
       "name": "Useless DeCaf Client Sdk",
       "path": "useless-decaf-client-sdk"
+    },
+    "useless-media-sdk": {
+      "name": "Useless Media Sdk",
+      "path": "useless-media-sdk",
+      "relativePathToRoot": "../"
     }
   }
 }

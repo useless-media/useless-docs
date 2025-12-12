@@ -77,6 +77,11 @@
       "name": "Useless Component Loader",
       "path": "useless-component-loader",
       "relativePathToRoot": "../"
+    },
+    "useless-extendables": {
+      "name": "Useless Extendables",
+      "path": "useless-extendables",
+      "relativePathToRoot": "../"
     }
   }
 }

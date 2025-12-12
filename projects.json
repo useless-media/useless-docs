@@ -67,6 +67,11 @@
       "name": "Useless Sdk",
       "path": "useless-sdk",
       "relativePathToRoot": "../"
+    },
+    "useless-api-sdk": {
+      "name": "Useless Api Sdk",
+      "path": "useless-api-sdk",
+      "relativePathToRoot": "../"
     }
   }
 }

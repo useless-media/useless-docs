@@ -1,0 +1,15 @@
+# StreamLoadedEvent
+
+## Extends
+
+- [`StreamLoadedData`](reference/interfaces/StreamLoadedData.md).[`WackaPlayerEvent`](WackaPlayerEvent.md)
+
+## Properties
+
+### type
+
+> **type**: [`WackaPlayerEvents`](reference/enumerations/WackaPlayerEvents.md)
+
+#### Inherited from
+
+[`WackaPlayerEvent`](reference/interfaces/WackaPlayerEvent.md).[`type`](WackaPlayerEvent.md#type)

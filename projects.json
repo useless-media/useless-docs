@@ -33,6 +33,11 @@
       "name": "Useless DeCaf Client Sdk",
       "path": "useless-decaf-client-sdk"
     },
+    "wacka": {
+      "name": "Wacka",
+      "path": "wacka",
+      "relativePathToRoot": "../"
+    },
     "useless-media-sdk": {
       "name": "Useless Media Sdk",
       "path": "useless-media-sdk",

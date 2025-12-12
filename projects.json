@@ -11,6 +11,10 @@
     "name": "DeCaf Service Sdk",
     "path": "decaf-service-sdk"
   },
+  "ts-native": {
+    "name": "TsNative",
+    "path": "ts-native"
+  },
   "useless-sender": {
     "name": "Useless Sender Library",
     "path": "useless-sender"

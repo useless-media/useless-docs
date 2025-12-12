@@ -20,6 +20,11 @@
     "path": "useless-sender-web"
   },
   "internal": {
+    "decaf-clients": {
+      "name": "Decaf Clients",
+      "path": "decaf-clients",
+      "relativePathToRoot": ""
+    },
     "useless-decaf": {
       "name": "Useless DeCaf",
       "path": "useless-decaf"

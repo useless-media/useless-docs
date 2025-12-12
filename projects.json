@@ -47,6 +47,11 @@
       "name": "Useless Debug Sdk",
       "path": "useless-debug-sdk",
       "relativePathToRoot": "../"
+    },
+    "useless-electron-sdk": {
+      "name": "Useless Electron Sdk",
+      "path": "useless-electron-sdk",
+      "relativePathToRoot": "../"
     }
   }
 }

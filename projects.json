@@ -52,6 +52,11 @@
       "name": "Useless Electron Sdk",
       "path": "useless-electron-sdk",
       "relativePathToRoot": "../"
+    },
+    "useless-nest-sdk": {
+      "name": "Useless Nest Sdk",
+      "path": "useless-nest-sdk",
+      "relativePathToRoot": "../"
     }
   }
 }

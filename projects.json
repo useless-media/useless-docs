@@ -37,6 +37,11 @@
       "name": "Useless Media Sdk",
       "path": "useless-media-sdk",
       "relativePathToRoot": "../"
+    },
+    "useless-messaging-sdk": {
+      "name": "Useless Messaging Sdk",
+      "path": "useless-messaging-sdk",
+      "relativePathToRoot": "../"
     }
   }
 }

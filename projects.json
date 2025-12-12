@@ -42,6 +42,11 @@
       "name": "Useless Messaging Sdk",
       "path": "useless-messaging-sdk",
       "relativePathToRoot": "../"
+    },
+    "useless-debug-sdk": {
+      "name": "Useless Debug Sdk",
+      "path": "useless-debug-sdk",
+      "relativePathToRoot": "../"
     }
   }
 }

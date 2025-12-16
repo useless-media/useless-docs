@@ -6,17 +6,19 @@
 
 ## Constructors
 
-### new UselessSender()
+### Constructor
 
-> **new UselessSender**(`configuration`?): [`UselessSender`](reference/classes/UselessSender.md)
+> **new UselessSender**(`configuration?`): `UselessSender`
 
 #### Parameters
 
-• **configuration?**: `Partial`<[`UselessSenderConfiguration`](reference/classes/UselessSenderConfiguration.md)>
+##### configuration?
+
+`Partial`<[`UselessSenderConfiguration`](reference/classes/UselessSenderConfiguration.md)>
 
 #### Returns
 
-[`UselessSender`](reference/classes/UselessSender.md)
+`UselessSender`
 
 #### Overrides
 
@@ -124,11 +126,11 @@
 
 #### Get Signature
 
-> **get** **session**(): `undefined` | [`ISession`](reference/interfaces/ISession.md)
+> **get** **session**(): [`ISession`](reference/interfaces/ISession.md) | `undefined`
 
 ##### Returns
 
-`undefined` | [`ISession`](reference/interfaces/ISession.md)
+[`ISession`](reference/interfaces/ISession.md) | `undefined`
 
 ***
 
@@ -150,13 +152,19 @@
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
-• **type**: `K`
+##### type
 
-• **subscriber**
+`K`
+
+##### subscriber
+
+(`e`) => `void`
 
 #### Returns
 
@@ -174,11 +182,15 @@
 
 #### Type Parameters
 
-• **TLoad** *extends* [`Load`](reference/interfaces/Load.md) = [`Load`](../interfaces/Load.md)
+##### TLoad
+
+`TLoad` *extends* [`Load`](reference/interfaces/Load.md) = [`Load`](../interfaces/Load.md)
 
 #### Parameters
 
-• **load**: `TLoad`
+##### load
+
+`TLoad`
 
 #### Returns
 
@@ -188,11 +200,13 @@
 
 ### configure()
 
-> **configure**(`configuration`?): `void`
+> **configure**(`configuration?`): `void`
 
 #### Parameters
 
-• **configuration?**: `Partial`<[`UselessSenderConfiguration`](reference/classes/UselessSenderConfiguration.md)>
+##### configuration?
+
+`Partial`<[`UselessSenderConfiguration`](reference/classes/UselessSenderConfiguration.md)>
 
 #### Returns
 
@@ -212,11 +226,13 @@
 
 ### destroy()
 
-> **destroy**(`stopCasting`?): `Promise`<`void`>
+> **destroy**(`stopCasting?`): `Promise`<`void`>
 
 #### Parameters
 
-• **stopCasting?**: `boolean`
+##### stopCasting?
+
+`boolean`
 
 #### Returns
 
@@ -230,11 +246,13 @@
 
 ### disconnect()
 
-> **disconnect**(`stopCasting`?): `Promise`<`void`>
+> **disconnect**(`stopCasting?`): `Promise`<`void`>
 
 #### Parameters
 
-• **stopCasting?**: `boolean`
+##### stopCasting?
+
+`boolean`
 
 #### Returns
 
@@ -244,17 +262,23 @@
 
 ### emit()
 
-> **emit**<`K`>(`type`, `event`?): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
+> **emit**<`K`>(`type`, `event?`): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
-• **type**: `K`
+##### type
 
-• **event?**: `Optional`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)[`K`], `"type"`>
+`K`
+
+##### event?
+
+`Optional`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)[`K`], `"type"`>
 
 #### Returns
 
@@ -268,17 +292,23 @@
 
 ### emitAsync()
 
-> **emitAsync**<`K`>(`type`, `event`?): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
+> **emitAsync**<`K`>(`type`, `event?`): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
-• **type**: `K`
+##### type
 
-• **event?**: `Optional`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)[`K`], `"type"`>
+`K`
+
+##### event?
+
+`Optional`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)[`K`], `"type"`>
 
 #### Returns
 
@@ -296,15 +326,19 @@
 
 #### Parameters
 
-• **subscriber**: `TSubscriber`
+##### subscriber
+
+`TSubscriber`
 
 #### Returns
 
-`Function`
+> (...`args`): `void`
 
 ##### Parameters
 
-• ...**args**: `any`[]
+###### args
+
+...`any`[]
 
 ##### Returns
 
@@ -318,11 +352,13 @@
 
 ### initialize()
 
-> **initialize**(`configuration`?): `Promise`<`void`>
+> **initialize**(`configuration?`): `Promise`<`void`>
 
 #### Parameters
 
-• **configuration?**: `Partial`<[`UselessSenderConfiguration`](reference/classes/UselessSenderConfiguration.md)>
+##### configuration?
+
+`Partial`<[`UselessSenderConfiguration`](reference/classes/UselessSenderConfiguration.md)>
 
 #### Returns
 
@@ -332,17 +368,25 @@
 
 ### listen()
 
-> `protected` **listen**(`event`, `listener`, `target`?, `listenerCollection`?): `void`
+> `protected` **listen**(`event`, `listener`, `target?`, `listenerCollection?`): `void`
 
 #### Parameters
 
-• **event**: `string`
+##### event
 
-• **listener**: `TListener`
+`string`
 
-• **target?**: `TTargetEmitter`
+##### listener
 
-• **listenerCollection?**: `Record`<`string`, `TListener`>
+`TListener`
+
+##### target?
+
+`TTargetEmitter`
+
+##### listenerCollection?
+
+`Record`<`string`, `TListener`>
 
 #### Returns
 
@@ -356,17 +400,25 @@
 
 ### listenOnce()
 
-> `protected` **listenOnce**(`event`, `listener`, `target`?, `listenerCollection`?): `void`
+> `protected` **listenOnce**(`event`, `listener`, `target?`, `listenerCollection?`): `void`
 
 #### Parameters
 
-• **event**: `string`
+##### event
 
-• **listener**: `TListener`
+`string`
 
-• **target?**: `TTargetEmitter`
+##### listener
 
-• **listenerCollection?**: `Record`<`string`, `TListener`>
+`TListener`
+
+##### target?
+
+`TTargetEmitter`
+
+##### listenerCollection?
+
+`Record`<`string`, `TListener`>
 
 #### Returns
 
@@ -380,17 +432,23 @@
 
 ### off()
 
-> **off**<`K`>(`type`?, `subscriber`?): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
+> **off**<`K`>(`type?`, `subscriber?`): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
-• **type?**: `K`
+##### type?
 
-• **subscriber?**
+`K`
+
+##### subscriber?
+
+(`e`) => `void`
 
 #### Returns
 
@@ -408,13 +466,19 @@
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
-• **type**: `K`
+##### type
 
-• **subscriber**
+`K`
+
+##### subscriber
+
+(`e`) => `void`
 
 #### Returns
 
@@ -432,13 +496,19 @@
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
-• **type**: `K`
+##### type
 
-• **subscriber**
+`K`
+
+##### subscriber
+
+(`e`) => `void`
 
 #### Returns
 
@@ -452,17 +522,23 @@
 
 ### removeEventListener()
 
-> **removeEventListener**<`K`>(`type`?, `subscriber`?): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
+> **removeEventListener**<`K`>(`type?`, `subscriber?`): `Emitter`<[`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)>
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSenderEventList`](reference/interfaces/UselessSenderEventList.md)
 
 #### Parameters
 
-• **type?**: `K`
+##### type?
 
-• **subscriber?**
+`K`
+
+##### subscriber?
+
+(`e`) => `void`
 
 #### Returns
 
@@ -480,7 +556,9 @@
 
 #### Parameters
 
-• **value**: `boolean`
+##### value
+
+`boolean`
 
 #### Returns
 
@@ -498,7 +576,9 @@
 
 #### Parameters
 
-• **url**: `string`
+##### url
+
+`string`
 
 #### Returns
 
@@ -508,15 +588,21 @@
 
 ### unlisten()
 
-> `protected` **unlisten**(`target`?, `listenerCollection`?, `event`?): `void`
+> `protected` **unlisten**(`target?`, `listenerCollection?`, `event?`): `void`
 
 #### Parameters
 
-• **target?**: `TTargetEmitter`
+##### target?
 
-• **listenerCollection?**: `Record`<`string`, `TListener`>
+`TTargetEmitter`
 
-• **event?**: `string`
+##### listenerCollection?
+
+`Record`<`string`, `TListener`>
+
+##### event?
+
+`string`
 
 #### Returns
 
@@ -534,7 +620,9 @@
 
 #### Parameters
 
-• **use**: `boolean` = `true`
+##### use
+
+`boolean` = `true`
 
 #### Returns
 
@@ -544,12 +632,14 @@
 
 ### getInstance()
 
-> `static` **getInstance**(`options`?): [`UselessSender`](reference/classes/UselessSender.md)
+> `static` **getInstance**(`options?`): `UselessSender`
 
 #### Parameters
 
-• **options?**: `Partial`<[`UselessSenderConfiguration`](reference/classes/UselessSenderConfiguration.md)>
+##### options?
+
+`Partial`<[`UselessSenderConfiguration`](reference/classes/UselessSenderConfiguration.md)>
 
 #### Returns
 
-[`UselessSender`](reference/classes/UselessSender.md)
+`UselessSender`

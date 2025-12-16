@@ -32,7 +32,7 @@ ts-auto-guard:type-guard
 
 ### seekable
 
-> **seekable**: `ContentSeekable`
+> **seekable**: `Seekable`
 
 ***
 

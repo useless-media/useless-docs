@@ -2,9 +2,37 @@
 
 ## Extends
 
-- `ReceiverPlaybackSessionState`
+- `StateWithId`
+
+## Extended by
+
+- [`TimelineBackwardsCompatiblePlaybackSessionState`](reference/interfaces/TimelineBackwardsCompatiblePlaybackSessionState.md)
 
 ## Properties
+
+### absoluteDuration?
+
+> **absoluteDuration**?: `number`
+
+***
+
+### absoluteEpochTime?
+
+> **absoluteEpochTime**?: `number`
+
+***
+
+### absoluteSeekableRange?
+
+> **absoluteSeekableRange**?: [`SeekableRange`](reference/interfaces/SeekableRange.md)
+
+***
+
+### absoluteTime?
+
+> **absoluteTime**?: `number`
+
+***
 
 ### advertisement
 
@@ -14,17 +42,13 @@
 
 > **active**: `object`
 
-#### active.advertisement?
+##### active.advertisement?
 
 > **advertisement**?: [`Advertisement`](reference/interfaces/Advertisement.md)<`AdvertisementAuxiliaryData`>
 
-#### active.advertisementBreak?
+##### active.advertisementBreak?
 
 > **advertisementBreak**?: [`AdvertisementBreak`](reference/interfaces/AdvertisementBreak.md) | [`AdvertisementCue`](AdvertisementCue.md)
-
-#### Overrides
-
-`ReceiverPlaybackSessionState.advertisement`
 
 ***
 
@@ -32,19 +56,11 @@
 
 > **autoplay**: `boolean`
 
-#### Overrides
-
-`ReceiverPlaybackSessionState.autoplay`
-
 ***
 
 ### content?
 
 > **content**?: `Omit`<[`Content`](reference/interfaces/Content.md), `"streams"`>
-
-#### Overrides
-
-`ReceiverPlaybackSessionState.content`
 
 ***
 
@@ -52,19 +68,17 @@
 
 > **contentDuration**?: `number`
 
-#### Overrides
-
-`ReceiverPlaybackSessionState.contentDuration`
-
 ***
 
 ### contentEpochTime?
 
 > **contentEpochTime**?: `number`
 
-#### Overrides
+***
 
-`ReceiverPlaybackSessionState.contentEpochTime`
+### contentSeekableRange?
+
+> **contentSeekableRange**?: [`SeekableRange`](reference/interfaces/SeekableRange.md)
 
 ***
 
@@ -72,45 +86,41 @@
 
 > **contentTime**?: `number`
 
-#### Overrides
-
-`ReceiverPlaybackSessionState.contentTime`
-
 ***
 
-### currentTime?
+### ~~currentTime?~~
 
 > **currentTime**?: `number`
 
-#### Overrides
+#### Deprecated
 
-`ReceiverPlaybackSessionState.currentTime`
+- but kept for backwards compatibility
 
 ***
 
-### duration?
+### ~~duration?~~
 
 > **duration**?: `number`
 
-#### Overrides
+#### Deprecated
 
-`ReceiverPlaybackSessionState.duration`
+- but kept for backwards compatibility
 
 ***
 
-### epochTime?
+### ~~epochTime?~~
 
 > **epochTime**?: `number`
 
-#### Overrides
+#### Deprecated
 
-`ReceiverPlaybackSessionState.epochTime`
+- but kept for backwards compatibility
 
 ***
 
 ### error?
 
-> **error**?: `IReceiverError`
+> **error**?: `IError`
 
 ***
 
@@ -120,7 +130,7 @@
 
 #### Overrides
 
-`ReceiverPlaybackSessionState.id`
+`StateWithId.id`
 
 ***
 
@@ -134,19 +144,15 @@
 
 > **playbackState**: [`PlaybackStates`](reference/enumerations/PlaybackStates.md)
 
-#### Overrides
-
-`ReceiverPlaybackSessionState.playbackState`
-
 ***
 
-### seekableRange?
+### ~~seekableRange?~~
 
 > **seekableRange**?: [`SeekableRange`](reference/interfaces/SeekableRange.md)
 
-#### Overrides
+#### Deprecated
 
-`ReceiverPlaybackSessionState.seekableRange`
+- but kept for backwards compatibility
 
 ***
 
@@ -168,10 +174,6 @@
 
 > **stream**?: `Omit`<[`Stream`](reference/interfaces/Stream.md), `"drms"`>
 
-#### Overrides
-
-`ReceiverPlaybackSessionState.stream`
-
 ***
 
 ### streamRestrictions
@@ -190,16 +192,8 @@
 
 > **tracks**?: [`Track`](reference/interfaces/Track.md)[]
 
-#### Overrides
-
-`ReceiverPlaybackSessionState.tracks`
-
 ***
 
 ### volume?
 
 > **volume**?: [`Volume`](reference/interfaces/Volume.md)
-
-#### Overrides
-
-`ReceiverPlaybackSessionState.volume`

@@ -4,5 +4,5 @@
 
 | Member | Value |
 | :------ | :------ |
-| `Custom` | `"TimelineEventTypes.Custom"` |
-| `PrepareNextContent` | `"TimelineEventTypes.PrepareNextContent"` |
+| <a id="custom"></a> `Custom` | `"TimelineEventTypes.Custom"` |
+| <a id="preparenextcontent"></a> `PrepareNextContent` | `"TimelineEventTypes.PrepareNextContent"` |

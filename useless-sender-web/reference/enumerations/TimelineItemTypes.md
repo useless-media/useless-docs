@@ -4,6 +4,6 @@
 
 | Member | Value |
 | :------ | :------ |
-| `Event` | `"TimelineItemTypes.Event"` |
-| `Metadata` | `"TimelineItemTypes.Metadata"` |
-| `Section` | `"TimelineItemTypes.Section"` |
+| <a id="event"></a> `Event` | `"TimelineItemTypes.Event"` |
+| <a id="metadata"></a> `Metadata` | `"TimelineItemTypes.Metadata"` |
+| <a id="section"></a> `Section` | `"TimelineItemTypes.Section"` |

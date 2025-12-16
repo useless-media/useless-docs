@@ -4,7 +4,7 @@
 
 | Member | Value |
 | :------ | :------ |
-| `Audio` | `"TrackTypes.Audio"` |
-| `Text` | `"TrackTypes.Text"` |
-| `Unknown` | `"TrackTypes.Unknown"` |
-| `Video` | `"TrackTypes.Video"` |
+| <a id="audio"></a> `Audio` | `"TrackTypes.Audio"` |
+| <a id="text"></a> `Text` | `"TrackTypes.Text"` |
+| <a id="unknown"></a> `Unknown` | `"TrackTypes.Unknown"` |
+| <a id="video"></a> `Video` | `"TrackTypes.Video"` |

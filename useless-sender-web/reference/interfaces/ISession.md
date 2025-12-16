@@ -20,11 +20,15 @@ convenience
 
 #### Type Parameters
 
-• **TLoad** *extends* [`Load`](reference/interfaces/Load.md) = [`Load`](Load.md)
+##### TLoad
+
+`TLoad` *extends* [`Load`](reference/interfaces/Load.md) = [`Load`](Load.md)
 
 #### Parameters
 
-• **load**: `TLoad`
+##### load
+
+`TLoad`
 
 #### Returns
 
@@ -34,11 +38,13 @@ convenience
 
 ### destroy()
 
-> **destroy**: (`stopCasting`?) => `Promise`<`void`>
+> **destroy**: (`stopCasting?`) => `Promise`<`void`>
 
 #### Parameters
 
-• **stopCasting?**: `boolean`
+##### stopCasting?
+
+`boolean`
 
 #### Returns
 
@@ -66,11 +72,13 @@ messaging
 
 ### pause()
 
-> **pause**: (`command`?) => `Promise`<`void`>
+> **pause**: (`command?`) => `Promise`<`void`>
 
 #### Parameters
 
-• **command?**: `PauseCommand`
+##### command?
+
+`PauseCommand`
 
 #### Returns
 
@@ -80,11 +88,13 @@ messaging
 
 ### play()
 
-> **play**: (`command`?) => `Promise`<`void`>
+> **play**: (`command?`) => `Promise`<`void`>
 
 #### Parameters
 
-• **command?**: `PlayCommand`
+##### command?
+
+`PlayCommand`
 
 #### Returns
 
@@ -94,7 +104,7 @@ messaging
 
 ### playbackSessionState
 
-> **playbackSessionState**: `Partial`<[`PlaybackSessionState`](reference/interfaces/PlaybackSessionState.md)>
+> **playbackSessionState**: `Partial`<[`TimelineBackwardsCompatiblePlaybackSessionState`](reference/interfaces/TimelineBackwardsCompatiblePlaybackSessionState.md)>
 
 ***
 
@@ -104,7 +114,9 @@ messaging
 
 #### Parameters
 
-• **command**: `SeekCommand`
+##### command
+
+`SeekCommand`
 
 #### Returns
 
@@ -118,9 +130,13 @@ messaging
 
 #### Parameters
 
-• **messageNamespace**: `string`
+##### messageNamespace
 
-• **message**: `Record`<`string`, `any`>
+`string`
+
+##### message
+
+`Record`<`string`, `any`>
 
 #### Returns
 
@@ -134,7 +150,9 @@ messaging
 
 #### Parameters
 
-• **message**: `Record`<`string`, `any`>
+##### message
+
+`Record`<`string`, `any`>
 
 #### Returns
 
@@ -148,7 +166,9 @@ messaging
 
 #### Parameters
 
-• **command**: `SetAudioTrackCommand`
+##### command
+
+`SetAudioTrackCommand`
 
 #### Returns
 
@@ -162,7 +182,9 @@ messaging
 
 #### Parameters
 
-• **track**: [`Track`](reference/interfaces/Track.md)
+##### track
+
+[`Track`](reference/interfaces/Track.md)
 
 #### Returns
 
@@ -176,7 +198,9 @@ messaging
 
 #### Parameters
 
-• **command**: `SetMutedCommand`
+##### command
+
+`SetMutedCommand`
 
 #### Returns
 
@@ -186,11 +210,13 @@ messaging
 
 ### setTextTrack()
 
-> **setTextTrack**: (`command`?) => `Promise`<`void`>
+> **setTextTrack**: (`command?`) => `Promise`<`void`>
 
 #### Parameters
 
-• **command?**: `SetTextTrackCommand`
+##### command?
+
+`SetTextTrackCommand`
 
 #### Returns
 
@@ -200,11 +226,13 @@ messaging
 
 ### setTextTrackByTrack()
 
-> **setTextTrackByTrack**: (`track`?) => `Promise`<`void`>
+> **setTextTrackByTrack**: (`track?`) => `Promise`<`void`>
 
 #### Parameters
 
-• **track?**: [`Track`](reference/interfaces/Track.md)
+##### track?
+
+[`Track`](reference/interfaces/Track.md)
 
 #### Returns
 
@@ -218,7 +246,9 @@ messaging
 
 #### Parameters
 
-• **command**: `SetTracks`
+##### command
+
+`SetTracks`
 
 #### Returns
 
@@ -232,7 +262,9 @@ messaging
 
 #### Parameters
 
-• **tracks**: [`Track`](reference/interfaces/Track.md)[]
+##### tracks
+
+[`Track`](reference/interfaces/Track.md)[]
 
 #### Returns
 
@@ -246,7 +278,9 @@ messaging
 
 #### Parameters
 
-• **command**: `SetVolumeCommand`
+##### command
+
+`SetVolumeCommand`
 
 #### Returns
 
@@ -260,7 +294,9 @@ messaging
 
 #### Parameters
 
-• **command**: `SkipSectionCommand`
+##### command
+
+`SkipSectionCommand`
 
 #### Returns
 
@@ -270,11 +306,13 @@ messaging
 
 ### stop()
 
-> **stop**: (`command`?) => `Promise`<`void`>
+> **stop**: (`command?`) => `Promise`<`void`>
 
 #### Parameters
 
-• **command?**: `StopCommand`
+##### command?
+
+`StopCommand`
 
 #### Returns
 
@@ -294,13 +332,19 @@ messaging
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
-• **type**: `K`
+##### type
 
-• **subscriber**
+`K`
+
+##### subscriber
+
+(`e`) => `void`
 
 #### Returns
 
@@ -314,17 +358,23 @@ messaging
 
 ### emit()
 
-> **emit**<`K`>(`type`, `event`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
+> **emit**<`K`>(`type`, `event?`): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
-• **type**: `K`
+##### type
 
-• **event?**: `Optional`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)[`K`], `"type"`>
+`K`
+
+##### event?
+
+`Optional`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)[`K`], `"type"`>
 
 #### Returns
 
@@ -338,17 +388,23 @@ messaging
 
 ### emitAsync()
 
-> **emitAsync**<`K`>(`type`, `event`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
+> **emitAsync**<`K`>(`type`, `event?`): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
-• **type**: `K`
+##### type
 
-• **event?**: `Optional`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)[`K`], `"type"`>
+`K`
+
+##### event?
+
+`Optional`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)[`K`], `"type"`>
 
 #### Returns
 
@@ -362,17 +418,23 @@ messaging
 
 ### off()
 
-> **off**<`K`>(`type`?, `subscriber`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
+> **off**<`K`>(`type?`, `subscriber?`): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
-• **type?**: `K`
+##### type?
 
-• **subscriber?**
+`K`
+
+##### subscriber?
+
+(`e`) => `void`
 
 #### Returns
 
@@ -390,13 +452,19 @@ messaging
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
-• **type**: `K`
+##### type
 
-• **subscriber**
+`K`
+
+##### subscriber
+
+(`e`) => `void`
 
 #### Returns
 
@@ -414,13 +482,19 @@ messaging
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
-• **type**: `K`
+##### type
 
-• **subscriber**
+`K`
+
+##### subscriber
+
+(`e`) => `void`
 
 #### Returns
 
@@ -434,17 +508,23 @@ messaging
 
 ### removeEventListener()
 
-> **removeEventListener**<`K`>(`type`?, `subscriber`?): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
+> **removeEventListener**<`K`>(`type?`, `subscriber?`): `IEmitter`<[`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)>
 
 #### Type Parameters
 
-• **K** *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
+##### K
+
+`K` *extends* keyof [`UselessSessionEventList`](reference/interfaces/UselessSessionEventList.md)
 
 #### Parameters
 
-• **type?**: `K`
+##### type?
 
-• **subscriber?**
+`K`
+
+##### subscriber?
+
+(`e`) => `void`
 
 #### Returns
 

@@ -2,13 +2,13 @@
 
 ## Constructors
 
-### new UselessSenderConfiguration()
+### Constructor
 
-> **new UselessSenderConfiguration**(): [`UselessSenderConfiguration`](reference/classes/UselessSenderConfiguration.md)
+> **new UselessSenderConfiguration**(): `UselessSenderConfiguration`
 
 #### Returns
 
-[`UselessSenderConfiguration`](reference/classes/UselessSenderConfiguration.md)
+`UselessSenderConfiguration`
 
 ## Properties
 

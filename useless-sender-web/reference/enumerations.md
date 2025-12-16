@@ -3,6 +3,7 @@
 * [AdvertisementBreakTypes](reference/enumerations/AdvertisementBreakTypes.md)
 * [CredentialsTypes](reference/enumerations/CredentialsTypes.md)
 * [MetadataTypes](reference/enumerations/MetadataTypes.md)
+* [PlaybackSessionEventKeys](reference/enumerations/PlaybackSessionEventKeys.md)
 * [PlaybackStates](reference/enumerations/PlaybackStates.md)
 * [Roles](reference/enumerations/Roles.md)
 * [SenderTypes](reference/enumerations/SenderTypes.md)

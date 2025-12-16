@@ -4,32 +4,36 @@
 
 - `EmitterEventList`
 
+## Indexable
+
+[`key`: `string`]: `EmitterEvent`
+
 ## Properties
 
 ### SessionEvents.ApplicationMessage
 
-> **ApplicationMessage**: [`ApplicationMessageEvent`](reference/interfaces/ApplicationMessageEvent.md)
+> **SessionEvents.ApplicationMessage**: [`ApplicationMessageEvent`](reference/interfaces/ApplicationMessageEvent.md)
 
 ***
 
 ### SessionEvents.Destroyed
 
-> **Destroyed**: [`DestroyedEvent`](reference/interfaces/DestroyedEvent.md)
+> **SessionEvents.Destroyed**: [`DestroyedEvent`](reference/interfaces/DestroyedEvent.md)
 
 ***
 
 ### SessionEvents.PlaybackSessionStateChanged
 
-> **PlaybackSessionStateChanged**: [`PlaybackSessionStateChangedEvent`](reference/interfaces/PlaybackSessionStateChangedEvent.md)
+> **SessionEvents.PlaybackSessionStateChanged**: [`PlaybackSessionStateChangedEvent`](reference/interfaces/PlaybackSessionStateChangedEvent.md)
 
 ***
 
 ### SessionEvents.TimelineSectionEnter
 
-> **TimelineSectionEnter**: [`TimelineSectionEnterEvent`](reference/interfaces/TimelineSectionEnterEvent.md)
+> **SessionEvents.TimelineSectionEnter**: [`TimelineSectionEnterEvent`](reference/interfaces/TimelineSectionEnterEvent.md)
 
 ***
 
 ### SessionEvents.TimelineSectionExit
 
-> **TimelineSectionExit**: [`TimelineSectionExitEvent`](reference/interfaces/TimelineSectionExitEvent.md)
+> **SessionEvents.TimelineSectionExit**: [`TimelineSectionExitEvent`](reference/interfaces/TimelineSectionExitEvent.md)

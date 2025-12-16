@@ -1,10 +1,14 @@
 # Advertisement<TAdvertisementAuxiliaryData>
 
-@x-see {isAdvertisement} ts-auto-guard:type-guard
+## X-see
+
+ts-auto-guard:type-guard
 
 ## Type Parameters
 
-• **TAdvertisementAuxiliaryData** *extends* `AdvertisementAuxiliaryData` = `AdvertisementAuxiliaryData`
+### TAdvertisementAuxiliaryData
+
+`TAdvertisementAuxiliaryData` *extends* `AdvertisementAuxiliaryData` = `AdvertisementAuxiliaryData`
 
 ## Properties
 

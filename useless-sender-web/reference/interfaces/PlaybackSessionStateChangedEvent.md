@@ -8,7 +8,7 @@
 
 ### events
 
-> **events**: `PlaybackSessionEventKeys`[]
+> **events**: [`PlaybackSessionEventKeys`](reference/enumerations/PlaybackSessionEventKeys.md)[]
 
 ***
 

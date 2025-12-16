@@ -4,13 +4,13 @@
 
 | Member | Value |
 | :------ | :------ |
-| `AdvertisementSkip` | `"StoppedReasons.AdvertisementSkip"` |
-| `AdvertisementSwitch` | `"StoppedReasons.AdvertisementSwitch"` |
-| `ConcurrentStreams` | `"StoppedReasons.ConcurrentStreams"` |
-| `EndOfStream` | `"StoppedReasons.EndOfStream"` |
-| `Error` | `"StoppedReasons.Error"` |
-| `Inactivity` | `"StoppedReasons.Inactivity"` |
-| `Interrupted` | `"StoppedReasons.Interrupted"` |
-| `NextContentAutomatic` | `"StoppedReasons.NextContentAutomatic"` |
-| `Unknown` | `"StoppedReasons.Unknown"` |
-| `User` | `"StoppedReasons.User"` |
+| <a id="advertisementskip"></a> `AdvertisementSkip` | `"StoppedReasons.AdvertisementSkip"` |
+| <a id="advertisementswitch"></a> `AdvertisementSwitch` | `"StoppedReasons.AdvertisementSwitch"` |
+| <a id="concurrentstreams"></a> `ConcurrentStreams` | `"StoppedReasons.ConcurrentStreams"` |
+| <a id="endofstream"></a> `EndOfStream` | `"StoppedReasons.EndOfStream"` |
+| <a id="error"></a> `Error` | `"StoppedReasons.Error"` |
+| <a id="inactivity"></a> `Inactivity` | `"StoppedReasons.Inactivity"` |
+| <a id="interrupted"></a> `Interrupted` | `"StoppedReasons.Interrupted"` |
+| <a id="nextcontentautomatic"></a> `NextContentAutomatic` | `"StoppedReasons.NextContentAutomatic"` |
+| <a id="unknown"></a> `Unknown` | `"StoppedReasons.Unknown"` |
+| <a id="user"></a> `User` | `"StoppedReasons.User"` |

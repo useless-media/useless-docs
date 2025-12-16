@@ -6,7 +6,11 @@ ts-auto-guard:type-guard
 
 ## Extends
 
-- `ReceiverLoadConfiguration`
+- `Record`<`string`, `any`>
+
+## Indexable
+
+[`key`: `string`]: `any`
 
 ## Properties
 
@@ -18,11 +22,7 @@ ts-auto-guard:type-guard
 
 ### receiver?
 
-> **receiver**?: `ReceiverLoadConfigurationReceiver`
-
-#### Overrides
-
-`ReceiverLoadConfiguration.receiver`
+> **receiver**?: `ReceiverLoadConfiguration`
 
 ***
 

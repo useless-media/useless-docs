@@ -8,6 +8,10 @@ ts-auto-guard:type-guard
 
 - `ArrayLikeState`<[`TimelineItem`](reference/interfaces/TimelineItem.md)>
 
+## Extended by
+
+- [`BackwardsCompatibleTimeline`](reference/interfaces/BackwardsCompatibleTimeline.md)
+
 ## Properties
 
 ### activeMetadata?
@@ -44,9 +48,9 @@ ts-auto-guard:type-guard
 
 ***
 
-### seekableRange
+### seekable
 
-> **seekableRange**: `Seekable`
+> **seekable**: `Seekable`
 
 ***
 

@@ -4,7 +4,7 @@
 
 | Member | Value |
 | :------ | :------ |
-| `AdvertisementBreak` | `"TimelineSectionTypes.AdvertisementBreak"` |
-| `ClosingCredits` | `"TimelineSectionTypes.ClosingCredits"` |
-| `Intro` | `"TimelineSectionTypes.Intro"` |
-| `Recap` | `"TimelineSectionTypes.Recap"` |
+| <a id="advertisementbreak"></a> `AdvertisementBreak` | `"TimelineSectionTypes.AdvertisementBreak"` |
+| <a id="closingcredits"></a> `ClosingCredits` | `"TimelineSectionTypes.ClosingCredits"` |
+| <a id="intro"></a> `Intro` | `"TimelineSectionTypes.Intro"` |
+| <a id="recap"></a> `Recap` | `"TimelineSectionTypes.Recap"` |

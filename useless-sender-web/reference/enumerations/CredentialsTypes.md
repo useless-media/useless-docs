@@ -4,5 +4,5 @@
 
 | Member | Value |
 | :------ | :------ |
-| `Basic` | `"CredentialsTypes.Basic"` |
-| `Token` | `"CredentialsTypes.Token"` |
+| <a id="basic"></a> `Basic` | `"CredentialsTypes.Basic"` |
+| <a id="token"></a> `Token` | `"CredentialsTypes.Token"` |

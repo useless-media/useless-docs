@@ -4,6 +4,6 @@
 
 | Member | Value |
 | :------ | :------ |
-| `Ended` | `"SessionStates.Ended"` |
-| `Started` | `"SessionStates.Started"` |
-| `Starting` | `"SessionStates.Starting"` |
+| <a id="ended"></a> `Ended` | `"SessionStates.Ended"` |
+| <a id="started"></a> `Started` | `"SessionStates.Started"` |
+| <a id="starting"></a> `Starting` | `"SessionStates.Starting"` |

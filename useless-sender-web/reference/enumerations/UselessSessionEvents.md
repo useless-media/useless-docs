@@ -4,8 +4,8 @@
 
 | Member | Value |
 | :------ | :------ |
-| `ApplicationMessage` | `"SessionEvents.ApplicationMessage"` |
-| `Destroyed` | `"SessionEvents.Destroyed"` |
-| `PlaybackSessionStateChanged` | `"SessionEvents.PlaybackSessionStateChanged"` |
-| `TimelineSectionEnter` | `"SessionEvents.TimelineSectionEnter"` |
-| `TimelineSectionExit` | `"SessionEvents.TimelineSectionExit"` |
+| <a id="applicationmessage"></a> `ApplicationMessage` | `"SessionEvents.ApplicationMessage"` |
+| <a id="destroyed"></a> `Destroyed` | `"SessionEvents.Destroyed"` |
+| <a id="playbacksessionstatechanged"></a> `PlaybackSessionStateChanged` | `"SessionEvents.PlaybackSessionStateChanged"` |
+| <a id="timelinesectionenter"></a> `TimelineSectionEnter` | `"SessionEvents.TimelineSectionEnter"` |
+| <a id="timelinesectionexit"></a> `TimelineSectionExit` | `"SessionEvents.TimelineSectionExit"` |

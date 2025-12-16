@@ -4,5 +4,5 @@
 
 | Member | Value |
 | :------ | :------ |
-| `Dynamic` | `"TimelineBehaviors.Dynamic"` |
-| `Static` | `"TimelineBehaviors.Static"` |
+| <a id="dynamic"></a> `Dynamic` | `"TimelineBehaviors.Dynamic"` |
+| <a id="static"></a> `Static` | `"TimelineBehaviors.Static"` |

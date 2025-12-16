@@ -1,10 +1,8 @@
 # Load
 
-@x-see {isLoad} ts-auto-guard:type-guard
+## X-see
 
-## Extends
-
-- `ReceiverLoad`
+ts-auto-guard:type-guard
 
 ## Properties
 
@@ -30,19 +28,11 @@
 
 > **configuration**?: [`LoadConfiguration`](reference/interfaces/LoadConfiguration.md)
 
-#### Overrides
-
-`ReceiverLoad.configuration`
-
 ***
 
 ### content
 
 > **content**: [`Content`](reference/interfaces/Content.md)
-
-#### Overrides
-
-`ReceiverLoad.content`
 
 ***
 
@@ -68,19 +58,11 @@
 
 > **receiver**?: `Record`<`string`, `any`>
 
-#### Overrides
-
-`ReceiverLoad.receiver`
-
 ***
 
 ### sender?
 
 > **sender**?: `Sender`
-
-#### Overrides
-
-`ReceiverLoad.sender`
 
 ***
 

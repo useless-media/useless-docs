@@ -4,6 +4,6 @@
 
 | Member | Value |
 | :------ | :------ |
-| `MidRoll` | `"AdvertisementBreakTypes.MidRoll"` |
-| `PostRoll` | `"AdvertisementBreakTypes.PostRoll"` |
-| `PreRoll` | `"AdvertisementBreakTypes.PreRoll"` |
+| <a id="midroll"></a> `MidRoll` | `"AdvertisementBreakTypes.MidRoll"` |
+| <a id="postroll"></a> `PostRoll` | `"AdvertisementBreakTypes.PostRoll"` |
+| <a id="preroll"></a> `PreRoll` | `"AdvertisementBreakTypes.PreRoll"` |

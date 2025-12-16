@@ -4,7 +4,9 @@
 
 ## Parameters
 
-• **obj**: `unknown`
+### obj
+
+`unknown`
 
 ## Returns
 

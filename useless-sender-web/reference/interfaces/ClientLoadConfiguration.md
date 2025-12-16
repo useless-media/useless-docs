@@ -4,6 +4,14 @@
 
 ts-auto-guard:type-guard
 
+## Extends
+
+- `Record`<`string`, `any`>
+
+## Indexable
+
+[`key`: `string`]: `any`
+
 ## Properties
 
 ### emulator?
@@ -27,9 +35,3 @@ ts-auto-guard:type-guard
 ### playbackConfigurationProfiles
 
 > **playbackConfigurationProfiles**: `string`[]
-
-***
-
-### preferAc3Audio?
-
-> **preferAc3Audio**?: `boolean`

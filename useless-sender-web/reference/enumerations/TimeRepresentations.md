@@ -4,5 +4,5 @@
 
 | Member | Value |
 | :------ | :------ |
-| `Epoch` | `"TimeRepresentations.Epoch"` |
-| `ZeroBased` | `"TimeRepresentations.ZeroBased"` |
+| <a id="epoch"></a> `Epoch` | `"TimeRepresentations.Epoch"` |
+| <a id="zerobased"></a> `ZeroBased` | `"TimeRepresentations.ZeroBased"` |

@@ -1,7 +1,5 @@
 * [Wacka](/)
-<!-- project-docs -->
-* [Wacka Player](project/WackaPlayer.md)
-<!-- /project-docs -->
+* [Wacka Player](WackaPlayer.md)
 * [Guides](guides/index.md)
   * [Quick Start](guides/QuickStart.md)
 * [Reference Documentation](reference/index.md)

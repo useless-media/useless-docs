@@ -101,6 +101,11 @@
       "name": "Useless Database",
       "path": "useless-database",
       "relativePathToRoot": "../"
+    },
+    "useless-pawner": {
+      "name": "Useless Pawner",
+      "path": "useless-pawner",
+      "relativePathToRoot": "../"
     }
   }
 }

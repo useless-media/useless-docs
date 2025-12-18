@@ -1,0 +1,18 @@
+# Interfaces
+
+* [ActionArgs](reference/interfaces/ActionArgs.md)
+* [ActionState](reference/interfaces/ActionState.md)
+* [BuildCliOptions](reference/interfaces/BuildCliOptions.md)
+* [CliOptions](reference/interfaces/CliOptions.md)
+* [Configuration](reference/interfaces/Configuration.md)
+* [ExtensionInformation](reference/interfaces/ExtensionInformation.md)
+* [GlobalCliOptions](reference/interfaces/GlobalCliOptions.md)
+* [IResolvedConfiguration](reference/interfaces/IResolvedConfiguration.md)
+* [InitActionArgs](reference/interfaces/InitActionArgs.md)
+* [JSPackageInformation](reference/interfaces/JSPackageInformation.md)
+* [KotlinPackageInformation](reference/interfaces/KotlinPackageInformation.md)
+* [PackageInformation](reference/interfaces/PackageInformation.md)
+* [PackageOutputInformation](reference/interfaces/PackageOutputInformation.md)
+* [PackagesInformation](reference/interfaces/PackagesInformation.md)
+* [SwiftPackageInformation](reference/interfaces/SwiftPackageInformation.md)
+* [TsNativeConfiguration](reference/interfaces/TsNativeConfiguration.md)

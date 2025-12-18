@@ -15,6 +15,21 @@
     "name": "TsNative",
     "path": "ts-native"
   },
+  "js-engine-android": {
+    "name": "JsEngine (Android)",
+    "path": "js-engine-android",
+    "relativePathToRoot": ""
+  },
+  "js-engine-sdk": {
+    "name": "JsEngine Sdk",
+    "path": "js-engine-sdk",
+    "relativePathToRoot": ""
+  },
+  "js-engine-extensions": {
+    "name": "JsEngine Extensions",
+    "path": "js-engine-extensions",
+    "relativePathToRoot": ""
+  },
   "useless-sender": {
     "name": "Useless Sender Library",
     "path": "useless-sender"
@@ -107,15 +122,5 @@
       "path": "useless-pawner",
       "relativePathToRoot": "../"
     }
-  },
-  "js-engine-android": {
-    "name": "JsEngine (Android)",
-    "path": "js-engine-android",
-    "relativePathToRoot": ""
-  },
-  "js-engine-sdk": {
-    "name": "JsEngine Sdk",
-    "path": "js-engine-sdk",
-    "relativePathToRoot": ""
   }
 }

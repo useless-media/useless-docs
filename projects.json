@@ -107,5 +107,10 @@
       "path": "useless-pawner",
       "relativePathToRoot": "../"
     }
+  },
+  "js-engine-android": {
+    "name": "JsEngine (Android)",
+    "path": "js-engine-android",
+    "relativePathToRoot": ""
   }
 }

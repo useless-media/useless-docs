@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JsEngine Modules</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/useless-media/useless-docsify-tabs@master/src/css/useless-docsify-tabs.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <style>
+    .app-name {
+      max-width: 90%;
+      margin-left: 5px;
+      padding-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'JsEngine Modules',
+      nameLink: '..',
+      repo: '',
+      logo: '../images/useless-media.svg',
+      auto2top: true,
+      loadSidebar: true,
+      subMaxLevel: 4,
+      sidebarDisplayLevel: 0,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      search: {
+        namespace: 'js-engine-modules',
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'No Results!',
+        depth: 6,
+        hideOtherSidebarContent: false
+      }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- docsify-copy-code (latest  v2.x.x) -->
+  <script src="https://unpkg.com/docsify-copy-code"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/useless-media/useless-docsify-tabs@master/src/js/useless-docsify-tabs.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-kotlin.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-swift.min.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script type="text/javascript">
+    $docsify.plugins.push((hook, vm) => {
+      hook.ready(() => {
+        const appName = document.querySelector('.app-name');
+        const search = document.querySelector('.search');
+        const sideBar = document.querySelector('aside');
+
+        if (appName && search && sideBar) {
+          sideBar.insertBefore(appName, search);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

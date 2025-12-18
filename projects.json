@@ -25,6 +25,11 @@
     "path": "js-engine-sdk",
     "relativePathToRoot": ""
   },
+  "js-engine-modules": {
+    "name": "JsEngine Modules",
+    "path": "js-engine-modules",
+    "relativePathToRoot": ""
+  },
   "js-engine-extensions": {
     "name": "JsEngine Extensions",
     "path": "js-engine-extensions",

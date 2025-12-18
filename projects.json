@@ -112,5 +112,10 @@
     "name": "JsEngine (Android)",
     "path": "js-engine-android",
     "relativePathToRoot": ""
+  },
+  "js-engine-sdk": {
+    "name": "JsEngine Sdk",
+    "path": "js-engine-sdk",
+    "relativePathToRoot": ""
   }
 }

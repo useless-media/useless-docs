@@ -29,6 +29,11 @@
       "path": "decaf-clients",
       "relativePathToRoot": ""
     },
+    "decaf-client-ui": {
+      "name": "Decaf Client Ui",
+      "path": "decaf-client-ui",
+      "relativePathToRoot": "../"
+    },
     "useless-decaf": {
       "name": "Useless DeCaf",
       "path": "useless-decaf"
